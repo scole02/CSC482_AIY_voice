@@ -223,7 +223,7 @@ def prof_matches(prof, quarters, df):
 def generate_prof_response(query, df):
   # print(df)
   prof = "Professor " + query.get("last_name", query.get("Name", "requested professor")) 
-  if prof == "requested professor":
+  if prof == "Professor requested professor":
     return "Not understood"
   quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
   quarters = [quarter_names[q] for q in get_quarters(query)]
