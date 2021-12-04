@@ -61,7 +61,7 @@ prof_utterances = ["Course"]
 class_utterances = ["Quarter", "Instructor", "Time", "Location", "Description",
                     "Sect", "Enrl_x", "ECap_x", "Wait", "Format"]
 
-quarters = ["F", "W", "Sp", "Su"]
+quarters = ["F", "W", "S"]
 
 # Synonym -> Query Utterance
 replacements = {
@@ -106,9 +106,10 @@ replacements = {
     "Winter":"W",
     "next":"W",
     "spring":"S",
-    "Spring":"S",
 
     "Format":"Format",
+    "format":"Format",
+    "mode":"Format",
     "Mode":"Format",
     "Instruction":"Format",
 
@@ -192,19 +193,40 @@ def detect_professor(tokens):
       return tokens[i+1]
   return None
 
+#  SCHEDULES
+#  When: Start, End, Days
+#  Who: last_name
+#  How many Sections: Sect
+#  Where: Location
+#  Existence: []
+#  Description: Description
+#  Format: Format
+#  Enrollment:
+#  Enrolled:
+#  Waitlist:
+
+#  PROFESSOR
+
+def convert_returns(returns):
+   new = []
+   for ret in returns:
+      if ret == "Time":
+         new.append("Start")
+         new.append("End")
+         new.append("Days")
+      else:
+         new.append(ret)
+   return new
+
 def skill(input):
   # The parts of a skill:
-  # [Wake word] [Launch] [Invocation Name] [Utterance]
-  # EX: [Alexa], [Ask] [Daily Horoscopes] about [Taurus]
-  # Launch Word - The first word after the Wake Word.
+  # [Invocation Name] [Utterance]
   # Invocation Name - Name of the skill.
   # Utterance - Determines what we do with the skill.
 
   # Our Questions will follow this rough structure, with the Invocation being
   # either class or professor, and the utterance being the arguments for the query.
 
-  # The complexity will come in determining what combination of utterances create
-  # what query results.
   query = []
   terms = {}
   returns = []
@@ -221,7 +243,7 @@ def skill(input):
     name = detect_professor(replaced)
     print(name)
     if name is not None and name != "Instructor":
-      terms["last_name"] = name
+      terms["Instructor"] = name
       name = None
   elif q_type == "df_profs":
     name = detect_professor(replaced)
@@ -236,38 +258,27 @@ def skill(input):
    
 
   returns = detect_utterance(replaced, query[0])
+  returns = convert_returns(returns)
   
   query.append(terms)
   query.append(returns)
 
   return query
 
-#  SCHEDULES
-#  When: Start, End, Days
-#  Who: last_name
-#  How many Sections: Sect
-#  Where: Location
-#  Existence: []
-#  Description: Description
-#  Format: Format
-#  Enrollment:
-#  Enrolled:
-#  Waitlist:
-
-#  PROFESSOR
 
 #  inputs = ["When is cpe 357 offered next quarter?", # Class, Time
-#      "Who teaches csc 471 winter quarter?", # Class, Professor
-#      "How many sections are offered of cpe 101?", # Class, Sections
-#      "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
-#      "Is professor wood teaching next quarter?", # Prof, Existence
-#      #"Who teaches computer science 307 in the fall?", # Class, Professor
-#      "Is professor khosmood teaching csc 482 next quarter?"
+#     "Who teaches csc 471 winter quarter?", # Class, Professor
+#     "How many sections are offered of cpe 101?", # Class, Sections
+#     "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
+#     "Is professor wood teaching next quarter?", # Prof, Existence
+#     #"Who teaches computer science 307 in the fall?", # Class, Professor
+#     "Is professor khosmood teaching csc 482 next quarter?",
+#     "What format is cpe 442 in?"
 #  ]
 
 #  for i in range(len(inputs)):
-#    print("Original: < " + inputs[i] + " >")
-#    query = skill(inputs[i])
-#    print(query)
-#    #generate_response(query[0], query[1], query[2])
-#    print("----------------------------------")
+#      print("Original: < " + inputs[i] + " >")
+#      query = skill(inputs[i])
+#      print(query)
+#      #generate_response(query[0], query[1], query[2])
+#      print("----------------------------------")
