@@ -16,7 +16,7 @@ def query():
         return "Please include ?query in url"
     query_str = args['query']
     
-    query = q2q.skill("Is csc 482 offered next quarter?")
+    query = q2q.skill(query_str)
     print(query)
     res = qb.generate_response(query[0], query[1], query[2])
 
