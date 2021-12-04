@@ -98,8 +98,7 @@ def get_days(input):
   if str(input) == "nan":
     return None
   day_names = {"M": "Monday", "T": "Tuesday", "W": "Wednesday", "R": "Thursday", "F": "Friday"}
-  day_arr = list(input.replace("TR", "R"))
-  res = [day_names[d] for d in day_arr]
+  res = [day_names[d] for d in input]
   return ' '.join(res)
 
 def get_time(start, end):
