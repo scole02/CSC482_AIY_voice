@@ -181,7 +181,7 @@ def detect_utterance(tokens, q_type):
   if q_type == "df_sched":
     for i in range(len(tokens)):
       if tokens[i] in class_utterances and tokens[i] not in returns:
-        returns.append(token)
+        returns.append(tokens[i])
   if q_type == "df_profs":
     for token in tokens:
       if token in prof_utterances and token not in returns:
@@ -248,8 +248,6 @@ def skill(input):
 
 # PROFESSOR
 
-
-#@title Tests { form-width: "10%" }
 
 inputs = ["When is cpe 357 offered next quarter?", # Class, Time
     "Who teaches csc 471 winter quarter?", # Class, Professor
