@@ -17,6 +17,9 @@ df_sched['Course'] = df_sched['Course'].str.lower()
 df_sched['Description'] = df_sched['Description'].str.lower()
 df_sched['Instructor'] = df_sched['Instructor'].apply(clean_instructor)
 
+df_profs['first_name'] = df_profs['first_name'].str.lower()
+df_profs['last_name'] = df_profs['last_name'].str.lower()
+
 def complex_query_builder(input):
   """
   Create a complex pandas query from a combination of query parameters
@@ -217,6 +220,8 @@ def prof_matches(prof, quarters, df):
 def generate_prof_response(query, df):
   # print(df)
   prof = "Professor " + query.get("last_name", query.get("Name", "requested professor")) 
+  if prof == "requested professor":
+    return "Not understood"
   quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
   quarters = [quarter_names[q] for q in get_quarters(query)]
   if len(quarters) > 1:
