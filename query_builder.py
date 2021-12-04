@@ -179,6 +179,7 @@ def generate_sched_response(query, df):
     res = some_matches(course, df)
 
   print(res)
+  return res
 
 def no_prof_matches(prof, quarters):
   return prof + " is not teaching in the " + quarters
