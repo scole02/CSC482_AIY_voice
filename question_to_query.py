@@ -220,17 +220,18 @@ def skill(input):
   if q_type == "df_sched":
     terms["Course"] = invocation[1]
   elif q_type == "df_profs":
-    terms["Name"] = invocation[1]
+    terms["last_name"] = invocation[1]
 
   quarter = detect_quarter(replaced)
   if quarter is None:
     quarter = "F"
-  terms["quarter"] = quarter
+  terms["Quarter"] = quarter
 
   returns = detect_utterance(replaced, query[0])
   
   query.append(terms)
   query.append(returns)
+
   return query
 
 # SCHEDULES
@@ -248,19 +249,20 @@ def skill(input):
 
 # PROFESSOR
 
+#@title Tests { form-width: "10%" }
 
-inputs = ["When is cpe 357 offered next quarter?", # Class, Time
-    "Who teaches csc 471 winter quarter?", # Class, Professor
-    "How many sections are offered of cpe 101?", # Class, Sections
-    "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
-    "Is professor wood teaching next quarter?", # Prof, Existence
-    "Who teaches computer science 307 in the fall?", # Class, Professor
-    "Is professor khosmood teaching csc 482 next quarter?"
-]
+# inputs = ["When is cpe 357 offered next quarter?", # Class, Time
+#     "Who teaches csc 471 winter quarter?", # Class, Professor
+#     "How many sections are offered of cpe 101?", # Class, Sections
+#     "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
+#     "Is professor wood teaching next quarter?", # Prof, Existence
+#     "Who teaches computer science 307 in the fall?", # Class, Professor
+#     "Is professor khosmood teaching csc 482 next quarter?"
+# ]
 
-for i in range(len(inputs)):
-  print("Original: < " + inputs[i] + " >")
-  query = skill(inputs[i])
-  print(query)
-  #generate_response(query[0], query[1], query[2])
-  print("----------------------------------")
+# for i in range(len(inputs)):
+#   print("Original: < " + inputs[i] + " >")
+#   query = skill(inputs[i])
+#   print(query)
+#   #generate_response(query[0], query[1], query[2])
+#   print("----------------------------------")

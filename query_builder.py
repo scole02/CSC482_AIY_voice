@@ -1,13 +1,10 @@
 import pandas as pd
+import numpy as np
 
 url = 'https://raw.githubusercontent.com/EmilyGavrilenko/GoogleHomeSchedules/main/'
 
 df_profs = pd.read_csv(url + "profs.csv")
 df_sched = pd.read_csv(url + "schedule.csv")
-
-df_sched[-5:]
-
-df_profs[:5]
 
 def complex_query_builder(input):
   """
@@ -51,8 +48,6 @@ def query_data_columns(df, input, columns, print_str=False):
     print(columns)
     print(data_df)
   return data_df[columns].drop_duplicates()
-
-# help_msg =
 
 def get_quarters(query):
   if query.get("Quarter"):
@@ -126,7 +121,6 @@ def general_course_info(course, df):
 
 def specific_course_info(course, df):
   col = df.columns.tolist()
-  # print(col)
   res = course + " is "
   for i in range(len(df)):
     if (i > 0 and i == len(df) - 1):
@@ -160,7 +154,6 @@ def specific_course_info(course, df):
 
 def some_matches(course, df):
   num_col = len(df.columns)
-
   # All columns are returned
   if num_col > 5:
     return general_course_info(course, df)
@@ -187,13 +180,6 @@ def generate_sched_response(query, df):
 
   print(res)
 
-# generate_response(query3, res3)
-# generate_response(query4, res4)
-# generate_response(query9, res9)
-# generate_response(query10, res10)
-
-import numpy as np
-
 def no_prof_matches(prof, quarters):
   return prof + " is not teaching in the " + quarters
 
@@ -216,7 +202,8 @@ def prof_matches(prof, quarters, df):
     return prof + " teaches " + courses + " over " + quarters 
 
 def generate_prof_response(query, df):
-  prof = "Professor " + query.get("last_name") 
+  print(df)
+  prof = "Professor " + query.get("last_name", query.get("Name")) 
   quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
   quarters = [quarter_names[q] for q in get_quarters(query)]
   if len(quarters) > 1:
@@ -233,11 +220,8 @@ def generate_prof_response(query, df):
     res = prof_matches(prof, quarters, df)
 
   print(res)
+  return res
 
-# generate_prof_response(query13, res13)
-# generate_prof_response(query16, res16)
-# generate_prof_response(query14, res14)
-generate_prof_response(query15, res15)
 
 def generate_response(df_name, query, col=[]):
   res = None
@@ -255,71 +239,4 @@ def generate_response(df_name, query, col=[]):
       res = query_data_columns(df_profs, query, col)
     return generate_prof_response(query, res)
 
-# Sample queries
-query1 = {"Description": "Introduction to Mechatronics"}
-res1 = query_data(df_sched, query1)
-generate_response("df_sched", query1)
-
-# Sample queries
-query1 = {"Description": "Introduction to Mechatronics"}
-generate_response("df_sched", query1)
-
-query2 =  {"Description": "Engineering Statics",
-            "Quarter": "F",
-            "Instructor": "Castro, D"}
-generate_response("df_sched", query2)
-
-query3 = query2
-generate_response("df_sched", query3, ["Course", "Sect"])
-
-query4 = {"Course": "ME 128"}
-generate_response("df_sched", query4, ["Description"])
-
-query5 = {"Course": "CSC 482", "Quarter": "W"}
-res5 = query_data(df_sched, query5)
-generate_sched_response(query5, res5)
-generate_response("df_sched", query2)
-
-query7 = {"Course": "AERO 465", "Quarter": "F"}
-res7 = query_data(df_sched, query7)
-generate_sched_response(query7, res7)
-generate_response("df_sched", query2)
-
-query8 = {"Description": "Game Design", "Quarter": "F"}
-res8 = query_data(df_sched, query8)
-generate_sched_response(query8, res8)
-generate_response("df_sched", query2)
-
-query9 = {"Course": "CSC 307", "Quarter": "W"}
-res9 = query_data_columns(df_sched, query9, ["Start", "End", "Days"])
-generate_sched_response(query9, res9)
-generate_response("df_sched", query2)
-
-query10 = {"Course": "CSC 308", "Quarter": "W"}
-res10 = query_data_columns(df_sched, query10, ["Instructor"])
-generate_sched_response(query10, res10)
-generate_response("df_sched", query2)
-
-query11 = {"Course": "CSC 308", "Quarter": "W"}
-res11 = query_data_columns(df_sched, query11, ["Sect", "Start", "End", "Days"])
-generate_sched_response(query11, res11)
-generate_response("df_sched", query2)
-
-query12 = {"Course": "CSC 308", "Quarter": "W"}
-generate_response("df_sched", query12, ["Location", "Description"])
-
-query13 = {"last_name": "Abercromby"}
-generate_response("df_profs", query13)
-
-query14 = {"last_name": "Emily"}
-generate_response("df_profs", query14)
-
-query15 = {"last_name": "Agarwal"}
-generate_response("df_profs", query15)
-
-query16 = {"last_name": "Abercromby", "Quarter": "W"}
-generate_response("df_profs", query16)
-
-query17 = {"last_name": "Agarwal", "Quarter": "F"}
-generate_response("df_profs", query17)
 
