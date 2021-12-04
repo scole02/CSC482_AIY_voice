@@ -216,12 +216,12 @@ def skill(input):
   if q_type == "df_sched":
     terms["Course"] = invocation[1]
   elif q_type == "df_profs":
-    terms["Name"] = invocation[1]
+    terms["last_name"] = invocation[1]
 
   quarter = detect_quarter(replaced)
   if quarter is None:
     quarter = "F"
-  terms["quarter"] = quarter
+  terms["Quarter"] = quarter
 
   returns = detect_utterance(replaced, query[0])
   
