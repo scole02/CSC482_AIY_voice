@@ -179,8 +179,8 @@ def detect_invocation(tokens):
 def detect_utterance(tokens, q_type):
   returns = []
   if q_type == "df_sched":
-    for token in tokens:
-      if token in class_utterances and token not in returns:
+    for i in range(len(tokens)):
+      if tokens[i] in class_utterances and tokens[i] not in returns:
         returns.append(token)
   if q_type == "df_profs":
     for token in tokens:
@@ -233,8 +233,9 @@ def skill(input):
   query.append(returns)
   return query
 
+# SCHEDULES
 # When: Start, End, Days
-# Who: Instructor
+# Who: 
 # How many Sections: Sect
 # Where: Location
 # Existence: []
@@ -244,6 +245,8 @@ def skill(input):
 # Enrolled:
 # Waitlist:
 
+
+# PROFESSOR
 
 
 #@title Tests { form-width: "10%" }
