@@ -178,7 +178,7 @@ def generate_sched_response(query, df):
   else:
     res = some_matches(course, df)
 
-  print(res)
+  # print(res)
   return res
 
 def no_prof_matches(prof, quarters):
@@ -203,8 +203,8 @@ def prof_matches(prof, quarters, df):
     return prof + " teaches " + courses + " over " + quarters 
 
 def generate_prof_response(query, df):
-  print(df)
-  prof = "Professor " + query.get("last_name", query.get("Name")) 
+  # print(df)
+  prof = "Professor " + query.get("last_name", query.get("Name", "requested professor")) 
   quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
   quarters = [quarter_names[q] for q in get_quarters(query)]
   if len(quarters) > 1:
@@ -220,7 +220,7 @@ def generate_prof_response(query, df):
   else:
     res = prof_matches(prof, quarters, df)
 
-  print(res)
+  # print(res)
   return res
 
 
