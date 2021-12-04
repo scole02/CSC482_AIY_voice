@@ -61,48 +61,6 @@ def query_data_columns(df, input, columns, print_str=False):
     print(data_df)
   return data_df[columns].drop_duplicates()
 
-def quarters_offered(df):
-  return df["Quarter"].drop_duplicates()  
-
-def is_offered(course):
-  quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
-  df = query_data(df_sched, course)
-  quarters = quarters_offered(df)
-  quarter_info = ""
-  if len(quarters) == 1:
-    quarter_info = " are offered during " + quarter_names[quarters.iloc[0]]
-  elif len(quarters) == 2:
-    quarter_info = " are offered during " + quarter_names[quarters.iloc[0]] + " and " + quarter_names[quarters.iloc[1]]
-  elif len(quarters) == 3:
-    quarter_info = " are offered throughout Fall, Winter, and Spring" 
-  size = len(df)
-  if size == 0:
-    print("No sections of the course are offered")
-  else:
-    # print(df)
-    print(str(size) + " sections of " + df.iloc[0]["Course"] + quarter_info)
-
-def is_offered2(df):
-  quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
-  quarters = quarters_offered(df)
-  quarter_info = ""
-  if len(quarters) == 1:
-    quarter_info = " are offered during " + quarter_names[quarters.iloc[0]]
-  elif len(quarters) == 2:
-    quarter_info = " are offered during " + quarter_names[quarters.iloc[0]] + " and " + quarter_names[quarters.iloc[1]]
-  elif len(quarters) == 3:
-    quarter_info = " are offered throughout Fall, Winter, and Spring" 
-  size = len(df)
-  if size == 0:
-    print("No sections of the course are offered")
-  else:
-    print(str(size) + " sections of " + df.iloc[0]["Course"] + quarter_info)
-
-is_offered({"Description": "Introduction to Mechatronics"})
-is_offered({"Description": "Introduction to Mechatronics", "Quarter": "F"})
-is_offered({"Description": "Introduction to Mechatronics", "Quarter": "F"})
-is_offered({"Course": "CPE 101", "Quarter": "W"})
-
 # help_msg =
 
 def get_quarters(query):
@@ -250,13 +208,14 @@ def no_prof_matches(prof, quarters):
 
 
 def prof_matches(prof, quarters, df):
-  # print(df)
   courses = []
   for i in range(len(df)):
     res = df.Courses.tolist()[i][2:-2].split("', '")
     for c in res:
       if not c in courses:
         courses.append(c)
+  if courses == ["on"]:
+    return no_prof_matches(prof, quarters)
   if len(courses) > 1:
     courses.insert(-1, "and")
   courses = ' '.join(courses)
@@ -266,7 +225,6 @@ def prof_matches(prof, quarters, df):
     return prof + " teaches " + courses + " over " + quarters 
 
 def generate_prof_response(query, df):
-  # print(df.to_string())
   prof = "Professor " + query.get("last_name") 
   quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
   quarters = [quarter_names[q] for q in get_quarters(query)]
@@ -276,7 +234,7 @@ def generate_prof_response(query, df):
   res = ""
 
   # No matches to the search
-  if len(df) == 0 or str(df.iloc[0].Courses) == "{None}":
+  if len(df) == 0:
     res = no_prof_matches(prof, quarters)
 
   # Found match(s)
@@ -298,7 +256,7 @@ def generate_response(df_name, query, col=[]):
     else:
       res = query_data_columns(df_sched, query, col)
     return generate_sched_response(query, res)
-    
+
   else:
     if len(col) == 0:
       res = query_data(df_profs, query)
@@ -370,4 +328,7 @@ generate_response("df_profs", query15)
 
 query16 = {"last_name": "Abercromby", "Quarter": "W"}
 generate_response("df_profs", query16)
+
+query17 = {"last_name": "Agarwal", "Quarter": "F"}
+generate_response("df_profs", query17)
 
