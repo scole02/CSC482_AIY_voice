@@ -15,6 +15,11 @@ def query():
     if 'query' not in args.keys():
         return "Please include ?query in url"
     query_str = args['query']
+    
+    query = q2q.skill("Is csc 482 offered next quarter?")
+    print(query)
+    res = qb.generate_response(query[0], query[1], query[2])
+
     #print(q2q.skill(query_str))
     print("\n" + query_str + "\n")
     query_words = query_str.split()
@@ -24,7 +29,7 @@ def query():
             print(known_phonemes[str(wordbreak(w))])
         print(wordbreak(w))
         print("\n")
-    return query_str, 200
+    return res, 200
 
 
 

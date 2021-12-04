@@ -231,6 +231,7 @@ def skill(input):
   
   query.append(terms)
   query.append(returns)
+
   return query
 
 # SCHEDULES
@@ -251,18 +252,18 @@ def skill(input):
 
 #@title Tests { form-width: "10%" }
 
-inputs = ["When is cpe 357 offered next quarter?", # Class, Time
-    "Who teaches csc 471 winter quarter?", # Class, Professor
-    "How many sections are offered of cpe 101?", # Class, Sections
-    "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
-    "Is professor wood teaching next quarter?", # Prof, Existence
-    "Who teaches computer science 307 in the fall?", # Class, Professor
-    "Is professor khosmood teaching csc 482 next quarter?"
-]
+# inputs = ["When is cpe 357 offered next quarter?", # Class, Time
+#     "Who teaches csc 471 winter quarter?", # Class, Professor
+#     "How many sections are offered of cpe 101?", # Class, Sections
+#     "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
+#     "Is professor wood teaching next quarter?", # Prof, Existence
+#     "Who teaches computer science 307 in the fall?", # Class, Professor
+#     "Is professor khosmood teaching csc 482 next quarter?"
+# ]
 
-for i in range(len(inputs)):
-  print("Original: < " + inputs[i] + " >")
-  query = skill(inputs[i])
-  print(query)
-  #generate_response(query[0], query[1], query[2])
-  print("----------------------------------")
+# for i in range(len(inputs)):
+#   print("Original: < " + inputs[i] + " >")
+#   query = skill(inputs[i])
+#   print(query)
+#   #generate_response(query[0], query[1], query[2])
+#   print("----------------------------------")
