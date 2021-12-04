@@ -198,16 +198,6 @@ def detect_quarter(tokens):
     if token in quarters:
       return token
 
-import spacy
-nlp = spacy.load("en_core_web_sm")
-
-doc = nlp("How many sections of ME 101 are offered next quarter?")
-for token in doc:
-    print(token.text, token.pos_, token.dep_)
-
-for ent in doc.ents:
-    print(ent.text, ent.label_)
-
 def skill(input):
   # The parts of a skill:
   # [Wake word] [Launch] [Invocation Name] [Utterance]
