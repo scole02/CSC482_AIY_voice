@@ -6,7 +6,7 @@ from pronounce import wordbreak, known_phonemes
 
 app = Flask(__name__)
 
-df = pd.read_csv("schedule.csv") 
+# df = pd.read_csv("schedule.csv") 
 
 @app.route('/query')
 def query():

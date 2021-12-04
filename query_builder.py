@@ -6,6 +6,17 @@ url = 'https://raw.githubusercontent.com/EmilyGavrilenko/GoogleHomeSchedules/mai
 df_profs = pd.read_csv(url + "profs.csv")
 df_sched = pd.read_csv(url + "schedule.csv")
 
+def clean_instructor(prof):
+  if str(prof) != "nan":
+    input = prof.split(", ")
+    return input[0]
+  else:
+    return prof
+
+df_sched['Course'] = df_sched['Course'].str.lower()
+df_sched['Description'] = df_sched['Description'].str.lower()
+df_sched['Instructor'] = df_sched['Instructor'].apply(clean_instructor)
+
 def complex_query_builder(input):
   """
   Create a complex pandas query from a combination of query parameters
