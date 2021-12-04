@@ -59,6 +59,10 @@ class_invocations = ['AERO', 'AGB', 'AEPS', 'AGC', 'AGED', 'AG',
                      'TH', 'UNIV', 'WVIT', 'WGS', 'WLC'
                      ]
 
+for i in range(len(class_invocations)):
+   class_invocations[i] = class_invocations[i].lower()
+print(class_invocations)
+
 prof_utterances = ["Course"]
 
 class_utterances = ["Quarter", "Instructor", "Time", "Location", "Description",
@@ -206,7 +210,7 @@ def skill(input):
   terms = {}
   returns = []
 
-  tokens = re.findall(r'\bProfessor [A-Z][a-z]+\b|\bDr. [A-Z][a-z]+\b|\b[A-Z]+ [0-9]+\b|\b[a-zA-Z][a-z]+ [a-zA-Z][a-z]+ [0-9]+\b|\w+', input)
+  tokens = re.findall(r'\bProfessor [A-Z][a-z]+\b|\bDr. [A-Z][a-z]+\b|\b[a-z]+ [0-9]+\b|\w+', input)
   tokens[0] = tokens[0].lower()
   replaced = replace(tokens)
   print(replaced)
@@ -229,15 +233,28 @@ def skill(input):
   query.append(returns)
   return query
 
+# When: Start, End, Days
+# Who: Instructor
+# How many Sections: Sect
+# Where: Location
+# Existence: []
+# Description: Description
+# Format: Format
+# Enrollment:
+# Enrolled:
+# Waitlist:
+
+
+
 #@title Tests { form-width: "10%" }
 
-inputs = ["When is CPE 357 offered next quarter?", # Class, Time
-    "Who teaches CSC 471 winter quarter?", # Class, Professor
-    "How many sections are offered of CPE 101?", # Class, Sections
-    "Which courses does Dr. Khosmood teach next quarter?", # Prof, Courses
-    "Is Professor Wood teaching next quarter?", # Prof, Existence
-    "Who teaches Computer Science 307 in the fall?", # Class, Professor
-    "Is Professor Khosmood teaching CSC 482 next quarter?"
+inputs = ["When is cpe 357 offered next quarter?", # Class, Time
+    "Who teaches csc 471 winter quarter?", # Class, Professor
+    "How many sections are offered of cpe 101?", # Class, Sections
+    "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
+    "Is professor wood teaching next quarter?", # Prof, Existence
+    "Who teaches computer science 307 in the fall?", # Class, Professor
+    "Is professor khosmood teaching csc 482 next quarter?"
 ]
 
 for i in range(len(inputs)):
