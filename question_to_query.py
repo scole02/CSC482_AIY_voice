@@ -3,16 +3,60 @@ import re
 nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 
+# TODO
+
+# Time -> Time, Days Query 
+# AND OTHER Multidimensional queries.
+
+# Problems: Can't do Description yet. Professor title. Same problem -- Need to 
+# Make a query just to get information. ASK EMILY how we can make queries without
+# Someone's full name. Preprocess data so there are no first names?
+
+# Sect query doesn't return total sections rn.
+
+# "Is Professor Khosmood teaching CSC 482 next quarter?"
+# should be a professor query. Still Broken.
+
+# Convert common misunderstandings of Acronyms.
+
+# In Person or Virtual queries.
+
+# Named Entity Recognition
+# "Is Eckhardt teaching next quarter?"
+# "How many Sections of Game Design are offered in the Fall?"
+
+# Enrollment
+
+# Easter Egg
+# Happy Holidays: "Ho Ho Ho! Merry Christmas!"
+# Open the Pod Bay Doors.
+
+#---------------------------------------------------------------------
+# NOTES
+
+# If no other query details are specified, read out existence.
 
 #@title Conversions { form-width: "10%" }
 
-prof_invocations = ["Doctor", "Professor", "Dr."]
+prof_invocations = ["Doctor", "Professor", "Dr.", "Instructor"]
 
-class_invocations = ['AERO', 'BMED', 'CE', 'CPE', 'CSC', 
-                    'EE', 'ENGR', 'ENVE', 'IME', 'MATE', 
-                    'ME', 'AEPS', 'AG', 'AGB', 'AGC', 'AGED',
-                     'ASCI', 'BRAE', 'DSCI', 'ERSC', 'ESCI',
-                     'FSN', 'MSL', 'NR', 'RPTA', 'SS', 'WVIT',
+class_invocations = ['AERO', 'AGB', 'AEPS', 'AGC', 'AGED', 'AG',
+                     'ASCI', 'ANT', 'ARCE', 'ARCH', 'ART', 
+                     'ASTR', 'BIO', 'BMED', 'BRAE', 'BOT',
+                     'BUS', 'CHEM', 'CD', 'CHIN', 'CRP', 'CE',
+                     'CLA', 'COMS', 'CPE', 'CSC', 'CM', 'DSCI',
+                     'DANC', 'DATA', 'ESE', 'ESM', 'ERSC',
+                     'ECON', 'EDUC', 'EE', 'ENGR', 'ENVE', 'ENGL',
+                     'EDES', 'ENVE', 'ESCI', 'ES', 'FPE', 'FSN',
+                     'FR', 'GEOG', 'GEOL', 'GER', 'GS', 'GSA', 
+                     'GSB', 'GSE', 'GSP', 'GRC', 'HLTH', 'HIST',
+                     'HNRC', 'HNRS', 'IME', 'ITP', 'ISLA', 'ITAL',
+                     'JPNS', 'JOUR', 'KINE', 'LA', 'LAES', 'LS', 
+                     'MSCI', 'MATE', 'MATH', 'ME', 'MCRO', 'MSL',
+                     'MU', 'NR', 'PHIL', 'PEM', 'PEW', 'PSC', 
+                     'PHYS', 'POLS', 'PSY', 'RPTA', 'RELS', 'SCM',
+                     'SOC', 'SS', 'SPAN', 'SPED', 'STAT', 'SIE', 
+                     'TH', 'UNIV', 'WVIT', 'WGS', 'WLC'
                      ]
 
 prof_utterances = ["Course"]
@@ -78,14 +122,14 @@ replacements = {
 }
 
 subject_to_abbrev = {
-    "Computer Science":"CSC",
-    "Computer Engineering":"CPE",
     "Aerospace Engineering":"AERO",
     "Aerospace":"AERO",
     "Biomedical Engineering":"BMED",
     "Biomedical":"BMED",
     "Civil Engineering":"CE",
     "Civil":"CE",
+    "Computer Science":"CSC",
+    "Computer Engineering":"CPE",
     "General Engineering":"ENGR",
     "Environmental Engineering":"ENVE",
     "Industrial and Manufacturing Engineering":"IME",
@@ -121,11 +165,11 @@ def lower(tokens):
 
 def detect_invocation(tokens):
   for token in tokens:
-    if token.split()[0] in class_invocations:
-      return "df_sched", token
-  for token in tokens:
     if token.split()[0] in prof_invocations:
       return "df_profs", token.split()[-1]
+  for token in tokens:
+    if token.split()[0] in class_invocations:
+      return "df_sched", token
   return "No Invocation"
 
 def detect_utterance(tokens, q_type):
@@ -180,8 +224,25 @@ def skill(input):
   terms["quarter"] = quarter
 
   returns = detect_utterance(replaced, query[0])
-
-  print(returns)
+  
   query.append(terms)
+  query.append(returns)
   return query
 
+#@title Tests { form-width: "10%" }
+
+inputs = ["When is CPE 357 offered next quarter?", # Class, Time
+    "Who teaches CSC 471 winter quarter?", # Class, Professor
+    "How many sections are offered of CPE 101?", # Class, Sections
+    "Which courses does Dr. Khosmood teach next quarter?", # Prof, Courses
+    "Is Professor Wood teaching next quarter?", # Prof, Existence
+    "Who teaches Computer Science 307 in the fall?", # Class, Professor
+    "Is Professor Khosmood teaching CSC 482 next quarter?"
+]
+
+for i in range(len(inputs)):
+  print("Original: < " + inputs[i] + " >")
+  query = skill(inputs[i])
+  print(query)
+  #generate_response(query[0], query[1], query[2])
+  print("----------------------------------")
