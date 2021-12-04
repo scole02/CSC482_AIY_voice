@@ -61,7 +61,7 @@ prof_utterances = ["Course"]
 class_utterances = ["Quarter", "Instructor", "Time", "Location", "Description",
                     "Sect", "Enrl_x", "ECap_x", "Wait", "Format"]
 
-quarters = ["F", "W", "Sp", "Su"]
+quarters = ["F", "W", "S"]
 
 # Synonym -> Query Utterance
 replacements = {
@@ -106,7 +106,6 @@ replacements = {
     "Winter":"W",
     "next":"W",
     "spring":"S",
-    "Spring":"S",
 
     "Format":"Format",
     "format":"Format",
