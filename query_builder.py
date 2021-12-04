@@ -196,7 +196,8 @@ def prof_matches(prof, quarters, df):
     return no_prof_matches(prof, quarters)
   if len(courses) > 1:
     courses.insert(-1, "and")
-  courses = ' '.join(courses)
+  # Cap at 20 courses
+  courses = ' '.join(courses[:20])
   if len(quarters) < 10:
     return prof + " teaches " + courses + " in the " + quarters
   else:
