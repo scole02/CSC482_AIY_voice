@@ -4,15 +4,11 @@ nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 
 # TODO
-
 # Time -> Time, Days Query 
 # AND OTHER Multidimensional queries.
 
-# Problems: Can't do Description yet. Professor title. Same problem -- Need to 
-# Make a query just to get information. ASK EMILY how we can make queries without
-# Someone's full name. Preprocess data so there are no first names?
-
-# Sect query doesn't return total sections rn.
+# Problems: 
+# Can't do Description yet. 
 
 # "Is Professor Khosmood teaching CSC 482 next quarter?"
 # should be a professor query. Still Broken.
@@ -36,9 +32,7 @@ from nltk.tokenize import word_tokenize
 
 # If no other query details are specified, read out existence.
 
-#@title Conversions { form-width: "10%" }
-
-prof_invocations = ["Doctor", "Professor", "Dr.", "Instructor"]
+prof_invocations = ["Doctor", "Professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
 
 class_invocations = ['AERO', 'AGB', 'AEPS', 'AGC', 'AGED', 'AG',
                      'ASCI', 'ANT', 'ARCE', 'ARCH', 'ART', 
@@ -61,7 +55,6 @@ class_invocations = ['AERO', 'AGB', 'AEPS', 'AGC', 'AGED', 'AG',
 
 for i in range(len(class_invocations)):
    class_invocations[i] = class_invocations[i].lower()
-print(class_invocations)
 
 prof_utterances = ["Course"]
 
@@ -69,7 +62,6 @@ class_utterances = ["Quarter", "Instructor", "Time", "Location", "Description",
                     "Sect", "Enrl_x", "ECap_x", "Wait", "Format"]
 
 quarters = ["F", "W", "Sp", "Su"]
-
 
 # Synonym -> Query Utterance
 replacements = {
@@ -169,11 +161,11 @@ def lower(tokens):
 
 def detect_invocation(tokens):
   for token in tokens:
-    if token.split()[0] in prof_invocations:
-      return "df_profs", token.split()[-1]
-  for token in tokens:
     if token.split()[0] in class_invocations:
       return "df_sched", token
+  for token in tokens:
+    if token.split()[0] in prof_invocations:
+      return "df_profs", token.split()[-1]
   return "No Invocation"
 
 def detect_utterance(tokens, q_type):
@@ -192,6 +184,13 @@ def detect_quarter(tokens):
   for token in tokens:
     if token in quarters:
       return token
+
+
+def detect_professor(tokens):
+  for i in range(len(tokens)-1):
+    if tokens[i] in prof_invocations:
+      return tokens[i+1]
+  return None
 
 def skill(input):
   # The parts of a skill:
@@ -219,13 +218,22 @@ def skill(input):
   query.append(q_type)
   if q_type == "df_sched":
     terms["Course"] = invocation[1]
+    name = detect_professor(replaced)
+    print(name)
+    if name is not None and name != "Instructor":
+      terms["last_name"] = name
+      name = None
   elif q_type == "df_profs":
-    terms["last_name"] = invocation[1]
-
+    name = detect_professor(replaced)
+    if name is not None and name != "Instructor":
+      terms["last_name"] = name
+      name = None
   quarter = detect_quarter(replaced)
   if quarter is None:
     quarter = "F"
   terms["Quarter"] = quarter
+
+   
 
   returns = detect_utterance(replaced, query[0])
   
@@ -234,35 +242,32 @@ def skill(input):
 
   return query
 
-# SCHEDULES
-# When: Start, End, Days
-# Who: 
-# How many Sections: Sect
-# Where: Location
-# Existence: []
-# Description: Description
-# Format: Format
-# Enrollment:
-# Enrolled:
-# Waitlist:
+#  SCHEDULES
+#  When: Start, End, Days
+#  Who: 
+#  How many Sections: Sect
+#  Where: Location
+#  Existence: []
+#  Description: Description
+#  Format: Format
+#  Enrollment:
+#  Enrolled:
+#  Waitlist:
 
+#  PROFESSOR
 
-# PROFESSOR
+inputs = ["When is cpe 357 offered next quarter?", # Class, Time
+    "Who teaches csc 471 winter quarter?", # Class, Professor
+    "How many sections are offered of cpe 101?", # Class, Sections
+    "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
+    "Is professor wood teaching next quarter?", # Prof, Existence
+    #"Who teaches computer science 307 in the fall?", # Class, Professor
+    "Is professor khosmood teaching csc 482 next quarter?"
+]
 
-#@title Tests { form-width: "10%" }
-
-# inputs = ["When is cpe 357 offered next quarter?", # Class, Time
-#     "Who teaches csc 471 winter quarter?", # Class, Professor
-#     "How many sections are offered of cpe 101?", # Class, Sections
-#     "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
-#     "Is professor wood teaching next quarter?", # Prof, Existence
-#     "Who teaches computer science 307 in the fall?", # Class, Professor
-#     "Is professor khosmood teaching csc 482 next quarter?"
-# ]
-
-# for i in range(len(inputs)):
-#   print("Original: < " + inputs[i] + " >")
-#   query = skill(inputs[i])
-#   print(query)
-#   #generate_response(query[0], query[1], query[2])
-#   print("----------------------------------")
+for i in range(len(inputs)):
+  print("Original: < " + inputs[i] + " >")
+  query = skill(inputs[i])
+  print(query)
+  #generate_response(query[0], query[1], query[2])
+  print("----------------------------------")
