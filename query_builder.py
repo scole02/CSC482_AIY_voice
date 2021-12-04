@@ -164,6 +164,11 @@ def specific_course_info(course, df):
       else:
         res += " in " + row["Location"]
 
+    if "Format" in col:
+      if res[-3:] == "is ":
+        res += "taught " 
+      res += " " + row["Format"]
+
     res += ". "
 
   return res
