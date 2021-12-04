@@ -109,6 +109,8 @@ replacements = {
     "Spring":"S",
 
     "Format":"Format",
+    "format":"Format",
+    "mode":"Format",
     "Mode":"Format",
     "Instruction":"Format",
 
@@ -242,7 +244,7 @@ def skill(input):
     name = detect_professor(replaced)
     print(name)
     if name is not None and name != "Instructor":
-      terms["last_name"] = name
+      terms["Instructor"] = name
       name = None
   elif q_type == "df_profs":
     name = detect_professor(replaced)
@@ -265,18 +267,19 @@ def skill(input):
   return query
 
 
-inputs = ["When is cpe 357 offered next quarter?", # Class, Time
-   "Who teaches csc 471 winter quarter?", # Class, Professor
-   "How many sections are offered of cpe 101?", # Class, Sections
-   "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
-   "Is professor wood teaching next quarter?", # Prof, Existence
-   #"Who teaches computer science 307 in the fall?", # Class, Professor
-   "Is professor khosmood teaching csc 482 next quarter?"
-]
+#  inputs = ["When is cpe 357 offered next quarter?", # Class, Time
+#     "Who teaches csc 471 winter quarter?", # Class, Professor
+#     "How many sections are offered of cpe 101?", # Class, Sections
+#     "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
+#     "Is professor wood teaching next quarter?", # Prof, Existence
+#     #"Who teaches computer science 307 in the fall?", # Class, Professor
+#     "Is professor khosmood teaching csc 482 next quarter?",
+#     "What format is cpe 442 in?"
+#  ]
 
-for i in range(len(inputs)):
-    print("Original: < " + inputs[i] + " >")
-    query = skill(inputs[i])
-    print(query)
-    #generate_response(query[0], query[1], query[2])
-    print("----------------------------------")
+#  for i in range(len(inputs)):
+#      print("Original: < " + inputs[i] + " >")
+#      query = skill(inputs[i])
+#      print(query)
+#      #generate_response(query[0], query[1], query[2])
+#      print("----------------------------------")
