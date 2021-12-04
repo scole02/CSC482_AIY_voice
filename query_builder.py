@@ -20,6 +20,9 @@ df_sched['Instructor'] = df_sched['Instructor'].apply(clean_instructor)
 df_profs['first_name'] = df_profs['first_name'].str.lower()
 df_profs['last_name'] = df_profs['last_name'].str.lower()
 
+df_sched = df_sched.drop(columns=['Unnamed: 0'])
+df_sched = df_sched.drop_duplicates(keep='last')
+
 def complex_query_builder(input):
   """
   Create a complex pandas query from a combination of query parameters
@@ -177,6 +180,7 @@ def some_matches(course, df):
     return specific_course_info(course, df)
 
 def generate_sched_response(query, df):
+  print(df)
   course = query.get("Course", query.get("Description", "Requested course"))
   quarter = query.get("Quarter", None)
   res = ""
