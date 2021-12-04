@@ -20,6 +20,9 @@ df_sched['Instructor'] = df_sched['Instructor'].apply(clean_instructor)
 df_profs['first_name'] = df_profs['first_name'].str.lower()
 df_profs['last_name'] = df_profs['last_name'].str.lower()
 
+df_sched = df_sched.drop(columns=['Unnamed: 0'])
+df_sched = df_sched.drop_duplicates(keep='last')
+
 def complex_query_builder(input):
   """
   Create a complex pandas query from a combination of query parameters
@@ -95,8 +98,7 @@ def get_days(input):
   if str(input) == "nan":
     return None
   day_names = {"M": "Monday", "T": "Tuesday", "W": "Wednesday", "R": "Thursday", "F": "Friday"}
-  day_arr = list(input.replace("TR", "R"))
-  res = [day_names[d] for d in day_arr]
+  res = [day_names[d] for d in input]
   return ' '.join(res)
 
 def get_time(start, end):
@@ -177,6 +179,7 @@ def some_matches(course, df):
     return specific_course_info(course, df)
 
 def generate_sched_response(query, df):
+  print(df)
   course = query.get("Course", query.get("Description", "Requested course"))
   quarter = query.get("Quarter", None)
   res = ""
@@ -220,7 +223,7 @@ def prof_matches(prof, quarters, df):
 def generate_prof_response(query, df):
   # print(df)
   prof = "Professor " + query.get("last_name", query.get("Name", "requested professor")) 
-  if prof == "requested professor":
+  if prof == "Professor requested professor":
     return "Not understood"
   quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
   quarters = [quarter_names[q] for q in get_quarters(query)]
