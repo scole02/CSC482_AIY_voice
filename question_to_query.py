@@ -161,6 +161,8 @@ def detect_invocation(tokens):
   for token in tokens:
     if token == "christmas":
       return "christmas", "santa claus"
+    if token == "magic":
+      return "nothing", "conch"
     if token.split()[0] in class_invocations:
       return "df_sched", token
   for token in tokens:
@@ -245,6 +247,10 @@ def skill(input):
     if name is not None and name != "Instructor" and name != "is":
       terms["last_name"] = name
       name = None
+  elif q_type == "christmas":
+    return ["Easter Egg", 1]
+  elif q_type == "nothing":
+    return ["Easter Egg", 2]
   quarter = detect_quarter(replaced)
   if quarter is None:
     quarter = "F"
