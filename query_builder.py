@@ -36,34 +36,27 @@ def complex_query_builder(input):
     query += query_str
   return query[:-3]
 
-def query_data(df, input, print_str=False):
+def query_data(df, input):
   """
   Query the given pandas dataframe by the given input parameters
   :param df: The dataframe to query
   :param dict input: A dictionary of input parameters with the structure column_name: value
-  :param bool print_str: Whether or not to print the query string
   :return: All dataframe entries that match the query params 
   :rtype: pandas dataframe
   """
   query_str = complex_query_builder(input)
-  if print_str:
-    print(query_str)
   return df.query(query_str)
 
-def query_data_columns(df, input, columns, print_str=False):
+def query_data_columns(df, input, columns):
   """
   Query the given pandas dataframe by the given input parameters and return only the provided columns
   :param df: The dataframe to query
   :param dict input: A dictionary of input parameters with the structure column_name: value
   :param list columns: The columns to return
-  :param bool print_str: Whether or not to print the query string
   :return: Specified columns for all dataframe entries that match the query params 
   :rtype: pandas dataframe
   """
-  data_df = query_data(df, input, print_str)
-  if (print_str):
-    print(columns)
-    print(data_df)
+  data_df = query_data(df, input)
   return data_df[columns].drop_duplicates()
 
 def get_quarters(query):
@@ -126,7 +119,6 @@ def general_course_info(course, df):
       res += "and "
     row = df.iloc[i]
     prof = get_prof(row["Instructor"])
-    print(row["Days"])
     days = get_days(row["Days"])
     time = get_time(row["Start"], row["End"])
     format = get_format(row["Location"], time)
@@ -195,7 +187,6 @@ def some_matches(course, df):
     return specific_course_info(course, df)
 
 def generate_sched_response(query, df):
-  print(df)
   course = query.get("Course", query.get("Description", "Requested course"))
   quarter = query.get("Quarter", None)
   res = ""
@@ -211,7 +202,6 @@ def generate_sched_response(query, df):
   else:
     res = some_matches(course, df)
 
-  # print(res)
   return res
 
 def no_prof_matches(prof, quarters):
@@ -237,7 +227,6 @@ def prof_matches(prof, quarters, df):
     return prof + " teaches " + courses + " over " + quarters 
 
 def generate_prof_response(query, df):
-  # print(df)
   prof = "Professor " + query.get("last_name", query.get("Name", "requested professor")) 
   if prof == "Professor requested professor":
     return "Not understood"
@@ -256,7 +245,6 @@ def generate_prof_response(query, df):
   else:
     res = prof_matches(prof, quarters, df)
 
-  # print(res)
   return res
 
 

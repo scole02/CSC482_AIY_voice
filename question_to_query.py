@@ -44,7 +44,7 @@ class_invocations = ['AERO', 'AGB', 'AEPS', 'AGC', 'AGED', 'AG',
 for i in range(len(class_invocations)):
    class_invocations[i] = class_invocations[i].lower()
 
-prof_utterances = ["Course"]
+prof_utterances = ["Courses"]
 
 class_utterances = ["Quarter", "Instructor", "Time", "Location", "Description",
                     "Sect", "Enrl_x", "ECap_x", "Wait", "Format"]
@@ -82,9 +82,9 @@ replacements = {
     "enrolled":"Enrl_x",
     "seats":"Enrl_x",
 
-    "enrollment":"ECap_x",
-    "enrolled":"ECap_x",
-    "capacity":"ECap_x",
+    "enrollment":"ECap",
+    "enrolled":"ECap",
+    "capacity":"ECap",
 
     "waitlist":"Wait",
 
