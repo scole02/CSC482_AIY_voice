@@ -5,8 +5,14 @@ from nltk.tokenize import word_tokenize
 
 # TODO
 
+# Remind Emily to set up conch easter egg.
+
 # Can't do Description yet. 
 # PRONUNCIATION SIDE
+
+# Split Replacements Dictionary.
+
+# Help Message
 
 prof_invocations = ["Doctor", "Professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
 
@@ -41,7 +47,6 @@ quarters = ["F", "W", "S"]
 
 # Synonym -> Query Utterance
 replacements = {
-    # Class Query
     "instructor":"Instructor",
     "professor":"Instructor",
     "teacher":"Instructor",
@@ -96,9 +101,10 @@ replacements = {
     "online":"Format",
     "mode":"Format",
     "Mode":"Format",
-    "Instruction":"Format",
+    "Instruction":"Format"
+}
 
-    # Prof Query
+prof_replacements = {
     "courses":"Courses",
     "classes":"Courses",
     "teach":"Courses",
@@ -136,6 +142,21 @@ subject_to_abbrev = {
     "Electrical Engineering":"EE",
     "Electrical":"EE"
 }
+
+def replace_prof(tokens):
+  replaced = []
+  for token in tokens:
+    if token in prof_replacements.keys():
+      replaced.append(prof_replacements[token])
+    elif token.split()[-1].isnumeric():
+      rest = token[:len(token)-4]
+      if rest in subject_to_abbrev.keys():
+        replaced.append(subject_to_abbrev[rest] + token[len(token)-4:])
+      else:
+        replaced.append(token)
+    else:
+      replaced.append(token)
+  return replaced
 
 def replace(tokens):
   replaced = []
@@ -242,6 +263,7 @@ def skill(input):
       terms["Instructor"] = name
       name = None
   elif q_type == "df_profs":
+    replaced = replace_prof(replaced)
     name = detect_professor(replaced)
     if name is not None and name != "Instructor" and name != "is":
       terms["last_name"] = name
