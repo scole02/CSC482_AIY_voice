@@ -4,33 +4,14 @@ nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 
 # TODO
-# Time -> Time, Days Query 
-# AND OTHER Multidimensional queries.
 
-# Problems: 
+# Appostraphe?
+
 # Can't do Description yet. 
-
-# "Is Professor Khosmood teaching CSC 482 next quarter?"
-# should be a professor query. Still Broken.
-
-# Convert common misunderstandings of Acronyms.
-
-# In Person or Virtual queries.
-
-# Named Entity Recognition
-# "Is Eckhardt teaching next quarter?"
-# "How many Sections of Game Design are offered in the Fall?"
-
-# Enrollment
+# PRONUNCIATION SIDE
 
 # Easter Egg
 # Happy Holidays: "Ho Ho Ho! Merry Christmas!"
-# Open the Pod Bay Doors.
-
-#---------------------------------------------------------------------
-# NOTES
-
-# If no other query details are specified, read out existence.
 
 prof_invocations = ["Doctor", "Professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
 
@@ -56,10 +37,10 @@ class_invocations = ['AERO', 'AGB', 'AEPS', 'AGC', 'AGED', 'AG',
 for i in range(len(class_invocations)):
    class_invocations[i] = class_invocations[i].lower()
 
-prof_utterances = ["Courses"]
+prof_utterances = ["Courses", "Office", "Phone", "Alias", "Email"]
 
 class_utterances = ["Quarter", "Instructor", "Time", "Location", "Description",
-                    "Sect", "Enrl_x", "ECap_x", "Wait", "Format"]
+                    "Sect", "Enrl", "ECap", "Spots", "Wait", "Format"]
 
 quarters = ["F", "W", "S"]
 
@@ -71,9 +52,11 @@ replacements = {
     "teacher":"Instructor",
     "Instructor":"Instructor",
     "teaches":"Instructor",
+    "teach":"Instructor",
     "teaching":"Instructor",
     "who":"Instructor",
     "dr.":"Instructor",
+    "professors":"Instructor",
 
     "Time":"Time",
     "time":"Time",
@@ -88,13 +71,14 @@ replacements = {
     "tell":"Description",
 
     "sections":"Sect",
-    "many":"Sect",
     "number":"Sect",
 
     "enrolled":"Enrl",
 
+    "spots":"Spots",
+    "seats":"Spots",
+
     "enrollment":"ECap",
-    "enrolled":"ECap",
     "capacity":"ECap",
 
     "waitlist":"Wait",
@@ -109,13 +93,26 @@ replacements = {
 
     "Format":"Format",
     "format":"Format",
+    "virtual":"Format",
+    "virtually":"Format",
+    "asynchronous":"Format",
+    "asynchronously":"Format",
+    "person":"Format",
+    "online":"Format",
     "mode":"Format",
     "Mode":"Format",
     "Instruction":"Format",
 
     # Prof Query
     "courses":"Course",
-    "which":"Course",
+
+    "office":"Office",
+    "phone":"Phone",
+    "alias":"Alias",
+    "title":"Alias",
+    "email":"Email",
+    "mail":"Email",
+    "address":"Email"
 }
 
 subject_to_abbrev = {
@@ -162,6 +159,8 @@ def lower(tokens):
 
 def detect_invocation(tokens):
   for token in tokens:
+    if token == "christmas":
+      return "christmas", "santa claus"
     if token.split()[0] in class_invocations:
       return "df_sched", token
   for token in tokens:
@@ -169,11 +168,11 @@ def detect_invocation(tokens):
       return "df_profs", token.split()[-1]
   return "No Invocation"
 
-def detect_utterance(tokens, q_type):
+def detect_utterance(tokens, q_type, terms):
   returns = []
   if q_type == "df_sched":
     for i in range(len(tokens)):
-      if tokens[i] in class_utterances and tokens[i] not in returns:
+      if (tokens[i] in class_utterances and tokens[i] not in returns and tokens[i] not in terms.keys()):
         returns.append(tokens[i])
   if q_type == "df_profs":
     for token in tokens:
@@ -185,7 +184,6 @@ def detect_quarter(tokens):
   for token in tokens:
     if token in quarters:
       return token
-
 
 def detect_professor(tokens):
   for i in range(len(tokens)-1):
@@ -219,19 +217,17 @@ def convert_returns(returns):
    return new
 
 def skill(input):
-  # The parts of a skill:
-  # [Invocation Name] [Utterance]
-  # Invocation Name - Name of the skill.
-  # Utterance - Determines what we do with the skill.
-
-  # Our Questions will follow this rough structure, with the Invocation being
-  # either class or professor, and the utterance being the arguments for the query.
-
+  """
+  Takes input as a string.
+  Returns a query list to be sent to Emily's side
+  """
+  if input == "":
+    return None
   query = []
   terms = {}
   returns = []
 
-  tokens = re.findall(r'\bProfessor [A-Z][a-z]+\b|\bDr. [A-Z][a-z]+\b|\b[a-z]+ [0-9]+\b|\w+', input)
+  tokens = re.findall(r'\bProfessor [a-z]*\b|\bDr. [a-z]*\b|\b[a-z]+ [0-9]+\b|\w+', input)
   tokens[0] = tokens[0].lower()
   replaced = replace(tokens)
   print(replaced)
@@ -241,12 +237,12 @@ def skill(input):
   if q_type == "df_sched":
     terms["Course"] = invocation[1]
     name = detect_professor(replaced)
-    if name is not None and name != "Instructor":
+    if name is not None and name != "Instructor" and name != "is":
       terms["Instructor"] = name
       name = None
   elif q_type == "df_profs":
     name = detect_professor(replaced)
-    if name is not None and name != "Instructor":
+    if name is not None and name != "Instructor" and name != "is":
       terms["last_name"] = name
       name = None
   quarter = detect_quarter(replaced)
@@ -256,7 +252,7 @@ def skill(input):
 
    
 
-  returns = detect_utterance(replaced, query[0])
+  returns = detect_utterance(replaced, query[0], terms)
   returns = convert_returns(returns)
   
   query.append(terms)
@@ -264,20 +260,17 @@ def skill(input):
 
   return query
 
+def test():
+   fp = open("queries.txt", 'r')
+   inputs = fp.readlines()
+   fp.close()
 
-#  inputs = ["When is cpe 357 offered next quarter?", # Class, Time
-#     "Who teaches csc 471 winter quarter?", # Class, Professor
-#     "How many sections are offered of cpe 101?", # Class, Sections
-#     "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
-#     "Is professor wood teaching next quarter?", # Prof, Existence
-#     #"Who teaches computer science 307 in the fall?", # Class, Professor
-#     "Is professor khosmood teaching csc 482 next quarter?",
-#     "What format is cpe 442 in?"
-#  ]
+   for i in range(len(inputs)):
+      print("Original: < " + inputs[i].strip() + " >")
+      query = skill(inputs[i].strip())
+      print(query)
+      #generate_response(query[0], query[1], query[2])
+      print("----------------------------------")
 
-#  for i in range(len(inputs)):
-#      print("Original: < " + inputs[i] + " >")
-#      query = skill(inputs[i])
-#      print(query)
-#      #generate_response(query[0], query[1], query[2])
-#      print("----------------------------------")
+if __name__ == "__main__":
+   test()
