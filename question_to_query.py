@@ -221,13 +221,13 @@ def skill(input):
   Takes input as a string.
   Returns a query list to be sent to Emily's side
   """
-  if input == "":
-    return None
   query = []
   terms = {}
   returns = []
 
   tokens = re.findall(r'\bProfessor [a-z]*\b|\bDr. [a-z]*\b|\b[a-z]+ [0-9]+\b|\w+', input)
+  if tokens == []:
+    return None
   tokens[0] = tokens[0].lower()
   replaced = replace(tokens)
   print(replaced)
