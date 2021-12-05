@@ -15,6 +15,7 @@ def clean_instructor(prof):
 
 df_sched['Course'] = df_sched['Course'].str.lower()
 df_sched['Description'] = df_sched['Description'].str.lower()
+df_sched['Spots'] = df_sched.apply(lambda row: max(row.ECap - row.Enrl, 0), axis=1)
 df_sched['Instructor'] = df_sched['Instructor'].apply(clean_instructor)
 
 df_profs['first_name'] = df_profs['first_name'].str.lower()
@@ -128,8 +129,50 @@ def general_course_info(course, df):
       res += prof + time + " " + format + " on " + days + ". "
   return res
 
+def is_enrollment_question(col):
+  enrl_col = ["ECap", "Enrl", "Spots"]
+  e_col = 0
+  for c in col:
+    if c in enrl_col:
+      e_col += 1
+
+  if len(col) - e_col == 0:
+    return True
+  return False
+
+def enrl_response(course, df, col):
+  res = course + " has "
+  if "ECap" in col:
+    ecapacities = [str(int(x)) for x in df['ECap'].drop_duplicates().tolist()]
+    if len(ecapacities) > 1:
+      ecapacities.insert(-1, "and")
+    res += " an enrollment capacity of " + ' '.join(ecapacities) + ", "
+
+  if "Enrl" in col:
+    if "ECap" in col and "Spots" not in col:
+      res += " and "
+    enrolled = [str(int(x)) for x in df['Enrl'].drop_duplicates().tolist()]
+    if len(enrolled) > 1:
+      enrolled.insert(-1, "and")
+    res += ' '.join(enrolled)  + " students currently enrolled, " 
+
+  if "Spots" in col:
+    if len(col) > 1:
+      res += " and "
+    spots = [str(int(x)) for x in df['Spots'].drop_duplicates().tolist()]
+    if len(spots) > 1:
+      spots.insert(-1, "and")
+    res += ' '.join(spots)  + " spots available"
+
+  return res
+
+
 def specific_course_info(course, df):
   col = df.columns.tolist()
+  enrl_question = is_enrollment_question(col)
+  if enrl_question:
+    return enrl_response(course, df, col)
+    
   res = course + " is "
   for i in range(len(df)):
     if (i > 0 and i == len(df) - 1):
@@ -143,20 +186,10 @@ def specific_course_info(course, df):
       res += " Section " + str(row["Sect"])
 
     if "Days" in col:
-      days = get_days(row["Days"])
-      if days is None:
-        if "Format" not in col:
-          res += " asynchronous "
-      else:
-        res += " on " + days
+      res += " on " + get_days(row["Days"])
     
     if "Start" in col:
-      time = get_time(row["Start"], row["End"])
-      if time is None:
-        if "Format" not in col and "Days" not in col:
-          res += " asynchronous "
-      else:
-        res += time
+      res += get_time(row["Start"], row["End"])
 
     if "Instructor" in col:
       res += " taught by " + get_prof(row["Instructor"])
@@ -166,11 +199,25 @@ def specific_course_info(course, df):
         res += " virtual "
       else:
         res += " in " + row["Location"]
-
+    
     if "Format" in col:
       if res[-3:] == "is ":
-        res += "taught " 
-      res += " " + row["Format"]
+        res += " taught " 
+      res += get_prof(row["Format"])
+    
+    if "ECap" in col:
+      ecap = " an enrollment capacity of " + str(int(row["ECap"])) + " "
+      if len(col) == 1:
+        res = res[:-3] + " has " + ecap
+      else:
+        res += " with " + ecap
+
+    if "Enrl" in col:
+      enrl = " has " + str(int(row["Enrl"])) + " student currently enrolled"
+      if res[-3:] == "is ":
+        res = res[:-3] + enrl
+      else:
+        res += " and "  + enrl
 
     res += ". "
 
@@ -257,11 +304,14 @@ def generate_response(df_name, query, col=[]):
       res = query_data_columns(df_sched, query, col)
     return generate_sched_response(query, res)
 
-  else:
+  elif df_name == "df_profs":
     if len(col) == 0:
       res = query_data(df_profs, query)
     else:
       res = query_data_columns(df_profs, query, col)
     return generate_prof_response(query, res)
+  
+  else:
+    return "Ho Ho Ho, Merry Christmas!"
 
 
