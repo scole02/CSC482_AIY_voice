@@ -1,0 +1,1507 @@
+,Name,first_name,last_name,Courses,Office,Phone,Alias,Email,Quarter
+4,"Adams, Nikki",Nikki,Adams,"{'MSCI 440', 'MSCI 401', 'MSCI 100', 'BIO 575'}",033-0371,8057562943,nadams,nadams@calpoly.edu,F
+5,"Adams, Susie",Susie,Adams,{'EDUC 438'},002-0120,8057562126,sjadams,sjadams@calpoly.edu,F
+10,"Alber, Julia",Julia,Alber,"{'HLTH 402', 'HLTH 255', 'HLTH 462', 'HLTH 400'}",043A-0367,8057561779,jmalber,jmalber@calpoly.edu,F
+14,"Aleksandrov, Tsvetan",Tsvetan,Aleksandrov,"{'CHEM 127', 'CHEM 124'}",052-E041,8057561554,taleksan,taleksan@calpoly.edu,F
+16,"Almeida, Daniel",Daniel,Almeida,"{'EDUC 573', 'EDUC 562'}",002-0137,8057561502,dalmeida,dalmeida@calpoly.edu,F
+18,"Althaus, Kieran",Kieran,Althaus,{'BIO 160'},,3108391530,kalthaus,kalthaus@calpoly.edu,F
+20,"Anderson, Kyra",Kyra,Anderson,{'BIO 263'},,7146559943,kande145,kande145@calpoly.edu,F
+21,"Arnold, Sharon",Sharon,Arnold,{None},025-0229D,8057567303,sarnold,sarnold@calpoly.edu,F
+31,"Avrit, Darren",Darren,Avrit,"{'KINE 337', 'KINE 460', 'HLTH 443', 'KINE 134', 'KINE 122', 'KINE 154', 'KINE 180', 'KINE 310'}",043A-0363,8057561482,davrit,davrit@calpoly.edu,F
+34,"Babu, Praveen",Praveen,Babu,"{'BIO 303', 'BIO 213'}",053-0218,8057565376,pbabu,pbabu@calpoly.edu,F
+35,"Bailey, Phil",Phil,Bailey,{None},025-0120,8057565712,pbailey,pbailey@calpoly.edu,F
+36,"Balderas, Elijah",Elijah,Balderas,{None},,8057985026,ebaldera,ebaldera@calpoly.edu,F
+37,"Barclay, Ken",Ken,Barclay,{'LS 461'},025-0125E,8057566529,kbarclay,kbarclay@calpoly.edu,F
+38,"Barton, Kimberly",Kimberly,Barton,{None},025-0107D,8057562709,kabarton,kabarton@calpoly.edu,F
+39,"Basa, Sean",Sean,Basa,{'MATH 118'},038-0207,8057565684,sbasa,sbasa@calpoly.edu,F
+42,"Bauer, Julee",Julee,Bauer,"{'EDUC 457', 'EDUC 429'}",002-0134,8057565638,jbauer,jbauer@calpoly.edu,F
+50,"Bean, Tim",Tim,Bean,"{'BIO 400', 'BIO 599', 'BIO 300', 'BIO 472', 'BIO 363', 'BIO 462', 'BIO 463'}",033-0276,8057562662,wtbean,wtbean@calpoly.edu,F
+52,"Bedard, Robin",Robin,Bedard,{'BIO 160'},,7604170801,rbedard,rbedard@calpoly.edu,F
+57,"Beekman, Matt",Matt,Beekman,"{'PHYS 461', 'PHYS 400', 'PHYS 412', 'PHYS 132'}",180-0511,8057567129,mbeekman,mbeekman@calpoly.edu,F
+61,"Bennert, Vardha N.",Vardha N.,Bennert,{'PSC 101'},180-0622,8057567317,vbennert,vbennert@calpoly.edu,F
+66,"Bensky, Thomas",Thomas,Bensky,"{'PHYS 340', 'PHYS 462'}",180-0616,8057567655,tbensky,tbensky@calpoly.edu,F
+67,"Benson, Eric",Eric,Benson,{None},043A-0458C,8057567525,ecbenson,ecbenson@calpoly.edu,F
+69,"Berber-Jimenez, Lola",Lola,Berber-Jimenez,{'LS 201'},025-0125C,8057560292,lberberj,lberberj@calpoly.edu,F
+77,"Bercovici, Daniel",Daniel,Bercovici,"{'CHEM 201', 'CHEM 216', 'CHEM 401'}",052-E038,8057562369,dbercovi,dbercovi@calpoly.edu,F
+78,"Bergman, Anya",Anya,Bergman,{None},053-0210F,8057561662,abergman,abergman@calpoly.edu,F
+79,"Bergquist, Jason",Jason,Bergquist,{None},025-0208D,8057562206,jebergqu,jebergqu@calpoly.edu,F
+80,"Bersin, Theresa",Theresa,Bersin,{None},,9169964600,tbersin,tbersin@calpoly.edu,F
+83,"Best, Megan",Megan,Best,"{'EDUC 442', 'EDUC 546'}",002-0112,8057566082,mhirzel,mhirzel@calpoly.edu,F
+84,"Bills, Marissa",Marissa,Bills,{None},,9515530973,mbills,mbills@calpoly.edu,F
+90,"Bishop, Rebecca",Rebecca,Bishop,"{'MATH 162', 'MATH 115', 'EDUC 460', 'MATH 95'}",025-0325,8057562278,rbisho01,rbisho01@calpoly.edu,F
+95,"Black, Michael",Michael,Black,"{'BIO 300', 'BIO 452', 'BIO 462', 'BIO 501'}",033-0380,8057562894,mblack,mblack@calpoly.edu,F
+98,"Blank, Jason",Jason,Blank,"{'BIO 300', 'BIO 408'}",033-0377,8057565629,jmblank,jmblank@calpoly.edu,F
+99,"Blanke, Barbara",Barbara,Blanke,{'EDUC 456'},002-0120,8057562126,bblanke,bblanke@calpoly.edu,F
+100,"Blunk, Brittany",Brittany,Blunk,{None},002-0122A,8057567189,bblunk,bblunk@calpoly.edu,F
+105,"Bockmon, Emily",Emily,Bockmon,"{'CHEM 129', 'CHEM 127', 'CHEM 201', 'CHEM 401'}",180-0412,8057561636,ebockmon,ebockmon@calpoly.edu,F
+108,"Bodwin, Kelly",Kelly,Bodwin,"{'STAT 218', 'GSE S524'}",025-0106,8057562450,kbodwin,kbodwin@calpoly.edu,F
+109,"Boldman, Gina",Gina,Boldman,{'LS 255'},025-0125B,8057562935,gboldman,gboldman@calpoly.edu,F
+112,"Bonini, Vincent",Vincent,Bonini,"{'MATH 244', 'MATH 306'}",025-0305,8057561657,vbonini,vbonini@calpoly.edu,F
+119,"Borgard, Christopher",Christopher,Borgard,"{'KINE 148', 'KINE 108', 'KINE 154', 'KINE 129'}",043A-0457,8057562545,cborgard,cborgard@calpoly.edu,F
+122,"Bow, Hannah",Hannah,Bow,{'BIO 161'},,9169697970,hbow,hbow@calpoly.edu,F
+123,"Brar, Ruzena",Ruzena,Brar,{None},025-0228,8057566534,rkbrar,rkbrar@calpoly.edu,F
+124,"Brauer, Ellie",Ellie,Brauer,{None},,9494223422,ebrauer,ebrauer@calpoly.edu,F
+125,"Breit, Emma",Emma,Breit,{None},,7206847980,ebreit,ebreit@calpoly.edu,F
+126,"Brescia, James",James,Brescia,{None},002-0120,8057562126,jbrescia,jbrescia@calpoly.edu,F
+127,"Brewster, Doug",Doug,Brewster,{None},052-D024,8057562701,dbrewste,dbrewste@calpoly.edu,F
+128,"Brewster, Rob",Rob,Brewster,{None},052-D024,8057562701,rabrewst,rabrewst@calpoly.edu,F
+132,"Bridgeford, Kristin",Kristin,Bridgeford,"{'SCM 220', 'EDUC 438', 'EDUC 460'}",002-0120,8057562126,kbridgef,kbridgef@calpoly.edu,F
+133,"Brookwell, August",August,Brookwell,{None},,3103864374,abrookwe,abrookwe@calpoly.edu,F
+138,"Brussel, Eric",Eric,Brussel,"{'MATH 143', 'MATH 561', 'HNRS 143'}",025-0300,8057562381,ebrussel,ebrussel@calpoly.edu,F
+139,"Buck-Moyer, David",David,Buck-Moyer,{'EDUC 460'},025-0126,8057566587,dbuckmoy,dbuckmoy@calpoly.edu,F
+140,"Buffa, Anthony",Anthony,Buffa,{None},180-0521,8057561650,abuffa,abuffa@calpoly.edu,F
+143,"Bunting, Jamie",Jamie,Bunting,"{'BIO 160', 'BIO 263'}",033-0383,8057562557,bunting,bunting@calpoly.edu,F
+144,"Bush, Jenny",Jenny,Bush,{None},025-0125B,8057562935,jybush,jybush@calpoly.edu,F
+154,"Bush, Seth",Seth,Bush,"{'CHEM 598', 'CHEM 400', 'CHEM 465', 'CHEM 500', 'CHEM 463', 'CHEM 403', 'CHEM 461', 'CHEM 401', 'CHEM 599'}",180-0205A,8057562746,sbush,sbush@calpoly.edu,F
+156,"Byrne, Andrew",Andrew,Byrne,"{'EDUC 587', 'EDUC 573'}",002-0136,8057565095,anbyrne,anbyrne@calpoly.edu,F
+157,CSM-Advancement,,,{'CSM-Advancement'},CSM-Advancement,nan,CSM-Advancement,CSM-Advancement@calpoly.edu,F
+158,CSM-Advising Center,,,{'CSM-Advising Center'},CSM-Advising Center,nan,CSM-Advising Center,CSM-Advising Center@calpoly.edu,F
+159,CSM-Biological Sciences,,,{'CSM-Biological Sciences'},CSM-Biological Sciences,nan,CSM-Biological Sciences,CSM-Biological Sciences@calpoly.edu,F
+160,CSM-Center for Coastal Marine Sciences,,,{'CSM-Center for Coastal Marine'},CSM-Center for Coastal Marine Sciences,nan,CSM-Center for Coastal Marine Sciences,CSM-Center for Coastal Marine Sciences@calpoly.edu,F
+161,CSM-Center for Excellence in Science and Mathematics,,,{'CSM-Center for Excellence in Science and'},CSM-Center for Excellence in Science and Mathematics,nan,CSM-Center for Excellence in Science and Mathematics,CSM-Center for Excellence in Science and Mathematics@calpoly.edu,F
+162,CSM-Chemistry & Biochemistry,,,{'CSM-Chemistry &'},CSM-Chemistry & Biochemistry,nan,CSM-Chemistry & Biochemistry,CSM-Chemistry & Biochemistry@calpoly.edu,F
+163,CSM-College of Science and Mathematics,,,{'CSM-College of Science and'},CSM-College of Science and Mathematics,nan,CSM-College of Science and Mathematics,CSM-College of Science and Mathematics@calpoly.edu,F
+164,CSM-Deans Office,,,{'CSM-Deans Office'},CSM-Deans Office,nan,CSM-Deans Office,CSM-Deans Office@calpoly.edu,F
+165,CSM-Design & Fabrication Facility,,,{'CSM-Design & Fabrication'},CSM-Design & Fabrication Facility,nan,CSM-Design & Fabrication Facility,CSM-Design & Fabrication Facility@calpoly.edu,F
+166,CSM-Kinesiology and Public Health,,,{'CSM-Kinesiology and Public'},CSM-Kinesiology and Public Health,nan,CSM-Kinesiology and Public Health,CSM-Kinesiology and Public Health@calpoly.edu,F
+167,CSM-Mathematics,,,{'CSM-Mathematics'},CSM-Mathematics,nan,CSM-Mathematics,CSM-Mathematics@calpoly.edu,F
+168,CSM-Physics,,,{'CSM-Physics'},CSM-Physics,nan,CSM-Physics,CSM-Physics@calpoly.edu,F
+169,CSM-SOE-Office of Education,,,{'CSM-SOE-Office of'},CSM-SOE-Office of Education,nan,CSM-SOE-Office of Education,CSM-SOE-Office of Education@calpoly.edu,F
+170,CSM-STEM Teacher and Researcher Program (STAR),,,{'CSM-STEM Teacher and Researcher Program'},CSM-STEM Teacher and Researcher Program (STAR),nan,CSM-STEM Teacher and Researcher Program (STAR),CSM-STEM Teacher and Researcher Program (STAR)@calpoly.edu,F
+171,CSM-Statistics,,,{'CSM-Statistics'},CSM-Statistics,nan,CSM-Statistics,CSM-Statistics@calpoly.edu,F
+172,"Calcagno, Ellen",Ellen,Calcagno,{None},033-0272,8057565241,ecalcagn,ecalcagn@calpoly.edu,F
+173,"Calloway, Stephanie",Stephanie,Calloway,{None},,5593213191,smcallow,smcallow@calpoly.edu,F
+177,"Camp, Charles",Charles,Camp,"{'MATH 141', 'MATH 371', 'MATH 418'}",025-0309,8057561661,camp,camp@calpoly.edu,F
+180,"Campbell, Tammy",Tammy,Campbell,{'CHEM 371'},180-0421,8057562443,tcampb06,tcampb06@calpoly.edu,F
+181,"Carlon, Mariana",Mariana,Carlon,{'EDUC 588'},,8057206981,mramir37,mramir37@calpoly.edu,F
+184,"Carlton, Matt",Matt,Carlton,{'STAT 350'},025-0101,8057567076,mcarlton,mcarlton@calpoly.edu,F
+185,"Carney, Sarah",Sarah,Carney,{None},043A-0457,8057562545,sacarney,sacarney@calpoly.edu,F
+186,"Carrillo, Coreen",Coreen,Carrillo,{'EDUC 442'},002-0120,8057562126,ccarri24,ccarri24@calpoly.edu,F
+190,"Carroll, Jennifer",Jennifer,Carroll,"{'CHEM 216', 'CHEM 312', 'CHEM 401'}",025-0211,8057561654,jacarrol,jacarrol@calpoly.edu,F
+191,"Castillo, Crystal",Crystal,Castillo,{None},,7148515464,ccasti10,ccasti10@calpoly.edu,F
+196,"Champney, Danielle",Danielle,Champney,"{'MATH 143', 'MATH 300', 'UNIV 100', 'MATH 461'}",025-0336,8057565579,dchampne,dchampne@calpoly.edu,F
+199,"Chance, Beth",Beth,Chance,"{'STAT 301', 'STAT 414'}",025-0235,8057562961,bchance,bchance@calpoly.edu,F
+201,"Charalampidis, Stathis",Stathis,Charalampidis,{'MATH 241'},025-0319,8057562465,echarala,echarala@calpoly.edu,F
+207,"Cheuk, Tina",Tina,Cheuk,"{'EDUC 439', 'EDUC 436'}",002-0131,8057566775,tcheuk,tcheuk@calpoly.edu,F
+211,"Chi, Haoyan",Haoyan,Chi,{'MATH 142'},025-0316,8057562632,hachi,hachi@calpoly.edu,F
+214,"Choboter, Paul",Paul,Choboter,"{'MATH 244', 'MATH 501'}",025-0313,8057565902,pchobote,pchobote@calpoly.edu,F
+220,"Christiansen, Jodi",Jodi,Christiansen,"{'PHYS 211', 'ASTR 326', 'PHYS 400', 'PHYS 461', 'ASTR 200'}",180-0617,8057562778,jlchrist,jlchrist@calpoly.edu,F
+221,"Ciccone, Bronwyn",Bronwyn,Ciccone,{None},025-0125B,8057562935,bciccone,bciccone@calpoly.edu,F
+227,"Clark, Robert",Robert,Clark,"{'KINE 110', 'KINE 147', 'KINE 145', 'KINE 461', 'KINE 403', 'KINE 301'}",043A-0364,8057560285,rdclark,rdclark@calpoly.edu,F
+228,"Cleere, Deborah",Deborah,Cleere,{None},002-0120,8057562126,dcleere,dcleere@calpoly.edu,F
+231,"Clegg, Don",Don,Clegg,"{'HLTH 250', 'KINE 303'}",043A-0373,8057562182,dclegg,dclegg@calpoly.edu,F
+235,"Clement, Sandi",Sandi,Clement,"{'BIO 400', 'BIO 475'}",033-0269,8057562154,slclemen,slclemen@calpoly.edu,F
+236,"Clendenen, Dave",Dave,Clendenen,{None},053-0310,8057562712,dclenden,dclenden@calpoly.edu,F
+237,"Collins, Kirt",Kirt,Collins,{'EDUC 438'},002-0120,8057562126,kcolli18,kcolli18@calpoly.edu,F
+241,"Contu, Francesco",Francesco,Contu,{'CHEM 127'},052-E037,8057562678,fcontu,fcontu@calpoly.edu,F
+244,"Coryell, Julia",Julia,Coryell,"{'HLTH 250', 'KINE 129'}",043A-0457,8057562545,jgcoryel,jgcoryel@calpoly.edu,F
+248,"Costanzo, Philip",Philip,Costanzo,"{'CHEM 349', 'CHEM 216', 'CHEM 401'}",025-0214,8057562692,pcostanz,pcostanz@calpoly.edu,F
+249,"Coulombe, Kevin",Kevin,Coulombe,{None},180-0231,8057562449,kcoulomb,kcoulomb@calpoly.edu,F
+252,"Craig, Clayton",Clayton,Craig,"{'MATH 118', 'MATH 141'}",025-0210,8057562194,ccraig07,ccraig07@calpoly.edu,F
+255,"Crutchfield, Stephen",Stephen,Crutchfield,"{'EDUC 532', 'EDUC 586'}",002-0107,8057567558,sacrutch,sacrutch@calpoly.edu,F
+256,"Cruz, Jenny",Jenny,Cruz,{None},025-0123,8057562859,jmcruz,jmcruz@calpoly.edu,F
+261,"Culbreath, Christopher",Christopher,Culbreath,"{'PHYS 133', 'PHYS 132'}",180-0111,8057561613,cculbrea,cculbrea@calpoly.edu,F
+262,"Curto, Michael",Michael,Curto,{None},053-0310,8057562714,mcurto,mcurto@calpoly.edu,F
+263,"Dabkowski, Montserrat",Montserrat,Dabkowski,{'MATH 118'},038-0207,8057565684,mdabkows,mdabkows@calpoly.edu,F
+264,"Dakhlia, Lukas",Lukas,Dakhlia,{'MATH 118'},038-0209,8057565685,ldakhlia,ldakhlia@calpoly.edu,F
+265,"Daniels, Benjamin",Benjamin,Daniels,{None},,7158341757,bndaniel,bndaniel@calpoly.edu,F
+269,"Davidson, Jean",Jean,Davidson,"{'BIO 161', 'BIO 400', 'BIO 441'}",033-0267,8057567421,jdavid06,jdavid06@calpoly.edu,F
+275,"Davis, Steve",Steve,Davis,"{'KINE 445', 'KINE 148', 'KINE 304'}",043A-0353,8057562754,sdavis,sdavis@calpoly.edu,F
+277,"DeBruhl, Heather",Heather,DeBruhl,{'BIO 452'},033-0257A,8057562877,hdebruhl,hdebruhl@calpoly.edu,F
+281,"Dekhtyar, Olga",Olga,Dekhtyar,"{'STAT 324', 'STAT 524', 'STAT 252'}",025-0225,8057566354,odekhtya,odekhtya@calpoly.edu,F
+286,"Delbridge, Annie",Annie,Delbridge,"{'EDUC 456', 'EDUC 428'}",002-0120,8057562126,adelbrid,adelbrid@calpoly.edu,F
+291,"Demsetz, Lizza",Lizza,Demsetz,"{'PHYS 125', 'PHYS 133'}",026M-0107,8057567334,edemsetz,edemsetz@calpoly.edu,F
+292,"DiBernardo, Celine",Celine,DiBernardo,{None},180-0430,8057561505,cdiberna,cdiberna@calpoly.edu,F
+293,"Dilworth, Kathryn",Kathryn,Dilworth,{None},025-0238,8057561040,kdilwort,kdilwort@calpoly.edu,F
+300,"Dimitrova, Elena",Elena,Dimitrova,"{'MATH 481', 'MATH 141', 'MATH 462', 'MATH 461', 'MATH 500', 'MATH 599'}",025-0342,8057561689,edimitro,edimitro@calpoly.edu,F
+301,"Doctor, Katie",Katie,Doctor,{None},033-0272,8057565241,kdoctor,kdoctor@calpoly.edu,F
+302,"Dodgen, Rose",Rose,Dodgen,{None},052-D027C,8057562328,rdodgen,rdodgen@calpoly.edu,F
+308,"Doi, Jimmy",Jimmy,Doi,"{'STAT 312', 'STAT 150', 'STAT 542'}",025-0108,8057562901,jdoi,jdoi@calpoly.edu,F
+309,"Dorman, Richard",Richard,Dorman,{'EDUC 460'},002-0120,8057562126,rcdorman,rcdorman@calpoly.edu,F
+311,"Dotterweich, Megan",Megan,Dotterweich,{'BIO 160'},052-D027C,8057562328,mdotterw,mdotterw@calpoly.edu,F
+312,"Drasco, Steve",Steve,Drasco,{None},180-0204A,8057562458,sdrasco,sdrasco@calpoly.edu,F
+313,"Dunham, Kevin",Kevin,Dunham,{None},052-D024,8057562701,kedunham,kedunham@calpoly.edu,F
+317,"Eachus, Chris",Chris,Eachus,"{'MATH 143', 'MATH 141'}",038-0207,8057565684,creachus,creachus@calpoly.edu,F
+320,"Eagon, Scott",Scott,Eagon,"{'CHEM 110', 'CHEM 401'}",180-0409,8057562558,seagon,seagon@calpoly.edu,F
+324,"Easton, Robert",Robert,Easton,"{'MATH 143', 'MATH 344', 'MATH 461'}",025-0320,8057561679,rweaston,rweaston@calpoly.edu,F
+327,"Echols, Robert",Robert,Echols,"{'PHYS 132', 'PHYS 461'}",180-0606,8057567649,rechols,rechols@calpoly.edu,F
+331,"Echols, Sean",Sean,Echols,"{'PHYS 305', 'PHYS 461', 'PHYS 121'}",025-0200,8057561692,sechols,sechols@calpoly.edu,F
+332,"Edds, Holly",Holly,Edds,{None},002-0120,8057562126,hcarter,hcarter@calpoly.edu,F
+334,"Edwards, Louise",Louise,Edwards,"{'ASTR 400', 'PHYS 461'}",180-0619,8057567674,ledwar04,ledwar04@calpoly.edu,F
+341,"Elangovan, Samy",Samy,Elangovan,"{'CHEM 216', 'CHEM 124'}",,nan,aelangov,aelangov@calpoly.edu,F
+347,"Elvin, Julie",Julie,Elvin,"{'EDUC 400', 'EDUC 414'}",047-0032E,8057562596,jelvin,jelvin@calpoly.edu,F
+351,"Elwood, Jason",Jason,Elwood,"{'MATH 241', 'MATH 141'}",025-0210,8057562194,jelwood,jelwood@calpoly.edu,F
+352,"Emrich, AnnaLouise",AnnaLouise,Emrich,{'EDUC 456'},002-0120,8057562126,aemrich,aemrich@calpoly.edu,F
+356,"Erker, Jay",Jay,Erker,{'CHEM 124'},052-E040,8057562628,erker,erker@calpoly.edu,F
+357,"Escobedo, Krysti",Krysti,Escobedo,{'HLTH 255'},043A-0457,8057562545,krescobe,krescobe@calpoly.edu,F
+358,"Esperon, Donna",Donna,Esperon,{'EDUC 442'},002-0120,8057562126,dlespero,dlespero@calpoly.edu,F
+359,"Excoffier, Paul",Paul,Excoffier,{None},052-D027C,8057562328,pexcoffi,pexcoffi@calpoly.edu,F
+360,"Fabela, Frank",Frank,Fabela,{None},,6194151586,rfabela,rfabela@calpoly.edu,F
+361,"Fairbank, Mark",Mark,Fairbank,{'EDUC 460'},,nan,msfairba,msfairba@calpoly.edu,F
+362,"Farrier-Nolan, Meghan",Meghan,Farrier-Nolan,{None},053-0210G,8057562840,mfarrier,mfarrier@calpoly.edu,F
+363,"Featherstone, Tom",Tom,Featherstone,{None},180-0363,8057561324,tfeather,tfeather@calpoly.edu,F
+364,"Felton, Jason",Jason,Felton,{None},025-0216,8057566058,jfelton,jfelton@calpoly.edu,F
+365,"Fernando, Ray",Ray,Fernando,{None},180-0422,8057562395,rhfernan,rhfernan@calpoly.edu,F
+370,"Fernsler, Jonathan",Jonathan,Fernsler,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 121'}",180-0522,8057562438,jfernsle,jfernsle@calpoly.edu,F
+374,"Fidopiastis, Pat",Pat,Fidopiastis,"{'BIO 400', 'MCRO 224', 'MCRO 320', 'BIO 461'}",033-0374,8057562883,pfidopia,pfidopia@calpoly.edu,F
+375,"Fiore, Dana",Dana,Fiore,{'EDUC 438'},002-0120,8057562126,dfiore,dfiore@calpoly.edu,F
+376,"Fisher, Ashley",Ashley,Fisher,{'BIO 111'},,8055288310,afishe08,afishe08@calpoly.edu,F
+378,"Flushman, Tanya",Tanya,Flushman,{'EDUC 586'},002-0133,8057565537,tflushma,tflushma@calpoly.edu,F
+383,"Fogle, Emily",Emily,Fogle,"{'CHEM 127', 'CHEM 401'}",180-0416,8057567540,efogle,efogle@calpoly.edu,F
+386,"Fox, Brittany",Brittany,Fox,"{'EDUC 442', 'SPED 587'}",,nan,bfox05,bfox05@calpoly.edu,F
+389,"Frame, Samuel",Samuel,Frame,"{'STAT 321', 'STAT 252', 'GSE S518'}",025-0121,8057565802,sframe,sframe@calpoly.edu,F
+392,"Francis, Clinton",Clinton,Francis,"{'BIO 503', 'BIO 591'}",033-0369,8057565358,cdfranci,cdfranci@calpoly.edu,F
+395,"Frantz, Derik",Derik,Frantz,"{'CHEM 216', 'CHEM 312', 'CHEM 401'}",180-0411,8057562552,dfrantz,dfrantz@calpoly.edu,F
+396,"Fraser, Scott",Scott,Fraser,{None},025-0206,8057562800,scfraser,scfraser@calpoly.edu,F
+397,"Fredrickson, Cameron",Cameron,Fredrickson,{'MATH 119'},038-0212,8057561683,chfredri,chfredri@calpoly.edu,F
+398,"Friend, Noël",Noël,Friend,{'EDUC 460'},002-0120,8057562126,ncfriend,ncfriend@calpoly.edu,F
+400,"Frye, Amanda",Amanda,Frye,{'LS 214'},025-0130,8057566509,drfrye,drfrye@calpoly.edu,F
+402,"Fryer, Emma",Emma,Fryer,{'BOT 121'},052-D027C,8057562328,erfryer,erfryer@calpoly.edu,F
+403,"Gama, Alma",Alma,Gama,{None},002-0122A,8057567104,agama01,agama01@calpoly.edu,F
+408,"Garcia, Antonio",Antonio,Garcia,"{'ERSC 423', 'GEOL 201'}",180-0607,8057562430,afgarcia,afgarcia@calpoly.edu,F
+409,"Gentilucci, James",James,Gentilucci,{None},002-0215,8057567569,jgentilu,jgentilu@calpoly.edu,F
+411,"Gervasi, Jeffrey",Jeffrey,Gervasi,{'MATH 118'},025-0209,8057561660,jgervasi,jgervasi@calpoly.edu,F
+415,"Gillen, Glen",Glen,Gillen,{'PHYS 133'},180-0612,8057562364,ggillen,ggillen@calpoly.edu,F
+417,"Gillen, Katharina",Katharina,Gillen,"{'PHYS 461', 'PHYS 404'}",180-0615,8057562199,kgillen,kgillen@calpoly.edu,F
+421,"Glanz, Hunter",Hunter,Glanz,"{'STAT 530', 'STAT 330', 'GSE S524'}",025-0111,8057562792,hglanz,hglanz@calpoly.edu,F
+425,"Goodman, Anya",Anya,Goodman,{'CHEM 313'},180-0419,8057561666,agoodman,agoodman@calpoly.edu,F
+428,"Gopalan, Giri",Giri,Gopalan,{'STAT 217'},025-0103,8057562715,ggopalan,ggopalan@calpoly.edu,F
+430,"Goschke, Grace",Grace,Goschke,"{'BIO 111', 'BIO 302'}",033-0278,8057562454,ggoschke,ggoschke@calpoly.edu,F
+431,"Goughnour, Alisa",Alisa,Goughnour,{None},043A-0457,8057562545,agoughno,agoughno@calpoly.edu,F
+432,"Gragson, Derek",Derek,Gragson,{None},025-0227,8057567154,dgragson,dgragson@calpoly.edu,F
+433,"Granger, Brian",Brian,Granger,{None},180-0610,8057562424,bgranger,bgranger@calpoly.edu,F
+436,"Grant, Billie-Jo",Billie-Jo,Grant,"{'STAT 511', 'STAT 217'}",025-0107D,8057562709,bgrant02,bgrant02@calpoly.edu,F
+442,"Greever, Cory",Cory,Greever,"{'KINE 400', 'KINE 303', 'KINE 451', 'KINE 460'}",043A-0369,8057562103,greever,greever@calpoly.edu,F
+443,"Grishchenko, Lana",Lana,Grishchenko,{None},025-0338,8057562421,sgrishch,sgrishch@calpoly.edu,F
+446,"Grossenbacher, Dena",Dena,Grossenbacher,"{'BIO 400', 'BIO 590', 'BIO 414'}",033-0376,8057562135,dgrossen,dgrossen@calpoly.edu,F
+453,"Groves, Adam",Adam,Groves,"{'CHEM 129', 'CHEM 371', 'CHEM 128'}",052-E038,8057562369,groves,groves@calpoly.edu,F
+454,"Grumbles, Amy",Amy,Grumbles,{None},002-0120,8057562126,agrumble,agrumble@calpoly.edu,F
+458,"Grundmeier, Todd",Todd,Grundmeier,"{'MATH 141', 'MATH 330', 'MATH 461'}",025-0205,8057561658,tgrundme,tgrundme@calpoly.edu,F
+461,"Gu, Caixing",Caixing,Gu,"{'MATH 141', 'MATH 244'}",025-0328,8057561656,cgu,cgu@calpoly.edu,F
+463,"Guise, Megan",Megan,Guise,"{'ENGL 424', 'EDUC 460'}",002-0109,8057562134,meguise,meguise@calpoly.edu,F
+464,"Gutierrez, Melanie",Melanie,Gutierrez,{None},,nan,malejand,malejand@calpoly.edu,F
+465,"Gutierrez, Thomas",Thomas,Gutierrez,{'PHYS 132'},180-0611,8057562455,tdgutier,tdgutier@calpoly.edu,F
+470,"Hackman, Christine",Christine,Hackman,"{'HLTH 400', 'HLTH 461', 'HLTH 434', 'HLTH 462', 'HLTH 305'}",043A-0372,8057561363,chackman,chackman@calpoly.edu,F
+473,"Hagen, John",John,Hagen,"{'CHEM 351', 'CHEM 127'}",180-0306D,8057561651,jhagen,jhagen@calpoly.edu,F
+479,"Hagobian, Nicole",Nicole,Hagobian,"{'KINE 145', 'KINE 308', 'KINE 323', 'KINE 125', 'KINE 324'}",043A-0355,8057565367,nhagobia,nhagobia@calpoly.edu,F
+483,"Hagobian, Todd",Todd,Hagobian,"{'KINE 110', 'KINE 462', 'KINE 460', 'KINE 400'}",043A-0357,8057567511,thagobia,thagobia@calpoly.edu,F
+485,"Hahlbeck, Clint",Clint,Hahlbeck,{'MATH 244'},025-0208F,8057561244,chahlbec,chahlbec@calpoly.edu,F
+486,"Hahlbeck, Kara",Kara,Hahlbeck,{None},025-0208E,8057561203,khahlbec,khahlbec@calpoly.edu,F
+487,"Hajnik, Suzanne",Suzanne,Hajnik,{None},002-0120,8057562126,shajnik,shajnik@calpoly.edu,F
+497,"Hall, Greg",Greg,Hall,"{'KINE 176', 'KINE 181', 'KINE 121', 'KINE 125'}",043A-0457,8057562545,ghall,ghall@calpoly.edu,F
+500,"Hall, Kellie",Kellie,Hall,"{'KINE 462', 'KINE 312'}",025-0231,8057561776,kghall,kghall@calpoly.edu,F
+504,"Hamachi, Leslie",Leslie,Hamachi,"{'CHEM 124', 'CHEM 201', 'CHEM 401'}",180-0404,8057561672,hamachi,hamachi@calpoly.edu,F
+509,"Hamilton, Emily",Emily,Hamilton,"{'MATH 548', 'MATH 462', 'MATH 142'}",025-0337,8057565557,mhamil09,mhamil09@calpoly.edu,F
+510,"Hamrick, Alice",Alice,Hamrick,{None},053-0310,8057562164,ahamrick,ahamrick@calpoly.edu,F
+511,"Hansen, Emily",Emily,Hansen,{None},052-D027C,8057562328,ehanse03,ehanse03@calpoly.edu,F
+512,"Hapuhinna, Nelum",Nelum,Hapuhinna,{None},,nan,nhapuhin,nhapuhin@calpoly.edu,F
+514,"Hardcastle, Alexandra",Alexandra,Hardcastle,{'BIO 111'},,5599057666,aehardca,aehardca@calpoly.edu,F
+520,"Hardy, Kristin",Kristin,Hardy,"{'BIO 400', 'BIO 300', 'BIO 590', 'BIO 434'}",033-0264,8057562806,kmhardy,kmhardy@calpoly.edu,F
+521,"Harvey, Devin",Devin,Harvey,{None},038-0213,8057565688,djharvey,djharvey@calpoly.edu,F
+522,"Haynes, M.",M.,Haynes,{'CHEM 484'},180-0407,8057561394,mthaynes,mthaynes@calpoly.edu,F
+524,"Hendricks, Steven",Steven,Hendricks,{'MSCI 300'},,nan,srhendri,srhendri@calpoly.edu,F
+525,"Henry, Rachel",Rachel,Henry,{None},025-0233,8057567236,rrhenry,rrhenry@calpoly.edu,F
+529,"Hesselgrave, William",William,Hesselgrave,"{'MATH 248', 'MATH 344'}",025-0335,8057566539,whesselg,whesselg@calpoly.edu,F
+530,"Heston, Nathan",Nathan,Heston,{None},025-0204,8057567658,nheston,nheston@calpoly.edu,F
+535,"Heying, Michael",Michael,Heying,"{'CHEM 127', 'CHEM 125', 'CHEM 401'}",180-0306B,8057562245,mdheying,mdheying@calpoly.edu,F
+539,"Hillers, Kenneth",Kenneth,Hillers,"{'BIO 400', 'BIO 111', 'BIO 300', 'BIO 462'}",033-0274,8057561481,khillers,khillers@calpoly.edu,F
+544,"Himelblau, Edward",Edward,Himelblau,"{'BIO 400', 'BIO 300', 'BIO 574', 'BIO 351'}",033-0365,8057562826,ehimelbl,ehimelbl@calpoly.edu,F
+545,"Ho, Andy",Andy,Ho,{None},,nan,aho65,aho65@calpoly.edu,F
+546,"Hoellwarth, Chance",Chance,Hoellwarth,{'PHYS 200'},025-0124,8057561665,choellwa,choellwa@calpoly.edu,F
+548,"Holladay, Bret",Bret,Holladay,{'STAT 425'},025-0122,8057565571,bahollad,bahollad@calpoly.edu,F
+549,"Holland, Kurt",Kurt,Holland,{'EDUC 460'},002-0120,8057562126,kuhollan,kuhollan@calpoly.edu,F
+550,"Holtzapple, Robert",Robert,Holtzapple,{None},180-0512,8057562602,rholtzap,rholtzap@calpoly.edu,F
+551,"Hoogstra, Leah",Leah,Hoogstra,{'MATH 118'},038-0212,8057561683,lhoogstr,lhoogstr@calpoly.edu,F
+554,"Horst, William",William,Horst,"{'PHYS 141', 'PHYS 133'}",026M-0109,8057567650,whorst,whorst@calpoly.edu,F
+556,"Housh, Maddie",Maddie,Housh,{'BIO 161'},052-D027C,8057562328,mhoush,mhoush@calpoly.edu,F
+557,"Howes, Amy",Amy,Howes,{None},053-0218,8057565376,alhowes,alhowes@calpoly.edu,F
+558,"Huggins, Michael",Michael,Huggins,{None},,8057562788,mthuggin,mthuggin@calpoly.edu,F
+559,"Hupp, Megan",Megan,Hupp,{None},043A-0458,8057562545,mhupp,mhupp@calpoly.edu,F
+560,"Hushing-Kline, Mikele",Mikele,Hushing-Kline,{None},180-0204A,8057561752,mhushing,mhushing@calpoly.edu,F
+564,"Immoos, Chad",Chad,Immoos,"{'CHEM 129', 'CHEM 331', 'CHEM 401'}",180-0304C,8057566635,cimmoos,cimmoos@calpoly.edu,F
+565,"Iniguez, Jose",Jose,Iniguez,{'EDUC 438'},,nan,joinigue,joinigue@calpoly.edu,F
+571,"Jacks, Hilary",Hilary,Jacks,"{'PHYS 133', 'PHYS 461', 'PHYS 400'}",180-0111,8057561604,hjacks,hjacks@calpoly.edu,F
+572,"Jacobson, Craig",Craig,Jacobson,{None},033-0458,8057567520,cjacobso,cjacobso@calpoly.edu,F
+573,"Jankovitz, Kris",Kris,Jankovitz,{None},043A-0457,8057562545,kjankovi,kjankovi@calpoly.edu,F
+576,"Jaquinod, Jeremy",Jeremy,Jaquinod,{'BIO 161'},,5309020150,jaquinod,jaquinod@calpoly.edu,F
+581,"Jasbinsek, John",John,Jasbinsek,"{'GEOL 206', 'GEOL 400', 'GEOL 420', 'GEOL 301'}",180-0520,8057562013,jjasbins,jjasbins@calpoly.edu,F
+584,"Jeffery, Elizabeth",Elizabeth,Jeffery,"{'PHYS 462', 'ASTR 101', 'PHYS 104'}",180-0604,8057562019,ejjeffer,ejjeffer@calpoly.edu,F
+585,"Jenkin, Bryce",Bryce,Jenkin,{'MATH 241'},025-0332,8057562289,bjenkin,bjenkin@calpoly.edu,F
+587,"Jensen, Jessica",Jessica,Jensen,{'EDUC 435'},002-0132,8057566420,jjense11,jjense11@calpoly.edu,F
+591,"Jew, Kara",Kara,Jew,"{'MCRO 224', 'MCRO 221'}",,8057562836,kjew,kjew@calpoly.edu,F
+595,"Johnson, Carra",Carra,Johnson,"{'KINE 323', 'KINE 324'}",043A-0457,8057562545,cjohn210,cjohn210@calpoly.edu,F
+596,"Johnston, Erin",Erin,Johnston,{None},,7149444617,ejohn122,ejohn122@calpoly.edu,F
+597,"Johnston, Peggy",Peggy,Johnston,{None},025-0229,8057562226,pejohnst,pejohnst@calpoly.edu,F
+603,"Johnston, Scott",Scott,Johnston,"{'GEOL 241', 'GEOL 400', 'GEOL 415'}",180-0521,8057561650,scjohnst,scjohnst@calpoly.edu,F
+608,"Jones, Eric",Eric,Jones,"{'CHEM 372', 'CHEM 371', 'CHEM 401'}",180-0418,8057562425,ejones21,ejones21@calpoly.edu,F
+609,"Jones, Julia",Julia,Jones,{None},043A-0458D,8057562546,jjone104,jjone104@calpoly.edu,F
+614,"Jones, Michael",Michael,Jones,"{'BIO 232', 'BIO 231'}",,nan,mjones99,mjones99@calpoly.edu,F
+615,"Kahn, Elias",Elias,Kahn,{None},,4153126744,elkahn,elkahn@calpoly.edu,F
+616,"Kalan, Parker",Parker,Kalan,{None},052-D027C,8057562328,pkalan,pkalan@calpoly.edu,F
+619,"Kane, Steven",Steven,Kane,"{'EDUC 555', 'EDUC 573'}",002-0130,8057561572,skane,skane@calpoly.edu,F
+625,"Kantorowski, Eric",Eric,Kantorowski,"{'CHEM 201', 'CHEM 324', 'CHEM 223', 'CHEM 401', 'CHEM 218'}",180-0405,8057562796,ekantoro,ekantoro@calpoly.edu,F
+627,"Kasper, Julia",Julia,Kasper,{'BOT 121'},,8057104415,jckasper,jckasper@calpoly.edu,F
+631,"Kato, Goro",Goro,Kato,{'MATH 241'},025-0326,8057561682,gkato,gkato@calpoly.edu,F
+635,"Kaul, Anton",Anton,Kaul,"{'MATH 143', 'MATH 248', 'MATH 599'}",025-0312,8057561678,akaul,akaul@calpoly.edu,F
+636,"Keadle, Sarah",Sarah,Keadle,{'KINE 319'},043A-0370,8057561785,skeadle,skeadle@calpoly.edu,F
+642,"Keeling, Elena",Elena,Keeling,"{'BIO 400', 'BIO 300', 'BIO 534', 'BIO 200', 'BIO 462', 'BIO 593'}",033-0271,8057562175,ekeeling,ekeeling@calpoly.edu,F
+643,"Keim, Nathan",Nathan,Keim,{None},180-0618,8057562467,nkeim,nkeim@calpoly.edu,F
+644,"Keller, John",John,Keller,{None},180-0204,8057562448,jmkeller,jmkeller@calpoly.edu,F
+646,"Kelly, Catherine",Catherine,Kelly,"{'EDUC 456', 'EDUC 438'}",002-0120,8057562126,ckelly17,ckelly17@calpoly.edu,F
+647,"Kelly, Emily",Emily,Kelly,{None},043A-0458B,8057562243,ekelly08,ekelly08@calpoly.edu,F
+649,"Kerbs, Lucas",Lucas,Kerbs,{'MATH 118'},038-0213,8057565688,kerbs,kerbs@calpoly.edu,F
+650,"Kingsbury, Kevin",Kevin,Kingsbury,{None},180-0408,8057561652,kkingsbu,kkingsbu@calpoly.edu,F
+651,"Kirk, Colleen",Colleen,Kirk,{None},025-0316,8057562632,ckirk,ckirk@calpoly.edu,F
+654,"Kiste, Alan",Alan,Kiste,"{'CHEM 127', 'CHEM 466'}",180-0304D,8057561690,akiste,akiste@calpoly.edu,F
+655,"Kitts, Chris",Chris,Kitts,{None},038-0155,8057561508,ckitts,ckitts@calpoly.edu,F
+659,"Klay, Jennifer",Jennifer,Klay,"{'PHYS 141', 'PHYS 132', 'PHYS 461'}",180-0620,8057561250,jklay,jklay@calpoly.edu,F
+660,"Klig, Cameron",Cameron,Klig,{'MATH 118'},038-0213,8057565688,cklig,cklig@calpoly.edu,F
+663,"Knight, Charles",Charles,Knight,"{'BIO 111', 'UNIV 350', 'BIO 461'}",033-0364,8057562989,knight,knight@calpoly.edu,F
+668,"Kogan, Oleg",Oleg,Kogan,{'PHYS 132'},180-0274D,8057562473,okogan,okogan@calpoly.edu,F
+671,"Kolluru, Gita",Gita,Kolluru,"{'BIO 400', 'BIO 414', 'BIO 263'}",033-0368,8057562819,gkolluru,gkolluru@calpoly.edu,F
+674,"Korengel, Felicia",Felicia,Korengel,"{'STAT 314', 'STAT 217'}",025-0107D,8057562709,fkorenge,fkorenge@calpoly.edu,F
+678,"Kreider, Brandy",Brandy,Kreider,"{'MATH 118', 'MATH 141'}",026M-0108,8057565664,bkreider,bkreider@calpoly.edu,F
+682,"Kuriabova, Tatiana",Tatiana,Kuriabova,"{'PHYS 133', 'PHYS 408'}",180-0519,8057561664,tkuriabo,tkuriabo@calpoly.edu,F
+684,"Lafferty, Nathan",Nathan,Lafferty,{'MATH 118'},038-0209,8057565685,nlaffert,nlaffert@calpoly.edu,F
+688,"Laird, Joanna",Joanna,Laird,{'CHEM 124'},052-E042,8057562621,jolaird,jolaird@calpoly.edu,F
+689,"Larson, Chase",Chase,Larson,{'MCRO 224'},,2093037026,clarso12,clarso12@calpoly.edu,F
+690,"Lau, Ryan",Ryan,Lau,{None},053-0211A,8057566576,rmlau,rmlau@calpoly.edu,F
+691,"Laubscher, Andrea",Andrea,Laubscher,{None},180-0466C,8057562483,alaubsch,alaubsch@calpoly.edu,F
+692,"Le, Brandon",Brandon,Le,{'MATH 118'},038-0213,8057565688,ble11,ble11@calpoly.edu,F
+696,"Lehr, Corinne",Corinne,Lehr,"{'CHEM 331', 'CHEM 110', 'CHEM 401'}",180-0306C,8057561274,clehr,clehr@calpoly.edu,F
+699,"Lema, Sean",Sean,Lema,"{'BIO 400', 'BIO 300', 'BIO 263'}",033-0370,8057562802,slema,slema@calpoly.edu,F
+702,"Lent, Adrienne",Adrienne,Lent,"{'HLTH 250', 'HLTH 255'}",043A-0356,8057567725,ablent,ablent@calpoly.edu,F
+703,"Lewis, Scott",Scott,Lewis,{'EDUC 460'},002-0120,8057562126,slewis18,slewis18@calpoly.edu,F
+708,"Leyton, Michael",Michael,Leyton,{'PHYS 132'},180-0111,8057561635,mleyton,mleyton@calpoly.edu,F
+712,"Liese, Jeffrey",Jeffrey,Liese,"{'MATH 241', 'MATH 435', 'MATH 530'}",025-0306,8057562474,jliese,jliese@calpoly.edu,F
+717,"Lin, Joyce",Joyce,Lin,"{'MATH 143', 'MATH 206', 'MATH 400', 'MATH 461'}",025-0339,8057565554,jlin46,jlin46@calpoly.edu,F
+718,"Liou, Charlie",Charlie,Liou,{'MATH 118'},038-0212,8057561683,cbliou,cbliou@calpoly.edu,F
+721,"Littlefield-Halfman, Carol",Carol,Littlefield-Halfman,"{'LS 230', 'LS 250'}",025-0125B2,8057566533,clittlef,clittlef@calpoly.edu,F
+722,"Liu, Y.",Y.,Liu,{None},180-0372,8057561326,yliu01,yliu01@calpoly.edu,F
+731,"Liwanag, Heather",Heather,Liwanag,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 560', 'BIO 500', 'BIO 361'}",033-0375,8057565202,hliwanag,hliwanag@calpoly.edu,F
+732,"Lombard, Amanda",Amanda,Lombard,{'EDUC 460'},002-0120,8057562126,lombard,lombard@calpoly.edu,F
+734,"Long, Jannea",Jannea,Long,"{'EDUC 469', 'EDUC 460'}",,nan,jlong31,jlong31@calpoly.edu,F
+735,"Lowrey, Kelsey",Kelsey,Lowrey,{'MATH 118'},038-0207,8057565684,klowrey,klowrey@calpoly.edu,F
+740,"Lu, Lei",Lei,Lu,"{'PHYS 123', 'PHYS 141'}",180-0111B,8057561612,lelu,lelu@calpoly.edu,F
+742,"Lund, Ulric",Ulric,Lund,"{'STAT 531', 'STAT 331'}",025-0236,8057566122,ulund,ulund@calpoly.edu,F
+743,"Magdaleno, Ashley",Ashley,Magdaleno,{None},025-0229A,8057561619,admagdal,admagdal@calpoly.edu,F
+747,"Maj, Magdalena",Magdalena,Maj,"{'BIO 161', 'BIO 200', 'MCRO 433'}",053-0220,8057565389,mmaj,mmaj@calpoly.edu,F
+750,"Mapes, Hayley",Hayley,Mapes,{'BIO 111'},,8315664305,hmapes,hmapes@calpoly.edu,F
+751,"Marlier, John",John,Marlier,{None},025-0201,8057561327,jmarlier,jmarlier@calpoly.edu,F
+758,"Marlow, Colleen",Colleen,Marlow,"{'PHYS 462', 'PHYS 133', 'PHYS 400', 'PHYS 141'}",180-0508,8057562065,camarlow,camarlow@calpoly.edu,F
+759,"Marshall, Morgen",Morgen,Marshall,{None},117-0116,8057567320,mnmarsha,mnmarsha@calpoly.edu,F
+760,"Martinez, Andres",Andres,Martinez,{None},025-0212,8057562744,awmartin,awmartin@calpoly.edu,F
+761,"Martinez, Nathaniel",Nathaniel,Martinez,{'BIO 400'},033-0379,8057562185,nmarti32,nmarti32@calpoly.edu,F
+763,"Mastoridis, Themis",Themis,Mastoridis,"{'PHYS 461', 'PHYS 400'}",180-0609,8057562197,tmastori,tmastori@calpoly.edu,F
+764,"Mathews, Diane",Diane,Mathews,{'EDUC 442'},,nan,dkmathew,dkmathew@calpoly.edu,F
+769,"Mattson, Renae",Renae,Mattson,"{'EDUC 207', 'EDUC 300', 'EDUC 438'}",002-0120,8057562126,rsmattso,rsmattso@calpoly.edu,F
+775,"Maurice, Stefanee",Stefanee,Maurice,"{'KINE 462', 'KINE 400', 'KINE 401', 'KINE 266', 'KINE 324'}",043A-0365,8057562541,somauric,somauric@calpoly.edu,F
+776,"May, Melissa",Melissa,May,{None},,nan,mmay13,mmay13@calpoly.edu,F
+779,"McConnico, Laurie",Laurie,McConnico,{'MSCI 437'},,nan,lmcconni,lmcconni@calpoly.edu,F
+784,"McDonald, Ashley",Ashley,McDonald,"{'CHEM 357', 'CHEM 124', 'CHEM 353', 'CHEM 401'}",025-0213,8057567536,armcdona,armcdona@calpoly.edu,F
+787,"McGaughey, Karen",Karen,McGaughey,{'STAT 251'},025-0102,8057566578,kmcgaugh,kmcgaugh@calpoly.edu,F
+789,"McMillen, Brooke",Brooke,McMillen,"{'EDUC 456', 'EDUC 438'}",002-0120,8057562126,balvord,balvord@calpoly.edu,F
+790,"McMunn, Virginia",Virginia,McMunn,{None},002-0106,8057565090,vmcmunn,vmcmunn@calpoly.edu,F
+791,"McNabb, Candace",Candace,McNabb,{None},180-0206A,8057562694,cdmcnabb,cdmcnabb@calpoly.edu,F
+792,"Mcguire, Joseph",Joseph,Mcguire,{'MATH 118'},038-0209,8057565685,jmcgui05,jmcgui05@calpoly.edu,F
+796,"Medina, Elsa",Elsa,Medina,"{'SCM 300', 'MATH 329'}",025-0303,8057562244,emedina,emedina@calpoly.edu,F
+801,"Mendes, Anthony",Anthony,Mendes,"{'MATH 202', 'MATH 335', 'MATH 500', 'MATH 599'}",025-0202,8057561699,aamendes,aamendes@calpoly.edu,F
+805,"Merlo, Beth",Beth,Merlo,"{'KINE 131', 'KINE 129'}",043A-0457,8057562545,bmmerlo,bmmerlo@calpoly.edu,F
+806,"Merriam, John",John,Merriam,{None},033-0000,8057567531,jmmerria,jmmerria@calpoly.edu,F
+807,"Messina, Stephanie",Stephanie,Messina,{None},,9734590528,smessina,smessina@calpoly.edu,F
+808,"Metz, Kate",Kate,Metz,{None},,2092691307,kmmetz,kmmetz@calpoly.edu,F
+811,"Mewes, Matthew",Matthew,Mewes,"{'PHYS 406', 'PHYS 400', 'PHYS 320'}",180-0510,8057562881,mmewes,mmewes@calpoly.edu,F
+813,"Meyer, William Max",William Max,Meyer,{'KINE 181'},043A-0457,8057562545,wmeyer,wmeyer@calpoly.edu,F
+817,"Miller, Chad",Chad,Miller,"{'PHYS 122', 'PHYS 141'}",180-0111,8057562029,cmill138,cmill138@calpoly.edu,F
+818,"Miller, Jessie",Jessie,Miller,{None},002-0122B,8057561503,jmill115,jmill115@calpoly.edu,F
+820,"Miller, Michael",Michael,Miller,{'MATH 141'},026M-0108,8057565527,mmill192,mmill192@calpoly.edu,F
+821,"Millington, Mary Ann",Mary Ann,Millington,{None},043A-0454,8057562243,mmilling,mmilling@calpoly.edu,F
+824,"Mitchell, David",David,Mitchell,"{'PHYS 461', 'PSC 101'}",180-0614,8057565290,dsmitche,dsmitche@calpoly.edu,F
+828,"Moelter, Matt",Matt,Moelter,"{'PHYS 141', 'PHYS 133', 'PHYS 400'}",180-0605,8057562656,mmoelter,mmoelter@calpoly.edu,F
+833,"Moran, Bradley",Bradley,Moran,"{'CHEM 129', 'CHEM 125'}",052-E043,8057562261,bmoran06,bmoran06@calpoly.edu,F
+840,"Morey, Nisa",Nisa,Morey,"{'CHEM 216', 'CHEM 312', 'CHEM 484'}",052-E042,8057562621,nsatumti,nsatumti@calpoly.edu,F
+841,"Moylan, Thomas",Thomas,Moylan,{None},025-0216,8057560225,tmoylan,tmoylan@calpoly.edu,F
+842,"Muguira, Traice",Traice,Muguira,{None},002-0120B,8057565003,tmuguira,tmuguira@calpoly.edu,F
+845,"Mulroy, Michael",Michael,Mulroy,"{'BOT 121', 'BIO 263'}",,8057559363,mmulroy,mmulroy@calpoly.edu,F
+847,"Murphy, Molly",Molly,Murphy,{'BIO 111'},,7169574683,mmurph72,mmurph72@calpoly.edu,F
+862,Name,,,{'Course'},Office,nan,Alias,Alias@calpoly.edu,F
+863,"Nash, Andrea",Andrea,Nash,{None},033-0273,8057565242,anash,anash@calpoly.edu,F
+868,"Nation, Jasmine",Jasmine,Nation,"{'LS 413', 'LS 400'}",025-0131,8057562990,jmnation,jmnation@calpoly.edu,F
+869,"Navarro, Oscar",Oscar,Navarro,{None},,8057566553,osnavarr,osnavarr@calpoly.edu,F
+873,"Neal, Emily",Emily,Neal,"{'BIO 161', 'MCRO 221'}",033-0281,8057562788,erusch,erusch@calpoly.edu,F
+874,"Needles, Lisa",Lisa,Needles,{'BIO 227'},025-0302,8057561637,lneedles,lneedles@calpoly.edu,F
+878,"Neff, Grace",Grace,Neff,{'CHEM 124'},025-0203,8057561687,gneff,gneff@calpoly.edu,F
+879,"Neldner, Heather",Heather,Neldner,{None},,3106126806,hneldner,hneldner@calpoly.edu,F
+884,"Nelson, Christine",Christine,Nelson,"{'HLTH 434', 'HLTH 265', 'HLTH 250', 'KINE 463', 'HLTH 101'}",043A-0355,8057565367,cinelson,cinelson@calpoly.edu,F
+888,"Neumann, Natasha",Natasha,Neumann,"{'EDUC 518', 'EDUC 513', 'EDUC 500'}",002-0112,8057566082,naneuman,naneuman@calpoly.edu,F
+892,"Newel, Charley",Charley,Newel,"{'KINE 131', 'KINE 152', 'KINE 129'}",,nan,cnewel,cnewel@calpoly.edu,F
+894,"Newsome-Slade, Vanessa",Vanessa,Newsome-Slade,{'MATH 118'},038-0213,8057565688,vnewsome,vnewsome@calpoly.edu,F
+898,"Nouh, Mohamed",Mohamed,Nouh,"{'MATH 141', 'MATH 142'}",025-0338,8057562421,mnouh,mnouh@calpoly.edu,F
+899,"O'Bryant, Camille",Camille,O'Bryant,{None},025-0232,8057561787,cobryant,cobryant@calpoly.edu,F
+909,"O'Hara, Christie",Christie,O'Hara,"{'KINE 110', 'KINE 131', 'KINE 319', 'KINE 154', 'KINE 403', 'KINE 144'}",043A-0457,8057562545,crohara,crohara@calpoly.edu,F
+910,"O'connor, Megan",Megan,O'connor,{None},,9162968242,moconn14,moconn14@calpoly.edu,F
+911,"OLeary, Jennifer",Jennifer,OLeary,{None},053-0220,8057565389,jkoleary,jkoleary@calpoly.edu,F
+912,"Oksanish, James",James,Oksanish,{'STAT 252'},025-0107D,8057562709,joksanis,joksanis@calpoly.edu,F
+913,"Olivarria, Juan",Juan,Olivarria,{'EDUC 438'},002-0120,8057562126,jjolivar,jjolivar@calpoly.edu,F
+915,"Ontiveros, Margaret",Margaret,Ontiveros,"{'EDUC 456', 'EDUC 438'}",002-0120,8057562126,mmontive,mmontive@calpoly.edu,F
+917,"Ornelas, Nohemy",Nohemy,Ornelas,{'EDUC 586'},002-0120,8057562126,nestrada,nestrada@calpoly.edu,F
+918,"Ottesen, Rebecca",Rebecca,Ottesen,{None},025-0107D,8057562709,rottesen,rottesen@calpoly.edu,F
+919,"Oza, Javin",Javin,Oza,{'CHEM 401'},180-0410,8057562265,joza,joza@calpoly.edu,F
+923,"Packard, Juleen",Juleen,Packard,{'LS 211'},025-0125B2,8057566533,jpackard,jpackard@calpoly.edu,F
+928,"Palandoken, Hasan",Hasan,Palandoken,"{'CHEM 216', 'CHEM 401'}",180-0406,8057561591,hpalando,hpalando@calpoly.edu,F
+932,"Paquin, Dana",Dana,Paquin,"{'MATH 460', 'MATH 462', 'MATH 459', 'MATH 599'}",025-0327,8057562679,dpaquin,dpaquin@calpoly.edu,F
+933,"Parsons, Benjamin",Benjamin,Parsons,{None},,5157717746,beparson,beparson@calpoly.edu,F
+938,"Pasulka, Alexis",Alexis,Pasulka,"{'MSCI 301', 'BIO 300', 'MSCI 403', 'BIO 400'}",033-0265,8057565399,apasulka,apasulka@calpoly.edu,F
+942,"Patton, Linda",Linda,Patton,"{'MATH 599', 'MATH 142', 'MATH 408', 'HNRS 142'}",025-0323,8057561680,lpatton,lpatton@calpoly.edu,F
+948,"Paulding, Katie",Katie,Paulding,"{'EDUC 427', 'EDUC 438', 'EDUC 460'}",002-0120,8057562126,kpauldin,kpauldin@calpoly.edu,F
+951,"Pearse, Erin",Erin,Pearse,"{'MATH 244', 'MATH 248'}",025-0341,8057565558,epearse,epearse@calpoly.edu,F
+952,"Pearson, Katelin",Katelin,Pearson,{None},,nan,kdpearso,kdpearso@calpoly.edu,F
+956,"Perrine, John",John,Perrine,"{'BIO 450', 'BIO 321'}",033-0275,8057562368,jperrine,jperrine@calpoly.edu,F
+957,"Peters, Gary",Gary,Peters,{'EDUC 460'},002-0120,8057562126,gpeter05,gpeter05@calpoly.edu,F
+961,"Phelan, Suzanne",Suzanne,Phelan,"{'HLTH 201', 'HLTH 462', 'HLTH 281', 'HLTH 460'}",043A-0374,8057562087,sphelan,sphelan@calpoly.edu,F
+963,"Proll, William",William,Proll,"{'KINE 132', 'KINE 134'}",043A-0457,8057562545,wproll,wproll@calpoly.edu,F
+964,"Quirk, Robert",Robert,Quirk,{'EDUC 460'},,nan,rquirk,rquirk@calpoly.edu,F
+965,"Rachman, Kyle",Kyle,Rachman,{None},038-0213,8057565688,krachman,krachman@calpoly.edu,F
+969,"Rajakaruna, Nishi",Nishi,Rajakaruna,"{'BOT 121', 'BIO 400', 'BOT 311'}",033-0367,8057562836,nrajakar,nrajakar@calpoly.edu,F
+974,"Ramrakhiani, Sonia",Sonia,Ramrakhiani,"{'EDUC 561', 'EDUC 573'}",002-0138,8057561574,sramrakh,sramrakh@calpoly.edu,F
+975,"Reeves, Kristin",Kristin,Reeves,{None},033-0281,8057562788,kreeve01,kreeve01@calpoly.edu,F
+976,"Rein, Steven",Steven,Rein,{'STAT 416'},025-0234,8057562941,srein,srein@calpoly.edu,F
+981,"Resner, Emily",Emily,Resner,"{'BIO 232', 'BIO 231'}",033-0281,8057562788,eresner,eresner@calpoly.edu,F
+984,"Retsek, Dylan",Dylan,Retsek,"{'MATH 412', 'MATH 142'}",025-0314,8057562072,dretsek,dretsek@calpoly.edu,F
+989,"Retsek, Jennifer",Jennifer,Retsek,"{'CHEM 128', 'CHEM 129'}",052-E039,8057562566,jretsek,jretsek@calpoly.edu,F
+990,"Reynolds, Suzy",Suzy,Reynolds,{'EDUC 438'},002-0120,8057562126,sureynol,sureynol@calpoly.edu,F
+991,"Rice, Margaret",Margaret,Rice,{None},180-0206,8057562693,msrice,msrice@calpoly.edu,F
+997,"Richert, Benjamin",Benjamin,Richert,"{'MATH 258', 'MATH 316', 'MATH 491', 'MATH 422', 'MATH 599'}",025-0208DC,8057561681,brichert,brichert@calpoly.edu,F
+998,"Richmond, Shawn",Shawn,Richmond,{None},,7147020774,smmccrea,smmccrea@calpoly.edu,F
+999,"Riley, Kate",Kate,Riley,{None},025-0304,8057565070,kriley,kriley@calpoly.edu,F
+1001,"Ritter, Matt",Matt,Ritter,"{'BIO 400', 'BIO 200'}",033-0373,8057562775,mritter,mritter@calpoly.edu,F
+1002,"Robbins, Marian",Marian,Robbins,{'MATH 143'},025-0330,8057562263,mrobbins,mrobbins@calpoly.edu,F
+1005,"Roberts, Joni",Joni,Roberts,"{'HLTH 260', 'HLTH 255', 'HLTH 462'}",043A-0354,8057565637,jrober81,jrober81@calpoly.edu,F
+1009,"Robertson, Mike",Mike,Robertson,"{'MATH 141', 'MATH 244'}",025-0331,8057562522,jroberts,jroberts@calpoly.edu,F
+1011,"Ronan, Briana",Briana,Ronan,{'EDUC 433'},002-0111,8057565056,bronan,bronan@calpoly.edu,F
+1015,"Ross, Kevin",Kevin,Ross,"{'GSE S518', 'STAT 217', 'STAT 305'}",025-0237,8057565739,kjross,kjross@calpoly.edu,F
+1018,"Rossman, Allan",Allan,Rossman,"{'STAT 130', 'STAT 251'}",025-0221,8057561344,arossman,arossman@calpoly.edu,F
+1019,"Rousseau, Zackary",Zackary,Rousseau,{None},,8582133356,zroussea,zroussea@calpoly.edu,F
+1022,"Roy, Soma",Soma,Roy,"{'STAT 218', 'STAT 251'}",025-0104,8057565250,soroy,soroy@calpoly.edu,F
+1023,"Ruef, Mike",Mike,Ruef,{None},002-0120,8057562126,mruef,mruef@calpoly.edu,F
+1025,"Ruttenberg, Ben",Ben,Ruttenberg,"{'BIO 400', 'BIO 300'}",033-0361,8057562498,bruttenb,bruttenb@calpoly.edu,F
+1031,"Ryan, Sean",Sean,Ryan,"{'BOT 121', 'BIO 111'}",033-0281,8057562788,spryan,spryan@calpoly.edu,F
+1035,"Rydberg, Nels",Nels,Rydberg,"{'KINE 151', 'KINE 152'}",,nan,ncrydber,ncrydber@calpoly.edu,F
+1038,"Ríos, Laura",Laura,Ríos,"{'PHYS 340', 'PHYS 462'}",180-0610,8057562458,lrios02,lrios02@calpoly.edu,F
+1041,"Sabbag, Anelise",Anelise,Sabbag,{'STAT 217'},025-0222,8057565562,asabbag,asabbag@calpoly.edu,F
+1043,"Saenger, Katie",Katie,Saenger,{'BIO 111'},,9253017414,esaenger,esaenger@calpoly.edu,F
+1044,"Salucci, Susan",Susan,Salucci,{None},002-0120,8057562126,ssalucci,ssalucci@calpoly.edu,F
+1049,"Sanchez, Alfredo",Alfredo,Sanchez,"{'PHYS 133', 'SCM 230'}",180-0111B,8057561610,asanc178,asanc178@calpoly.edu,F
+1050,"Saniee, Kiana",Kiana,Saniee,{None},033-0281,8057562788,ksaniee,ksaniee@calpoly.edu,F
+1057,"Sapper, Erik",Erik,Sapper,"{'CHEM 201', 'CHEM 401', 'CHEM 590', 'CHEM 124'}",180-0304E,8057561663,esapper,esapper@calpoly.edu,F
+1058,"Saunders, Karl",Karl,Saunders,{'PHYS 132'},180-0204B,8057562447,ksaunder,ksaunder@calpoly.edu,F
+1059,"Schaffner, Andrew",Andrew,Schaffner,{'STAT 513'},025-0107C,8057561545,aschaffn,aschaffn@calpoly.edu,F
+1062,"Schinck-Mikel, Amelie",Amelie,Schinck-Mikel,"{'MATH 227', 'MATH 424'}",025-0324,8057562352,aschinck,aschinck@calpoly.edu,F
+1065,"Schroeter, Robert",Robert,Schroeter,"{'BIO 160', 'BIO 263'}",,nan,rschroet,rschroet@calpoly.edu,F
+1069,"Schroth-Glanz, Maddie",Maddie,Schroth-Glanz,{'STAT 218'},025-0223,8057566310,mschroth,mschroth@calpoly.edu,F
+1071,"Schuster, Sonja",Sonja,Schuster,{'STAT 251'},025-0107D,8057562709,sschuste,sschuste@calpoly.edu,F
+1078,"Schwartz, Peter",Peter,Schwartz,"{'PSC 391', 'PHYS 141', 'UNIV 491', 'PHYS 400', 'HNRS 391', 'UNIV 391', 'PHYS 461'}",180-0608,8057561220,pschwart,pschwart@calpoly.edu,F
+1085,"Scott, Gregory",Gregory,Scott,"{'CHEM 201', 'CHEM 101', 'CHEM 303', 'CHEM 401', 'CHEM 124'}",180-0306E,8057562617,gscott02,gscott02@calpoly.edu,F
+1087,"Semmens, Caroline",Caroline,Semmens,{'MATH 118'},038-0209,8057565685,csemmens,csemmens@calpoly.edu,F
+1088,"Severance, Jenee",Jenee,Severance,{'EDUC 456'},,nan,jmsevera,jmsevera@calpoly.edu,F
+1094,"Shalhoub, Samuel",Samuel,Shalhoub,"{'LS 370', 'MU 120', 'LS 301'}",025-0125E,8057566529,sshalhou,sshalhou@calpoly.edu,F
+1097,"Shapiro, Jonathan",Jonathan,Shapiro,"{'MATH 142', 'MATH 336'}",025-0308,8057561675,jshapiro,jshapiro@calpoly.edu,F
+1101,"Sharpe, John",John,Sharpe,"{'PHYS 141', 'PHYS 133'}",180-0621,8057562069,jsharpe,jsharpe@calpoly.edu,F
+1104,"Sherman, Morgan",Morgan,Sherman,"{'MATH 404', 'MATH 143'}",025-0329,8057561676,sherman1,sherman1@calpoly.edu,F
+1105,"Shires, Paul",Paul,Shires,{None},180-0460,8057566231,pshires,pshires@calpoly.edu,F
+1112,"Shlaer, Benjamin",Benjamin,Shlaer,"{'PHYS 141', 'PHYS 400', 'PHYS 462', 'PHYS 122', 'PHYS 461'}",180-0111,8057561614,bshlaer,bshlaer@calpoly.edu,F
+1113,"Sims, Donna",Donna,Sims,{'EDUC 438'},002-0120,8057562126,dksims,dksims@calpoly.edu,F
+1114,"Skelton, Tom",Tom,Skelton,{None},002-0120A,8057567190,tskelton,tskelton@calpoly.edu,F
+1118,"Sklar, Jeffrey",Jeffrey,Sklar,{'STAT 252'},025-0110,8057566353,jsklar,jsklar@calpoly.edu,F
+1119,"Smidt, Robert",Robert,Smidt,{None},025-0107D,8057562709,rsmidt,rsmidt@calpoly.edu,F
+1123,"Smith, Heather",Heather,Smith,"{'STAT 312', 'STAT 421'}",025-0112,8057566128,hsmith,hsmith@calpoly.edu,F
+1124,"Smith, Makell",Makell,Smith,{None},180-0206A,8057562694,maksmith,maksmith@calpoly.edu,F
+1125,"Smith, Stacey",Stacey,Smith,{None},180-0206,8057562693,ssmit226,ssmit226@calpoly.edu,F
+1126,"Soderberg, Steve",Steve,Soderberg,{None},180-0640A,8057566250,ssoderbe,ssoderbe@calpoly.edu,F
+1130,"Somal, Harsimran",Harsimran,Somal,"{'STAT 312', 'STAT 542'}",025-0107D,8057562709,hsomal,hsomal@calpoly.edu,F
+1136,"Somoza-Norton, Andrea",Andrea,Somoza-Norton,"{'EDUC 586', 'EDUC 518', 'EDUC 512', 'EDUC 500'}",002-0110,8057565373,asomozan,asomozan@calpoly.edu,F
+1140,"Sorensen, Ena",Ena,Sorensen,"{'KINE 459', 'KINE 129'}",043A-0457,8057562545,sorensen,sorensen@calpoly.edu,F
+1143,"Stankus, Mark",Mark,Stankus,"{'MATH 206', 'MATH 142'}",025-0311,8057561716,mstankus,mstankus@calpoly.edu,F
+1144,"Starnes, Heather",Heather,Starnes,{'HLTH 334'},043A-0355,8057565367,hstarnes,hstarnes@calpoly.edu,F
+1145,"Staub, Susan",Susan,Staub,{None},043A-0455,8057560673,svstaub,svstaub@calpoly.edu,F
+1149,"Stauch, Nancy",Nancy,Stauch,"{'PSC 424', 'EDUC 460', 'LS 301'}",025-0126,8057566587,nstauch,nstauch@calpoly.edu,F
+1150,"Stevenson, Cassie",Cassie,Stevenson,{None},025-0229D,8057567303,csteve03,csteve03@calpoly.edu,F
+1156,"Strand, Christy",Christy,Strand,"{'BIO 400', 'BIO 300', 'BIO 406', 'BIO 461'}",033-0266,8057562207,cstrand,cstrand@calpoly.edu,F
+1164,"Streder, KT",KT,Streder,"{'KINE 462', 'KINE 312', 'KINE 154', 'KINE 349'}",043A-0457,8057562545,kstreder,kstreder@calpoly.edu,F
+1166,"Sun, Dennis",Dennis,Sun,"{'DATA 403', 'DATA 402'}",025-0109,8057565877,dsun09,dsun09@calpoly.edu,F
+1167,"Sunata, Melissa",Melissa,Sunata,{None},025-0208DB,8057561228,msunata,msunata@calpoly.edu,F
+1169,"Sungar, Nilgun",Nilgun,Sungar,{'PHYS 121'},180-0618,8057562851,nsungar,nsungar@calpoly.edu,F
+1170,"Swanagon, Russell",Russell,Swanagon,{None},,8057561328,rswanago,rswanago@calpoly.edu,F
+1174,"Sze, Lawrence",Lawrence,Sze,"{'MATH 241', 'MATH 370', 'MATH 142'}",025-0307,8057566606,lsze,lsze@calpoly.edu,F
+1177,"Taylor, Emily",Emily,Taylor,"{'BIO 123', 'BIO 407', 'BIO 400'}",033-0270,8057562616,etaylor,etaylor@calpoly.edu,F
+1178,"Terry, Raymond",Raymond,Terry,{None},025-0209,8057561660,rterry,rterry@calpoly.edu,F
+1182,"Theobold, Allison",Allison,Theobold,{'STAT 313'},025-0105,8057565529,atheobol,atheobol@calpoly.edu,F
+1183,"Thom, Neele",Neele,Thom,{None},,2065818228,nthom,nthom@calpoly.edu,F
+1187,"Thomas, Jafra",Jafra,Thomas,"{'KINE 323', 'KINE 201', 'KINE 324'}",043A-0376,8057565636,jthoma84,jthoma84@calpoly.edu,F
+1190,"Thomas-Hicks, Lori",Lori,Thomas-Hicks,"{'SPED 588', 'EDUC 449'}",002-0120,8057562126,lthomash,lthomash@calpoly.edu,F
+1191,"Thompson, Kevin",Kevin,Thompson,{None},180-0271A,8057566251,kthomp11,kthomp11@calpoly.edu,F
+1195,"Tomanek, Lars",Lars,Tomanek,"{'BIO 160', 'BIO 400', 'BIO 599'}",033-0372,8057562437,ltomanek,ltomanek@calpoly.edu,F
+1203,"Tomasini, Alice",Alice,Tomasini,"{'EDUC 460', 'EDUC 207', 'EDUC 412'}",002-0120,8057562126,atomasin,atomasin@calpoly.edu,F
+1204,"Toner, Pamela",Pamela,Toner,{'EDUC 460'},002-0120,8057562126,toner,toner@calpoly.edu,F
+1205,"Trunzo, Juliana",Juliana,Trunzo,{None},033-0281,8057562788,jtrunzo,jtrunzo@calpoly.edu,F
+1213,"Tseng, Marilyn",Marilyn,Tseng,"{'KINE 462', 'HLTH 405', 'HLTH 298', 'HLTH 337', 'HLTH 462'}",043A-0351,8057562196,mtseng,mtseng@calpoly.edu,F
+1216,"Tully-Doyle, Ryan",Ryan,Tully-Doyle,"{'MATH 550', 'MATH 142', 'MATH 461'}",025-0310,8057565189,rtullydo,rtullydo@calpoly.edu,F
+1217,"Turretto, Tony",Tony,Turretto,{None},025-0224,8057561579,aturrett,aturrett@calpoly.edu,F
+1218,"Uyeoka, Alycia",Alycia,Uyeoka,{None},033-0281,8057562788,auyeoka,auyeoka@calpoly.edu,F
+1219,"VanAlstine, Christy",Christy,VanAlstine,{'EDUC 442'},,nan,cvanalst,cvanalst@calpoly.edu,F
+1223,"Ventura, Alison",Alison,Ventura,"{'HLTH 462', 'HLTH 453', 'HLTH 400'}",043A-0371,8057565693,akventur,akventur@calpoly.edu,F
+1224,"Villablanca, Francis",Francis,Villablanca,{None},033-0268,8057562200,fvillabl,fvillabl@calpoly.edu,F
+1228,"Villarroya Alvarez, Francisco",Francisco,Villarroya Alvarez,"{'MATH 118', 'MATH 143'}",025-0315,8057562287,frvillar,frvillar@calpoly.edu,F
+1231,"Vokos, Stamatis",Stamatis,Vokos,"{'PHYS 141', 'PHYS 461'}",025-0127,8057562306,svokos,svokos@calpoly.edu,F
+1235,"Vredevoe, Larisa",Larisa,Vredevoe,"{'BIO 400', 'BIO 429', 'MCRO 221'}",033-0277,8057567165,lvredevo,lvredevo@calpoly.edu,F
+1236,"Wakeman, Kaylene",Kaylene,Wakeman,{None},025-0128,8057562403,kwakeman,kwakeman@calpoly.edu,F
+1238,"Walker, John",John,Walker,{'STAT 251'},025-0226,8057567128,jwalker,jwalker@calpoly.edu,F
+1239,"Walker, Michelle",Michelle,Walker,{None},002-0122A,8057567189,mtwalker,mtwalker@calpoly.edu,F
+1247,"Walker, Randon",Randon,Walker,{'CHEM 312'},052-E039,8057562566,rwalke08,rwalke08@calpoly.edu,F
+1249,"Walter, Ryan",Ryan,Walter,"{'PHYS 400', 'PSC 201'}",180-0509,8057561357,rkwalter,rkwalter@calpoly.edu,F
+1252,"Wang, Xiaofeng",Xiaofeng,Wang,"{'PHYS 141', 'PHYS 121'}",180-0111,8057562071,xwang07,xwang07@calpoly.edu,F
+1253,"Wang, Yi-Hui",Yi-Hui,Wang,{None},025-0107D,8057562709,ywang85,ywang85@calpoly.edu,F
+1257,"Ward, Sandra",Sandra,Ward,"{'CHEM 201', 'CHEM 216', 'CHEM 401'}",180-0304B,8057562240,sward07,sward07@calpoly.edu,F
+1258,"Wardrop, Michelle",Michelle,Wardrop,{None},180-0204,8057562448,mwardrop,mwardrop@calpoly.edu,F
+1259,"Watkins, Warren",Warren,Watkins,{None},002-0113B,8057562083,wawatkin,wawatkin@calpoly.edu,F
+1263,"Watson, Sean",Sean,Watson,"{'MATH 241', 'MATH 141'}",025-0334,8057562451,swatso01,swatso01@calpoly.edu,F
+1269,"Watts, Katharine",Katharine,Watts,"{'CHEM 201', 'CHEM 313', 'CHEM 401'}",180-0414,8057562530,krwatts,krwatts@calpoly.edu,F
+1270,"Weaver, Savannah",Savannah,Weaver,{None},052-D027C,8057562328,saweaver,saweaver@calpoly.edu,F
+1271,"Weddige, Kristi",Kristi,Weddige,{None},053-0211B,8057562192,kweddige,kweddige@calpoly.edu,F
+1272,"Wendt, Dean",Dean,Wendt,{'BIO 111'},025-0229,8057562226,dwendt,dwendt@calpoly.edu,F
+1273,"West, Samantha",Samantha,West,{None},,7167718767,swest01,swest01@calpoly.edu,F
+1275,"White, Crow",Crow,White,"{'BIO 400', 'BIO 300'}",033-0378,8057562954,cwhite31,cwhite31@calpoly.edu,F
+1279,"White, Matthew",Matthew,White,"{'MATH 505', 'MATH 141', 'MATH 344'}",025-0301,8057561673,mewhite,mewhite@calpoly.edu,F
+1280,"Wiedenkeller, Sidonie",Sidonie,Wiedenkeller,{None},002-0131,8057566417,swiedenk,swiedenk@calpoly.edu,F
+1284,"Wilkinson, Steven",Steven,Wilkinson,"{'CHEM 474', 'CHEM 401'}",180-0417,8057561624,spwilkin,spwilkin@calpoly.edu,F
+1285,"Willems, Joshua",Joshua,Willems,{None},,5302270389,jwillems,jwillems@calpoly.edu,F
+1286,"Willey, Gage",Gage,Willey,{None},,5306324615,gwilley,gwilley@calpoly.edu,F
+1289,"Williams, Immanuel",Immanuel,Williams,{'STAT 251'},025-0107D,8057562709,imwillia,imwillia@calpoly.edu,F
+1290,"Wilson, Ashley",Ashley,Wilson,{None},,5203399852,awilso76,awilso76@calpoly.edu,F
+1291,"Wilson, Laura",Laura,Wilson,{None},053-0210E,8057562846,lwilso14,lwilso14@calpoly.edu,F
+1295,"Winstead, Candace",Candace,Winstead,"{'BIO 400', 'MCRO 423'}",033-0263,8057562899,cwinstea,cwinstea@calpoly.edu,F
+1296,"Wissel, Stephanie",Stephanie,Wissel,{None},180-0204,8057562448,swissel,swissel@calpoly.edu,F
+1297,"Wong, Kristina",Kristina,Wong,{None},002-0122B,8057561503,kwong04,kwong04@calpoly.edu,F
+1298,"Wood, Leah",Leah,Wood,{None},002-0108,8057562079,awood17,awood17@calpoly.edu,F
+1299,"Worthen, Liz",Liz,Worthen,{'EDUC 460'},,8054588349,lworthen,lworthen@calpoly.edu,F
+1301,"Wrenn, Rosemary",Rosemary,Wrenn,"{'LS 201', 'LS 255'}",025-0125B2,8057566533,rwrenn,rwrenn@calpoly.edu,F
+1303,"Wright, Donita",Donita,Wright,"{'EDUC 456', 'EDUC 442'}",002-0120,8057562126,dlwright,dlwright@calpoly.edu,F
+1304,"Wyzlic, Miranda",Miranda,Wyzlic,{None},025-0229A,8057561619,mwyzlic,mwyzlic@calpoly.edu,F
+1308,"Yang, Fan",Fan,Yang,"{'MATH 143', 'MATH 244'}",025-0333,8057565552,fayang,fayang@calpoly.edu,F
+1309,"Yassa, Laura",Laura,Yassa,{'HLTH 297'},043A-0457,8057562545,lyassa,lyassa@calpoly.edu,F
+1310,"Ye, Jingtian",Jingtian,Ye,{None},038-0212,8057561683,jye07,jye07@calpoly.edu,F
+1311,"Yep-Rodriguez, Alejandra",Alejandra,Yep-Rodriguez,{None},033-0366,8057565355,yep,yep@calpoly.edu,F
+1315,"Yeung, Marie",Marie,Yeung,"{'MCRO 421', 'BIO 300', 'MCRO 221'}",033-0362,8057565199,pmyeung,pmyeung@calpoly.edu,F
+1316,"Yoshinobu, Stan",Stan,Yoshinobu,{None},025-0315,8057562287,styoshin,styoshin@calpoly.edu,F
+1318,"Yost, Jenn",Jenn,Yost,"{'BIO 400', 'BIO 200'}",033-0363,8057565869,jyost,jyost@calpoly.edu,F
+1319,"Youngquist, Emi",Emi,Youngquist,{None},025-0229C,8057561667,eyoungqu,eyoungqu@calpoly.edu,F
+1320,"Zell, Annie",Annie,Zell,{'BOT 121'},,6505809639,azell,azell@calpoly.edu,F
+1325,"Zhang, Shanju",Shanju,Zhang,"{'CHEM 201', 'CHEM 447', 'CHEM 544', 'CHEM 444', 'CHEM 547'}",180-0420,8057562591,szhang05,szhang05@calpoly.edu,F
+1327,"Zieber, Karl",Karl,Zieber,{'MATH 118'},038-0207,8057565684,krzieber,krzieber@calpoly.edu,F
+1331,"Zigler, David",David,Zigler,"{'CHEM 127', 'CHEM 481', 'CHEM 401'}",180-0306A,8057562661,dzigler,dzigler@calpoly.edu,F
+1336,"Zoerb, Matthew",Matthew,Zoerb,"{'CHEM 401', 'CHEM 125'}",180-0304A,8057562578,mzoerb,mzoerb@calpoly.edu,F
+1337,"Zoff, Michele",Michele,Zoff,{None},180-0333A,8057562422,mzoff,mzoff@calpoly.edu,F
+7,"Adams, Nikki",Nikki,Adams,"{'BIO 400', 'BIO 300', 'MSCI 401', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 336'}",033-0371,8057562943,nadams,nadams@calpoly.edu,W
+9,"Adams, Susie",Susie,Adams,"{'EDUC 454', 'EDUC 438'}",002-0120,8057562126,sjadams,sjadams@calpoly.edu,W
+19,"Alber, Julia",Julia,Alber,"{'KINE 462', 'KINE 460', 'HLTH 334', 'HLTH 400', 'KINE 400', 'HLTH 402', 'HLTH 462', 'HLTH 201'}",043A-0367,8057561779,jmalber,jmalber@calpoly.edu,W
+21,"Aleksandrov, Tsvetan",Tsvetan,Aleksandrov,{'CHEM 124'},052-E041,8057561554,taleksan,taleksan@calpoly.edu,W
+25,"Almeida, Daniel",Daniel,Almeida,"{'EDUC 573', 'EDUC 556', 'EDUC 500'}",002-0137,8057561502,dalmeida,dalmeida@calpoly.edu,W
+26,"Althaus, Kieran",Kieran,Althaus,{None},,3108391530,kalthaus,kalthaus@calpoly.edu,W
+27,"Anderson, Kyra",Kyra,Anderson,{None},,7146559943,kande145,kande145@calpoly.edu,W
+28,"Arnold, Sharon",Sharon,Arnold,{None},025-0229D,8057567303,sarnold,sarnold@calpoly.edu,W
+39,"Avrit, Darren",Darren,Avrit,"{'KINE 462', 'KINE 460', 'HLTH 443', 'KINE 400', 'KINE 180', 'KINE 307', 'KINE 310'}",043A-0363,8057561482,davrit,davrit@calpoly.edu,W
+41,"Babu, Praveen",Praveen,Babu,{'BIO 213'},053-0218,8057565376,pbabu,pbabu@calpoly.edu,W
+42,"Bailey, Phil",Phil,Bailey,{None},025-0120,8057565712,pbailey,pbailey@calpoly.edu,W
+43,"Balderas, Elijah",Elijah,Balderas,{None},,8057985026,ebaldera,ebaldera@calpoly.edu,W
+44,"Barclay, Ken",Ken,Barclay,{'LS 461'},025-0125E,8057566529,kbarclay,kbarclay@calpoly.edu,W
+45,"Barton, Kimberly",Kimberly,Barton,{None},025-0107D,8057562709,kabarton,kabarton@calpoly.edu,W
+46,"Basa, Sean",Sean,Basa,{None},038-0207,8057565684,sbasa,sbasa@calpoly.edu,W
+50,"Bauer, Julee",Julee,Bauer,"{'EDUC 429', 'EDUC 431', 'EDUC 423'}",002-0134,8057565638,jbauer,jbauer@calpoly.edu,W
+58,"Bean, Tim",Tim,Bean,"{'BIO 400', 'BIO 300', 'BIO 590', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 447'}",033-0276,8057562662,wtbean,wtbean@calpoly.edu,W
+59,"Bedard, Robin",Robin,Bedard,{None},,7604170801,rbedard,rbedard@calpoly.edu,W
+64,"Beekman, Matt",Matt,Beekman,"{'PHYS 220', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0511,8057567129,mbeekman,mbeekman@calpoly.edu,W
+70,"Bennert, Vardha N.",Vardha N.,Bennert,"{'PHYS 211', 'PHYS 462', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0622,8057567317,vbennert,vbennert@calpoly.edu,W
+76,"Bensky, Thomas",Thomas,Bensky,"{'PHYS 400', 'PHYS 462', 'PHYS 341', 'PHYS 200', 'PHYS 461'}",180-0616,8057567655,tbensky,tbensky@calpoly.edu,W
+77,"Benson, Eric",Eric,Benson,{None},043A-0458C,8057567525,ecbenson,ecbenson@calpoly.edu,W
+80,"Berber-Jimenez, Lola",Lola,Berber-Jimenez,"{'PSC 102', 'LS 400'}",025-0125C,8057560292,lberberj,lberberj@calpoly.edu,W
+88,"Bercovici, Daniel",Daniel,Bercovici,"{'CHEM 201', 'CHEM 220', 'CHEM 217', 'CHEM 401'}",052-E038,8057562369,dbercovi,dbercovi@calpoly.edu,W
+89,"Bergman, Anya",Anya,Bergman,{None},053-0210F,8057561662,abergman,abergman@calpoly.edu,W
+90,"Bergquist, Jason",Jason,Bergquist,{None},025-0208D,8057562206,jebergqu,jebergqu@calpoly.edu,W
+91,"Bersin, Theresa",Theresa,Bersin,{None},,9169964600,tbersin,tbersin@calpoly.edu,W
+96,"Best, Megan",Megan,Best,"{'EDUC 447', 'EDUC 440'}",002-0112,8057566082,mhirzel,mhirzel@calpoly.edu,W
+97,"Bills, Marissa",Marissa,Bills,{None},,9515530973,mbills,mbills@calpoly.edu,W
+102,"Bishop, Rebecca",Rebecca,Bishop,"{'MATH 115', 'EDUC 469', 'MATH 95'}",025-0325,8057562278,rbisho01,rbisho01@calpoly.edu,W
+110,"Black, Michael",Michael,Black,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'MCRO 402'}",033-0380,8057562894,mblack,mblack@calpoly.edu,W
+118,"Blank, Jason",Jason,Blank,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 409', 'BIO 462', 'BIO 500'}",033-0377,8057565629,jmblank,jmblank@calpoly.edu,W
+119,"Blanke, Barbara",Barbara,Blanke,{None},002-0120,8057562126,bblanke,bblanke@calpoly.edu,W
+120,"Blunk, Brittany",Brittany,Blunk,{None},002-0122A,8057567189,bblunk,bblunk@calpoly.edu,W
+122,"Bockmon, Emily",Emily,Bockmon,"{'CHEM 201', 'CHEM 401'}",180-0412,8057561636,ebockmon,ebockmon@calpoly.edu,W
+128,"Bodwin, Kelly",Kelly,Bodwin,"{'STAT 218', 'DATA 301', 'DATA 472'}",025-0106,8057562450,kbodwin,kbodwin@calpoly.edu,W
+129,"Boldman, Gina",Gina,Boldman,{'LS 255'},025-0125B,8057562935,gboldman,gboldman@calpoly.edu,W
+134,"Bonini, Vincent",Vincent,Bonini,"{'MATH 244', 'MATH 462', 'MATH 306', 'MATH 461'}",025-0305,8057561657,vbonini,vbonini@calpoly.edu,W
+144,"Borgard, Christopher",Christopher,Borgard,"{'KINE 141', 'KINE 108', 'KINE 129', 'KINE 312', 'KINE 154'}",043A-0457,8057562545,cborgard,cborgard@calpoly.edu,W
+145,"Bow, Hannah",Hannah,Bow,{None},,9169697970,hbow,hbow@calpoly.edu,W
+146,"Brar, Ruzena",Ruzena,Brar,{None},025-0228,8057566534,rkbrar,rkbrar@calpoly.edu,W
+147,"Brauer, Ellie",Ellie,Brauer,{None},,9494223422,ebrauer,ebrauer@calpoly.edu,W
+148,"Breit, Emma",Emma,Breit,{None},,7206847980,ebreit,ebreit@calpoly.edu,W
+150,"Brescia, James",James,Brescia,{'EDUC 516'},002-0120,8057562126,jbrescia,jbrescia@calpoly.edu,W
+151,"Brewster, Doug",Doug,Brewster,{None},052-D024,8057562701,dbrewste,dbrewste@calpoly.edu,W
+152,"Brewster, Rob",Rob,Brewster,{None},052-D024,8057562701,rabrewst,rabrewst@calpoly.edu,W
+154,"Bridgeford, Kristin",Kristin,Bridgeford,"{'SCM 220', 'EDUC 469'}",002-0120,8057562126,kbridgef,kbridgef@calpoly.edu,W
+155,"Brookwell, August",August,Brookwell,{None},,3103864374,abrookwe,abrookwe@calpoly.edu,W
+162,"Brussel, Eric",Eric,Brussel,"{'MATH 241', 'MATH 462', 'MATH 461', 'HNRS 241'}",025-0300,8057562381,ebrussel,ebrussel@calpoly.edu,W
+163,"Buck-Moyer, David",David,Buck-Moyer,{'EDUC 469'},025-0126,8057566587,dbuckmoy,dbuckmoy@calpoly.edu,W
+164,"Buffa, Anthony",Anthony,Buffa,{None},180-0521,8057561650,abuffa,abuffa@calpoly.edu,W
+165,"Bunting, Jamie",Jamie,Bunting,{'BIO 160'},033-0383,8057562557,bunting,bunting@calpoly.edu,W
+166,"Bush, Jenny",Jenny,Bush,{None},025-0125B,8057562935,jybush,jybush@calpoly.edu,W
+185,"Bush, Seth",Seth,Bush,"{'CHEM 598', 'CHEM 495', 'CHEM 201', 'CHEM 400', 'SCM 302', 'CHEM 500', 'CHEM 465', 'CHEM 485', 'CHEM 463', 'CHEM 403', 'ENGR 322', 'CHEM 461', 'CHEM 401', 'CHEM 599'}",180-0205A,8057562746,sbush,sbush@calpoly.edu,W
+188,"Byrne, Andrew",Andrew,Byrne,"{'EDUC 560', 'EDUC 500'}",002-0136,8057565095,anbyrne,anbyrne@calpoly.edu,W
+189,CSM-Advancement,,,{'CSM-Advancement'},CSM-Advancement,nan,CSM-Advancement,CSM-Advancement@calpoly.edu,W
+190,CSM-Advising Center,,,{'CSM-Advising Center'},CSM-Advising Center,nan,CSM-Advising Center,CSM-Advising Center@calpoly.edu,W
+191,CSM-Biological Sciences,,,{'CSM-Biological Sciences'},CSM-Biological Sciences,nan,CSM-Biological Sciences,CSM-Biological Sciences@calpoly.edu,W
+192,CSM-Center for Coastal Marine Sciences,,,{'CSM-Center for Coastal Marine'},CSM-Center for Coastal Marine Sciences,nan,CSM-Center for Coastal Marine Sciences,CSM-Center for Coastal Marine Sciences@calpoly.edu,W
+193,CSM-Center for Excellence in Science and Mathematics,,,{'CSM-Center for Excellence in Science and'},CSM-Center for Excellence in Science and Mathematics,nan,CSM-Center for Excellence in Science and Mathematics,CSM-Center for Excellence in Science and Mathematics@calpoly.edu,W
+194,CSM-Chemistry & Biochemistry,,,{'CSM-Chemistry &'},CSM-Chemistry & Biochemistry,nan,CSM-Chemistry & Biochemistry,CSM-Chemistry & Biochemistry@calpoly.edu,W
+195,CSM-College of Science and Mathematics,,,{'CSM-College of Science and'},CSM-College of Science and Mathematics,nan,CSM-College of Science and Mathematics,CSM-College of Science and Mathematics@calpoly.edu,W
+196,CSM-Deans Office,,,{'CSM-Deans Office'},CSM-Deans Office,nan,CSM-Deans Office,CSM-Deans Office@calpoly.edu,W
+197,CSM-Design & Fabrication Facility,,,{'CSM-Design & Fabrication'},CSM-Design & Fabrication Facility,nan,CSM-Design & Fabrication Facility,CSM-Design & Fabrication Facility@calpoly.edu,W
+198,CSM-Kinesiology and Public Health,,,{'CSM-Kinesiology and Public'},CSM-Kinesiology and Public Health,nan,CSM-Kinesiology and Public Health,CSM-Kinesiology and Public Health@calpoly.edu,W
+199,CSM-Mathematics,,,{'CSM-Mathematics'},CSM-Mathematics,nan,CSM-Mathematics,CSM-Mathematics@calpoly.edu,W
+200,CSM-Physics,,,{'CSM-Physics'},CSM-Physics,nan,CSM-Physics,CSM-Physics@calpoly.edu,W
+201,CSM-SOE-Office of Education,,,{'CSM-SOE-Office of'},CSM-SOE-Office of Education,nan,CSM-SOE-Office of Education,CSM-SOE-Office of Education@calpoly.edu,W
+202,CSM-STEM Teacher and Researcher Program (STAR),,,{'CSM-STEM Teacher and Researcher Program'},CSM-STEM Teacher and Researcher Program (STAR),nan,CSM-STEM Teacher and Researcher Program (STAR),CSM-STEM Teacher and Researcher Program (STAR)@calpoly.edu,W
+203,CSM-Statistics,,,{'CSM-Statistics'},CSM-Statistics,nan,CSM-Statistics,CSM-Statistics@calpoly.edu,W
+204,"Calcagno, Ellen",Ellen,Calcagno,{None},033-0272,8057565241,ecalcagn,ecalcagn@calpoly.edu,W
+205,"Calloway, Stephanie",Stephanie,Calloway,{None},,5593213191,smcallow,smcallow@calpoly.edu,W
+210,"Camp, Charles",Charles,Camp,"{'MATH 520', 'MATH 462', 'MATH 142', 'MATH 461'}",025-0309,8057561661,camp,camp@calpoly.edu,W
+216,"Campbell, Tammy",Tammy,Campbell,"{'CHEM 128', 'CHEM 201', 'CHEM 401'}",180-0421,8057562443,tcampb06,tcampb06@calpoly.edu,W
+217,"Carlon, Mariana",Mariana,Carlon,{None},,8057206981,mramir37,mramir37@calpoly.edu,W
+220,"Carlton, Matt",Matt,Carlton,"{'STAT 305', 'STAT 426'}",025-0101,8057567076,mcarlton,mcarlton@calpoly.edu,W
+221,"Carney, Sarah",Sarah,Carney,{None},043A-0457,8057562545,sacarney,sacarney@calpoly.edu,W
+222,"Carrillo, Coreen",Coreen,Carrillo,{'EDUC 447'},002-0120,8057562126,ccarri24,ccarri24@calpoly.edu,W
+228,"Carroll, Jennifer",Jennifer,Carroll,"{'CHEM 201', 'CHEM 216', 'CHEM 401'}",025-0211,8057561654,jacarrol,jacarrol@calpoly.edu,W
+229,"Castillo, Crystal",Crystal,Castillo,{None},,7148515464,ccasti10,ccasti10@calpoly.edu,W
+235,"Champney, Danielle",Danielle,Champney,"{'MATH 227', 'MATH 462', 'MATH 442', 'MATH 461'}",025-0336,8057565579,dchampne,dchampne@calpoly.edu,W
+239,"Chance, Beth",Beth,Chance,{'STAT 313'},025-0235,8057562961,bchance,bchance@calpoly.edu,W
+243,"Charalampidis, Stathis",Stathis,Charalampidis,"{'MATH 143', 'MATH 451', 'MATH 462', 'MATH 461'}",025-0319,8057562465,echarala,echarala@calpoly.edu,W
+245,"Cheuk, Tina",Tina,Cheuk,{'EDUC 436'},002-0131,8057566775,tcheuk,tcheuk@calpoly.edu,W
+246,"Chi, Haoyan",Haoyan,Chi,{None},025-0316,8057562632,hachi,hachi@calpoly.edu,W
+251,"Choboter, Paul",Paul,Choboter,"{'MATH 244', 'MATH 462', 'MATH 502', 'MATH 461'}",025-0313,8057565902,pchobote,pchobote@calpoly.edu,W
+255,"Christiansen, Jodi",Jodi,Christiansen,"{'PHYS 462', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0617,8057562778,jlchrist,jlchrist@calpoly.edu,W
+256,"Ciccone, Bronwyn",Bronwyn,Ciccone,{None},025-0125B,8057562935,bciccone,bciccone@calpoly.edu,W
+264,"Clark, Robert",Robert,Clark,"{'KINE 110', 'KINE 462', 'KINE 460', 'KINE 400', 'KINE 403', 'KINE 144', 'KINE 301'}",043A-0364,8057560285,rdclark,rdclark@calpoly.edu,W
+265,"Cleere, Deborah",Deborah,Cleere,{None},002-0120,8057562126,dcleere,dcleere@calpoly.edu,W
+270,"Clegg, Don",Don,Clegg,"{'HLTH 250', 'KINE 408', 'KINE 449'}",043A-0373,8057562182,dclegg,dclegg@calpoly.edu,W
+284,"Clement, Sandi",Sandi,Clement,"{'BIO 400', 'BIO 300', 'ES 350', 'WGS 350', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 509', 'BIO 351', 'HNRS 353'}",033-0269,8057562154,slclemen,slclemen@calpoly.edu,W
+285,"Clendenen, Dave",Dave,Clendenen,{None},053-0310,8057562712,dclenden,dclenden@calpoly.edu,W
+286,"Collins, Kirt",Kirt,Collins,{'EDUC 454'},002-0120,8057562126,kcolli18,kcolli18@calpoly.edu,W
+290,"Contu, Francesco",Francesco,Contu,"{'CHEM 127', 'CHEM 124'}",052-E037,8057562678,fcontu,fcontu@calpoly.edu,W
+293,"Coryell, Julia",Julia,Coryell,"{'HLTH 250', 'KINE 129'}",043A-0457,8057562545,jgcoryel,jgcoryel@calpoly.edu,W
+298,"Costanzo, Philip",Philip,Costanzo,"{'CHEM 201', 'CHEM 303', 'CHEM 312', 'CHEM 401'}",025-0214,8057562692,pcostanz,pcostanz@calpoly.edu,W
+299,"Coulombe, Kevin",Kevin,Coulombe,{None},180-0231,8057562449,kcoulomb,kcoulomb@calpoly.edu,W
+300,"Craig, Clayton",Clayton,Craig,{None},025-0210,8057562194,ccraig07,ccraig07@calpoly.edu,W
+303,"Crutchfield, Stephen",Stephen,Crutchfield,"{'EDUC 589', 'EDUC 532'}",002-0107,8057567558,sacrutch,sacrutch@calpoly.edu,W
+304,"Cruz, Jenny",Jenny,Cruz,{None},025-0123,8057562859,jmcruz,jmcruz@calpoly.edu,W
+313,"Culbreath, Christopher",Christopher,Culbreath,"{'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 132', 'PHYS 461'}",180-0111,8057561613,cculbrea,cculbrea@calpoly.edu,W
+314,"Curto, Michael",Michael,Curto,{None},053-0310,8057562714,mcurto,mcurto@calpoly.edu,W
+315,"Dabkowski, Montserrat",Montserrat,Dabkowski,{None},038-0207,8057565684,mdabkows,mdabkows@calpoly.edu,W
+316,"Dakhlia, Lukas",Lukas,Dakhlia,{None},038-0209,8057565685,ldakhlia,ldakhlia@calpoly.edu,W
+317,"Daniels, Benjamin",Benjamin,Daniels,{None},,7158341757,bndaniel,bndaniel@calpoly.edu,W
+326,"Davidson, Jean",Jean,Davidson,"{'BIO 400', 'BIO 300', 'BIO 161', 'BIO 200', 'BIO 462', 'BIO 500', 'DATA 441', 'BIO 351'}",033-0267,8057567421,jdavid06,jdavid06@calpoly.edu,W
+333,"Davis, Steve",Steve,Davis,"{'KINE 400', 'KINE 445', 'KINE 462', 'KINE 304'}",043A-0353,8057562754,sdavis,sdavis@calpoly.edu,W
+335,"DeBruhl, Heather",Heather,DeBruhl,"{'BIO 303', 'BIO 461'}",033-0257A,8057562877,hdebruhl,hdebruhl@calpoly.edu,W
+338,"Dekhtyar, Olga",Olga,Dekhtyar,{'STAT 252'},025-0225,8057566354,odekhtya,odekhtya@calpoly.edu,W
+342,"Delbridge, Annie",Annie,Delbridge,{'EDUC 428'},002-0120,8057562126,adelbrid,adelbrid@calpoly.edu,W
+349,"Demsetz, Lizza",Lizza,Demsetz,"{'PHYS 141', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 132', 'PHYS 461'}",026M-0107,8057567334,edemsetz,edemsetz@calpoly.edu,W
+350,"DiBernardo, Celine",Celine,DiBernardo,{None},180-0430,8057561505,cdiberna,cdiberna@calpoly.edu,W
+351,"Dilworth, Kathryn",Kathryn,Dilworth,{None},025-0238,8057561040,kdilwort,kdilwort@calpoly.edu,W
+357,"Dimitrova, Elena",Elena,Dimitrova,"{'MATH 141', 'MATH 462', 'MATH 482', 'MATH 461', 'MATH 599'}",025-0342,8057561689,edimitro,edimitro@calpoly.edu,W
+358,"Doctor, Katie",Katie,Doctor,{None},033-0272,8057565241,kdoctor,kdoctor@calpoly.edu,W
+359,"Dodgen, Rose",Rose,Dodgen,{None},052-D027C,8057562328,rdodgen,rdodgen@calpoly.edu,W
+364,"Doi, Jimmy",Jimmy,Doi,"{'STAT 312', 'STAT 419', 'STAT 542'}",025-0108,8057562901,jdoi,jdoi@calpoly.edu,W
+366,"Dorman, Richard",Richard,Dorman,{'EDUC 469'},002-0120,8057562126,rcdorman,rcdorman@calpoly.edu,W
+367,"Dotterweich, Megan",Megan,Dotterweich,{None},052-D027C,8057562328,mdotterw,mdotterw@calpoly.edu,W
+368,"Drasco, Steve",Steve,Drasco,{None},180-0204A,8057562458,sdrasco,sdrasco@calpoly.edu,W
+369,"Dunham, Kevin",Kevin,Dunham,{None},052-D024,8057562701,kedunham,kedunham@calpoly.edu,W
+370,"Eachus, Chris",Chris,Eachus,{None},038-0207,8057565684,creachus,creachus@calpoly.edu,W
+375,"Eagon, Scott",Scott,Eagon,"{'CHEM 201', 'CHEM 110', 'CHEM 377', 'CHEM 401'}",180-0409,8057562558,seagon,seagon@calpoly.edu,W
+380,"Easton, Robert",Robert,Easton,"{'MATH 481', 'MATH 143', 'MATH 462', 'MATH 461'}",025-0320,8057561679,rweaston,rweaston@calpoly.edu,W
+386,"Echols, Robert",Robert,Echols,"{'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 132', 'PHYS 461'}",180-0606,8057567649,rechols,rechols@calpoly.edu,W
+394,"Echols, Sean",Sean,Echols,"{'PHYS 306', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 132', 'PHYS 461', 'PHYS 121'}",025-0200,8057561692,sechols,sechols@calpoly.edu,W
+395,"Edds, Holly",Holly,Edds,{None},002-0120,8057562126,hcarter,hcarter@calpoly.edu,W
+403,"Edwards, Louise",Louise,Edwards,"{'HNRS 299', 'PHYS 462', 'PHYS 122', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0619,8057567674,ledwar04,ledwar04@calpoly.edu,W
+407,"Elangovan, Samy",Samy,Elangovan,{'CHEM 124'},,nan,aelangov,aelangov@calpoly.edu,W
+411,"Elvin, Julie",Julie,Elvin,"{'EDUC 416', 'ENGL 425'}",047-0032E,8057562596,jelvin,jelvin@calpoly.edu,W
+412,"Elwood, Jason",Jason,Elwood,{None},025-0210,8057562194,jelwood,jelwood@calpoly.edu,W
+414,"Emrich, AnnaLouise",AnnaLouise,Emrich,"{'EDUC 454', 'EDUC 438'}",002-0120,8057562126,aemrich,aemrich@calpoly.edu,W
+418,"Erker, Jay",Jay,Erker,{'CHEM 127'},052-E040,8057562628,erker,erker@calpoly.edu,W
+422,"Escobedo, Krysti",Krysti,Escobedo,"{'HLTH 310', 'HLTH 255', 'HLTH 434', 'HLTH 265'}",043A-0457,8057562545,krescobe,krescobe@calpoly.edu,W
+423,"Esperon, Donna",Donna,Esperon,{'EDUC 447'},002-0120,8057562126,dlespero,dlespero@calpoly.edu,W
+424,"Excoffier, Paul",Paul,Excoffier,{None},052-D027C,8057562328,pexcoffi,pexcoffi@calpoly.edu,W
+425,"Fabela, Frank",Frank,Fabela,{None},,6194151586,rfabela,rfabela@calpoly.edu,W
+427,"Fairbank, Mark",Mark,Fairbank,{'EDUC 469'},,nan,msfairba,msfairba@calpoly.edu,W
+428,"Farrier-Nolan, Meghan",Meghan,Farrier-Nolan,{None},053-0210G,8057562840,mfarrier,mfarrier@calpoly.edu,W
+429,"Featherstone, Tom",Tom,Featherstone,{None},180-0363,8057561324,tfeather,tfeather@calpoly.edu,W
+430,"Felton, Jason",Jason,Felton,{None},025-0216,8057566058,jfelton,jfelton@calpoly.edu,W
+432,"Fernando, Ray",Ray,Fernando,"{'CHEM 201', 'CHEM 401'}",180-0422,8057562395,rhfernan,rhfernan@calpoly.edu,W
+438,"Fernsler, Jonathan",Jonathan,Fernsler,"{'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461', 'PHYS 121'}",180-0522,8057562438,jfernsle,jfernsle@calpoly.edu,W
+447,"Fidopiastis, Pat",Pat,Fidopiastis,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 461', 'MCRO 424', 'BIO 462', 'BIO 500', 'MCRO 224'}",033-0374,8057562883,pfidopia,pfidopia@calpoly.edu,W
+448,"Fiore, Dana",Dana,Fiore,{'EDUC 454'},002-0120,8057562126,dfiore,dfiore@calpoly.edu,W
+449,"Fisher, Ashley",Ashley,Fisher,{None},,8055288310,afishe08,afishe08@calpoly.edu,W
+451,"Flushman, Tanya",Tanya,Flushman,{'EDUC 589'},002-0133,8057565537,tflushma,tflushma@calpoly.edu,W
+457,"Fogle, Emily",Emily,Fogle,"{'CHEM 201', 'CHEM 313', 'CHEM 373', 'CHEM 401'}",180-0416,8057567540,efogle,efogle@calpoly.edu,W
+458,"Fox, Brittany",Brittany,Fox,{'EDUC 447'},,nan,bfox05,bfox05@calpoly.edu,W
+462,"Frame, Samuel",Samuel,Frame,"{'STAT 321', 'STAT 301', 'GSB S510'}",025-0121,8057565802,sframe,sframe@calpoly.edu,W
+467,"Francis, Clinton",Clinton,Francis,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0369,8057565358,cdfranci,cdfranci@calpoly.edu,W
+473,"Frantz, Derik",Derik,Frantz,"{'CHEM 201', 'CHEM 220', 'CHEM 217', 'CHEM 414', 'CHEM 401'}",180-0411,8057562552,dfrantz,dfrantz@calpoly.edu,W
+477,"Fraser, Scott",Scott,Fraser,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",025-0206,8057562800,scfraser,scfraser@calpoly.edu,W
+478,"Fredrickson, Cameron",Cameron,Fredrickson,{None},038-0212,8057561683,chfredri,chfredri@calpoly.edu,W
+479,"Friend, Noël",Noël,Friend,{'EDUC 469'},002-0120,8057562126,ncfriend,ncfriend@calpoly.edu,W
+482,"Frye, Amanda",Amanda,Frye,"{'LS 214', 'LS 400'}",025-0130,8057566509,drfrye,drfrye@calpoly.edu,W
+483,"Fryer, Emma",Emma,Fryer,{None},052-D027C,8057562328,erfryer,erfryer@calpoly.edu,W
+484,"Gama, Alma",Alma,Gama,{None},002-0122A,8057567104,agama01,agama01@calpoly.edu,W
+496,"Garcia, Antonio",Antonio,Garcia,"{'GEOL 201', 'ERSC 400', 'SS 400', 'GEOL 203', 'PHYS 462', 'GEOL 401', 'GEOL 400', 'PHYS 461', 'GEOL 200'}",180-0607,8057562430,afgarcia,afgarcia@calpoly.edu,W
+497,"Gentilucci, James",James,Gentilucci,{None},002-0215,8057567569,jgentilu,jgentilu@calpoly.edu,W
+498,"Gervasi, Jeffrey",Jeffrey,Gervasi,{None},025-0209,8057561660,jgervasi,jgervasi@calpoly.edu,W
+506,"Gillen, Glen",Glen,Gillen,"{'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 133', 'PHYS 461'}",180-0612,8057562364,ggillen,ggillen@calpoly.edu,W
+515,"Gillen, Katharina",Katharina,Gillen,"{'PHYS 400', 'PHYS 404', 'PHYS 462', 'PHYS 323', 'PHYS 200', 'PHYS 461'}",180-0615,8057562199,kgillen,kgillen@calpoly.edu,W
+516,"Glanz, Hunter",Hunter,Glanz,{'DATA 451'},025-0111,8057562792,hglanz,hglanz@calpoly.edu,W
+522,"Goodman, Anya",Anya,Goodman,"{'CHEM 201', 'CHEM 313', 'CHEM 401'}",180-0419,8057561666,agoodman,agoodman@calpoly.edu,W
+523,"Gopalan, Giri",Giri,Gopalan,{None},025-0103,8057562715,ggopalan,ggopalan@calpoly.edu,W
+525,"Goschke, Grace",Grace,Goschke,"{'BIO 111', 'BIO 302'}",033-0278,8057562454,ggoschke,ggoschke@calpoly.edu,W
+526,"Goughnour, Alisa",Alisa,Goughnour,{None},043A-0457,8057562545,agoughno,agoughno@calpoly.edu,W
+527,"Gragson, Derek",Derek,Gragson,{None},025-0227,8057567154,dgragson,dgragson@calpoly.edu,W
+528,"Granger, Brian",Brian,Granger,{None},180-0610,8057562424,bgranger,bgranger@calpoly.edu,W
+531,"Grant, Billie-Jo",Billie-Jo,Grant,{'STAT 217'},025-0107D,8057562709,bgrant02,bgrant02@calpoly.edu,W
+540,"Greever, Cory",Cory,Greever,"{'KINE 462', 'KINE 460', 'KINE 400', 'KINE 303', 'KINE 451', 'KINE 201'}",043A-0369,8057562103,greever,greever@calpoly.edu,W
+541,"Grishchenko, Lana",Lana,Grishchenko,{None},025-0338,8057562421,sgrishch,sgrishch@calpoly.edu,W
+549,"Grossenbacher, Dena",Dena,Grossenbacher,"{'BIO 400', 'BIO 300', 'BOT 313', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0376,8057562135,dgrossen,dgrossen@calpoly.edu,W
+553,"Groves, Adam",Adam,Groves,"{'CHEM 128', 'CHEM 125'}",052-E038,8057562369,groves,groves@calpoly.edu,W
+555,"Grumbles, Amy",Amy,Grumbles,"{'EDUC 454', 'EDUC 438'}",002-0120,8057562126,agrumble,agrumble@calpoly.edu,W
+560,"Grundmeier, Todd",Todd,Grundmeier,"{'MATH 462', 'MATH 142', 'MATH 419', 'MATH 461'}",025-0205,8057561658,tgrundme,tgrundme@calpoly.edu,W
+565,"Gu, Caixing",Caixing,Gu,"{'MATH 241', 'MATH 462', 'MATH 461'}",025-0328,8057561656,cgu,cgu@calpoly.edu,W
+568,"Guise, Megan",Megan,Guise,"{'EDUC 469', 'EDUC 523'}",002-0109,8057562134,meguise,meguise@calpoly.edu,W
+569,"Gutierrez, Melanie",Melanie,Gutierrez,{None},,nan,malejand,malejand@calpoly.edu,W
+574,"Gutierrez, Thomas",Thomas,Gutierrez,"{'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461', 'PHYS 132'}",180-0611,8057562455,tdgutier,tdgutier@calpoly.edu,W
+584,"Hackman, Christine",Christine,Hackman,"{'KINE 462', 'KINE 460', 'HLTH 400', 'HLTH 434', 'KINE 400', 'HLTH 435', 'HLTH 462', 'HLTH 201', 'HLTH 305'}",043A-0372,8057561363,chackman,chackman@calpoly.edu,W
+589,"Hagen, John",John,Hagen,"{'CHEM 201', 'CHEM 351', 'CHEM 125', 'CHEM 401'}",180-0306D,8057561651,jhagen,jhagen@calpoly.edu,W
+598,"Hagobian, Nicole",Nicole,Hagobian,"{'KINE 147', 'KINE 240', 'KINE 323', 'KINE 125', 'KINE 463', 'HLTH 463', 'KINE 324'}",043A-0355,8057565367,nhagobia,nhagobia@calpoly.edu,W
+602,"Hagobian, Todd",Todd,Hagobian,"{'KINE 400', 'KINE 462', 'KINE 460', 'KINE 454'}",043A-0357,8057567511,thagobia,thagobia@calpoly.edu,W
+604,"Hahlbeck, Clint",Clint,Hahlbeck,{'MATH 141'},025-0208F,8057561244,chahlbec,chahlbec@calpoly.edu,W
+605,"Hahlbeck, Kara",Kara,Hahlbeck,{None},025-0208E,8057561203,khahlbec,khahlbec@calpoly.edu,W
+606,"Hajnik, Suzanne",Suzanne,Hajnik,{None},002-0120,8057562126,shajnik,shajnik@calpoly.edu,W
+613,"Hall, Greg",Greg,Hall,"{'KINE 181', 'KINE 121', 'KINE 125'}",043A-0457,8057562545,ghall,ghall@calpoly.edu,W
+615,"Hall, Kellie",Kellie,Hall,"{'KINE 462', 'KINE 312'}",025-0231,8057561776,kghall,kghall@calpoly.edu,W
+617,"Hamachi, Leslie",Leslie,Hamachi,"{'CHEM 201', 'CHEM 401'}",180-0404,8057561672,hamachi,hamachi@calpoly.edu,W
+622,"Hamilton, Emily",Emily,Hamilton,"{'MATH 412', 'MATH 462', 'MATH 142', 'MATH 461'}",025-0337,8057565557,mhamil09,mhamil09@calpoly.edu,W
+623,"Hamrick, Alice",Alice,Hamrick,{None},053-0310,8057562164,ahamrick,ahamrick@calpoly.edu,W
+624,"Hansen, Emily",Emily,Hansen,{None},052-D027C,8057562328,ehanse03,ehanse03@calpoly.edu,W
+625,"Hapuhinna, Nelum",Nelum,Hapuhinna,{None},,nan,nhapuhin,nhapuhin@calpoly.edu,W
+626,"Hardcastle, Alexandra",Alexandra,Hardcastle,{None},,5599057666,aehardca,aehardca@calpoly.edu,W
+634,"Hardy, Kristin",Kristin,Hardy,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 502', 'BIO 462', 'BIO 500', 'MSCI 111'}",033-0264,8057562806,kmhardy,kmhardy@calpoly.edu,W
+635,"Harvey, Devin",Devin,Harvey,{None},038-0213,8057565688,djharvey,djharvey@calpoly.edu,W
+641,"Haynes, M.",M.,Haynes,"{'CHEM 201', 'CHEM 401', 'CHEM 125'}",180-0407,8057561394,mthaynes,mthaynes@calpoly.edu,W
+642,"Hendricks, Steven",Steven,Hendricks,{None},,nan,srhendri,srhendri@calpoly.edu,W
+643,"Henry, Rachel",Rachel,Henry,{None},025-0233,8057567236,rrhenry,rrhenry@calpoly.edu,W
+647,"Hesselgrave, William",William,Hesselgrave,"{'MATH 244', 'MATH 344'}",025-0335,8057566539,whesselg,whesselg@calpoly.edu,W
+654,"Heston, Nathan",Nathan,Heston,"{'PHYS 141', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",025-0204,8057567658,nheston,nheston@calpoly.edu,W
+659,"Heying, Michael",Michael,Heying,"{'CHEM 201', 'CHEM 401', 'CHEM 352', 'CHEM 125'}",180-0306B,8057562245,mdheying,mdheying@calpoly.edu,W
+667,"Hillers, Kenneth",Kenneth,Hillers,"{'BIO 599', 'BIO 485', 'BIO 200', 'BIO 450', 'BIO 462', 'BIO 500'}",033-0274,8057561481,khillers,khillers@calpoly.edu,W
+676,"Himelblau, Edward",Edward,Himelblau,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 475', 'BIO 162'}",033-0365,8057562826,ehimelbl,ehimelbl@calpoly.edu,W
+677,"Ho, Andy",Andy,Ho,{None},,nan,aho65,aho65@calpoly.edu,W
+681,"Hoellwarth, Chance",Chance,Hoellwarth,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",025-0124,8057561665,choellwa,choellwa@calpoly.edu,W
+687,"Holladay, Bret",Bret,Holladay,"{'STAT 324', 'STAT 524'}",025-0122,8057565571,bahollad,bahollad@calpoly.edu,W
+693,"Holland, Kurt",Kurt,Holland,"{'ENGR 322', 'EDUC 469', 'SCM 302'}",002-0120,8057562126,kuhollan,kuhollan@calpoly.edu,W
+697,"Holtzapple, Robert",Robert,Holtzapple,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0512,8057562602,rholtzap,rholtzap@calpoly.edu,W
+698,"Hoogstra, Leah",Leah,Hoogstra,{None},038-0212,8057561683,lhoogstr,lhoogstr@calpoly.edu,W
+704,"Horst, William",William,Horst,{'PHYS 133'},026M-0109,8057567650,whorst,whorst@calpoly.edu,W
+705,"Housh, Maddie",Maddie,Housh,{None},052-D027C,8057562328,mhoush,mhoush@calpoly.edu,W
+706,"Howes, Amy",Amy,Howes,{None},053-0218,8057565376,alhowes,alhowes@calpoly.edu,W
+707,"Huggins, Michael",Michael,Huggins,{None},,8057562788,mthuggin,mthuggin@calpoly.edu,W
+708,"Hupp, Megan",Megan,Hupp,{None},043A-0458,8057562545,mhupp,mhupp@calpoly.edu,W
+709,"Hushing-Kline, Mikele",Mikele,Hushing-Kline,{None},180-0204A,8057561752,mhushing,mhushing@calpoly.edu,W
+713,"Immoos, Chad",Chad,Immoos,"{'CHEM 201', 'CHEM 439', 'CHEM 401'}",180-0304C,8057566635,cimmoos,cimmoos@calpoly.edu,W
+714,"Iniguez, Jose",Jose,Iniguez,{'EDUC 438'},,nan,joinigue,joinigue@calpoly.edu,W
+721,"Jacks, Hilary",Hilary,Jacks,"{'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 133', 'PHYS 132', 'PHYS 461'}",180-0111,8057561604,hjacks,hjacks@calpoly.edu,W
+722,"Jacobson, Craig",Craig,Jacobson,{None},033-0458,8057567520,cjacobso,cjacobso@calpoly.edu,W
+727,"Jankovitz, Kris",Kris,Jankovitz,"{'KINE 462', 'KINE 460', 'HLTH 400', 'KINE 400', 'HLTH 337'}",043A-0457,8057562545,kjankovi,kjankovi@calpoly.edu,W
+728,"Jaquinod, Jeremy",Jeremy,Jaquinod,{None},,5309020150,jaquinod,jaquinod@calpoly.edu,W
+737,"Jasbinsek, John",John,Jasbinsek,"{'GEOL 201', 'ERSC 400', 'PHYS 462', 'GEOL 400', 'GEOL 303', 'PHYS 461', 'GEOL 200'}",180-0520,8057562013,jjasbins,jjasbins@calpoly.edu,W
+747,"Jeffery, Elizabeth",Elizabeth,Jeffery,"{'ASTR 301', 'PHYS 400', 'PHYS 122', 'PHYS 462', 'PHYS 200', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0604,8057562019,ejjeffer,ejjeffer@calpoly.edu,W
+751,"Jenkin, Bryce",Bryce,Jenkin,"{'MATH 143', 'MATH 161'}",025-0332,8057562289,bjenkin,bjenkin@calpoly.edu,W
+755,"Jensen, Jessica",Jessica,Jensen,"{'EDUC 435', 'EDUC 450', 'EDUC 438'}",002-0132,8057566420,jjense11,jjense11@calpoly.edu,W
+756,"Jew, Kara",Kara,Jew,{None},,8057562836,kjew,kjew@calpoly.edu,W
+760,"Johnson, Carra",Carra,Johnson,"{'KINE 323', 'KINE 324'}",043A-0457,8057562545,cjohn210,cjohn210@calpoly.edu,W
+761,"Johnston, Erin",Erin,Johnston,{None},,7149444617,ejohn122,ejohn122@calpoly.edu,W
+762,"Johnston, Peggy",Peggy,Johnston,{None},025-0229,8057562226,pejohnst,pejohnst@calpoly.edu,W
+773,"Johnston, Scott",Scott,Johnston,"{'PHYS 462', 'GEOL 400', 'GEOL 102', 'PHYS 461', 'GEOL 200', 'GEOL 241'}",180-0521,8057561650,scjohnst,scjohnst@calpoly.edu,W
+779,"Jones, Eric",Eric,Jones,"{'CHEM 474', 'CHEM 201', 'CHEM 127', 'CHEM 401'}",180-0418,8057562425,ejones21,ejones21@calpoly.edu,W
+780,"Jones, Julia",Julia,Jones,{None},043A-0458D,8057562546,jjone104,jjone104@calpoly.edu,W
+781,"Jones, Michael",Michael,Jones,{'BIO 231'},,nan,mjones99,mjones99@calpoly.edu,W
+782,"Kahn, Elias",Elias,Kahn,{None},,4153126744,elkahn,elkahn@calpoly.edu,W
+783,"Kalan, Parker",Parker,Kalan,{None},052-D027C,8057562328,pkalan,pkalan@calpoly.edu,W
+786,"Kane, Steven",Steven,Kane,"{'EDUC 573', 'EDUC 590'}",002-0130,8057561572,skane,skane@calpoly.edu,W
+792,"Kantorowski, Eric",Eric,Kantorowski,"{'CHEM 201', 'CHEM 216', 'CHEM 401'}",180-0405,8057562796,ekantoro,ekantoro@calpoly.edu,W
+793,"Kasper, Julia",Julia,Kasper,{None},,8057104415,jckasper,jckasper@calpoly.edu,W
+799,"Kato, Goro",Goro,Kato,"{'MATH 241', 'MATH 462', 'MATH 461'}",025-0326,8057561682,gkato,gkato@calpoly.edu,W
+806,"Kaul, Anton",Anton,Kaul,"{'MATH 540', 'MATH 462', 'MATH 440', 'MATH 142', 'MATH 461', 'MATH 599'}",025-0312,8057561678,akaul,akaul@calpoly.edu,W
+814,"Keadle, Sarah",Sarah,Keadle,"{'KINE 462', 'KINE 460', 'HLTH 400', 'KINE 319', 'KINE 400', 'HLTH 462', 'HLTH 201', 'KINE 201'}",043A-0370,8057561785,skeadle,skeadle@calpoly.edu,W
+822,"Keeling, Elena",Elena,Keeling,"{'BIO 161', 'BIO 300', 'BIO 400', 'BIO 200', 'BIO 462', 'BIO 593', 'BIO 500', 'BIO 452'}",033-0271,8057562175,ekeeling,ekeeling@calpoly.edu,W
+823,"Keim, Nathan",Nathan,Keim,{None},180-0618,8057562467,nkeim,nkeim@calpoly.edu,W
+824,"Keller, John",John,Keller,{None},180-0204,8057562448,jmkeller,jmkeller@calpoly.edu,W
+826,"Kelly, Catherine",Catherine,Kelly,"{'EDUC 454', 'EDUC 438'}",002-0120,8057562126,ckelly17,ckelly17@calpoly.edu,W
+827,"Kelly, Emily",Emily,Kelly,{None},043A-0458B,8057562243,ekelly08,ekelly08@calpoly.edu,W
+828,"Kerbs, Lucas",Lucas,Kerbs,{None},038-0213,8057565688,kerbs,kerbs@calpoly.edu,W
+833,"Kingsbury, Kevin",Kevin,Kingsbury,"{'CHEM 221', 'CHEM 201', 'CHEM 401'}",180-0408,8057561652,kkingsbu,kkingsbu@calpoly.edu,W
+834,"Kirk, Colleen",Colleen,Kirk,{None},025-0316,8057562632,ckirk,ckirk@calpoly.edu,W
+841,"Kiste, Alan",Alan,Kiste,"{'CHEM 128', 'CHEM 201', 'CHEM 466', 'CHEM 401'}",180-0304D,8057561690,akiste,akiste@calpoly.edu,W
+842,"Kitts, Chris",Chris,Kitts,{None},038-0155,8057561508,ckitts,ckitts@calpoly.edu,W
+847,"Klay, Jennifer",Jennifer,Klay,"{'PHYS 141', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0620,8057561250,jklay,jklay@calpoly.edu,W
+848,"Klig, Cameron",Cameron,Klig,{None},038-0213,8057565688,cklig,cklig@calpoly.edu,W
+854,"Knight, Charles",Charles,Knight,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 111'}",033-0364,8057562989,knight,knight@calpoly.edu,W
+863,"Kogan, Oleg",Oleg,Kogan,"{'PHYS 400', 'PHYS 301', 'PHYS 462', 'PHYS 200', 'PHYS 461', 'PHYS 132'}",180-0274D,8057562473,okogan,okogan@calpoly.edu,W
+872,"Kolluru, Gita",Gita,Kolluru,"{'BIO 400', 'BIO 442', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 123'}",033-0368,8057562819,gkolluru,gkolluru@calpoly.edu,W
+876,"Korengel, Felicia",Felicia,Korengel,"{'STAT 314', 'STAT 217'}",025-0107D,8057562709,fkorenge,fkorenge@calpoly.edu,W
+877,"Kreider, Brandy",Brandy,Kreider,{None},026M-0108,8057565664,bkreider,bkreider@calpoly.edu,W
+884,"Kuriabova, Tatiana",Tatiana,Kuriabova,"{'PHYS 141', 'PHYS 400', 'PHYS 462', 'PHYS 409', 'PHYS 200', 'PHYS 461'}",180-0519,8057561664,tkuriabo,tkuriabo@calpoly.edu,W
+885,"Lafferty, Nathan",Nathan,Lafferty,{None},038-0209,8057565685,nlaffert,nlaffert@calpoly.edu,W
+889,"Laird, Joanna",Joanna,Laird,"{'CHEM 124', 'CHEM 125'}",052-E042,8057562621,jolaird,jolaird@calpoly.edu,W
+890,"Larson, Chase",Chase,Larson,{None},,2093037026,clarso12,clarso12@calpoly.edu,W
+891,"Lau, Ryan",Ryan,Lau,{None},053-0211A,8057566576,rmlau,rmlau@calpoly.edu,W
+892,"Laubscher, Andrea",Andrea,Laubscher,{None},180-0466C,8057562483,alaubsch,alaubsch@calpoly.edu,W
+893,"Le, Brandon",Brandon,Le,{None},038-0213,8057565688,ble11,ble11@calpoly.edu,W
+898,"Lehr, Corinne",Corinne,Lehr,"{'CHEM 201', 'CHEM 110', 'CHEM 439', 'CHEM 401'}",180-0306C,8057561274,clehr,clehr@calpoly.edu,W
+905,"Lema, Sean",Sean,Lema,"{'BIO 400', 'BIO 300', 'BIO 200', 'MSCI 300', 'BIO 462', 'BIO 500'}",033-0370,8057562802,slema,slema@calpoly.edu,W
+912,"Lent, Adrienne",Adrienne,Lent,"{'HLTH 320', 'HLTH 318', 'HLTH 462', 'HLTH 101'}",043A-0356,8057567725,ablent,ablent@calpoly.edu,W
+913,"Lewis, Scott",Scott,Lewis,{'EDUC 469'},002-0120,8057562126,slewis18,slewis18@calpoly.edu,W
+918,"Leyton, Michael",Michael,Leyton,{'PHYS 132'},180-0111,8057561635,mleyton,mleyton@calpoly.edu,W
+923,"Liese, Jeffrey",Jeffrey,Liese,"{'MATH 241', 'MATH 462', 'MATH 531', 'MATH 461'}",025-0306,8057562474,jliese,jliese@calpoly.edu,W
+928,"Lin, Joyce",Joyce,Lin,"{'MATH 416', 'MATH 141', 'MATH 462', 'MATH 461'}",025-0339,8057565554,jlin46,jlin46@calpoly.edu,W
+929,"Liou, Charlie",Charlie,Liou,{None},038-0212,8057561683,cbliou,cbliou@calpoly.edu,W
+932,"Littlefield-Halfman, Carol",Carol,Littlefield-Halfman,"{'LS 230', 'LS 250'}",025-0125B2,8057566533,clittlef,clittlef@calpoly.edu,W
+933,"Liu, Y.",Y.,Liu,{None},180-0372,8057561326,yliu01,yliu01@calpoly.edu,W
+938,"Liwanag, Heather",Heather,Liwanag,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0375,8057565202,hliwanag,hliwanag@calpoly.edu,W
+939,"Lombard, Amanda",Amanda,Lombard,{'EDUC 469'},002-0120,8057562126,lombard,lombard@calpoly.edu,W
+942,"Long, Jannea",Jannea,Long,"{'EDUC 469', 'EDUC 479'}",,nan,jlong31,jlong31@calpoly.edu,W
+943,"Lowrey, Kelsey",Kelsey,Lowrey,{None},038-0207,8057565684,klowrey,klowrey@calpoly.edu,W
+951,"Lu, Lei",Lei,Lu,"{'PHYS 400', 'PHYS 123', 'PHYS 462', 'PHYS 200', 'PHYS 461', 'PHYS 121'}",180-0111B,8057561612,lelu,lelu@calpoly.edu,W
+955,"Lund, Ulric",Ulric,Lund,"{'STAT 530', 'STAT 330'}",025-0236,8057566122,ulund,ulund@calpoly.edu,W
+956,"Magdaleno, Ashley",Ashley,Magdaleno,{None},025-0229A,8057561619,admagdal,admagdal@calpoly.edu,W
+960,"Maj, Magdalena",Magdalena,Maj,"{'CHEM 313', 'BIO 406'}",053-0220,8057565389,mmaj,mmaj@calpoly.edu,W
+961,"Mapes, Hayley",Hayley,Mapes,{None},,8315664305,hmapes,hmapes@calpoly.edu,W
+962,"Marlier, John",John,Marlier,{None},025-0201,8057561327,jmarlier,jmarlier@calpoly.edu,W
+971,"Marlow, Colleen",Colleen,Marlow,"{'PHYS 141', 'PHYS 400', 'PHYS 206', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0508,8057562065,camarlow,camarlow@calpoly.edu,W
+972,"Marshall, Morgen",Morgen,Marshall,{None},117-0116,8057567320,mnmarsha,mnmarsha@calpoly.edu,W
+974,"Martinez, Andres",Andres,Martinez,"{'CHEM 201', 'CHEM 401'}",025-0212,8057562744,awmartin,awmartin@calpoly.edu,W
+975,"Martinez, Nathaniel",Nathaniel,Martinez,{None},033-0379,8057562185,nmarti32,nmarti32@calpoly.edu,W
+979,"Mastoridis, Themis",Themis,Mastoridis,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0609,8057562197,tmastori,tmastori@calpoly.edu,W
+980,"Mathews, Diane",Diane,Mathews,{'EDUC 447'},,nan,dkmathew,dkmathew@calpoly.edu,W
+984,"Mattson, Renae",Renae,Mattson,"{'EDUC 454', 'EDUC 439', 'EDUC 455'}",002-0120,8057562126,rsmattso,rsmattso@calpoly.edu,W
+993,"Maurice, Stefanee",Stefanee,Maurice,"{'KINE 462', 'KINE 460', 'KINE 400', 'KINE 323', 'KINE 201', 'KINE 324'}",043A-0365,8057562541,somauric,somauric@calpoly.edu,W
+994,"May, Melissa",Melissa,May,{None},,nan,mmay13,mmay13@calpoly.edu,W
+995,"McConnico, Laurie",Laurie,McConnico,{None},,nan,lmcconni,lmcconni@calpoly.edu,W
+1001,"McDonald, Ashley",Ashley,McDonald,"{'CHEM 203', 'CHEM 401', 'CHEM 201', 'CHEM 124'}",025-0213,8057567536,armcdona,armcdona@calpoly.edu,W
+1006,"McGaughey, Karen",Karen,McGaughey,"{'STAT 513', 'STAT 302'}",025-0102,8057566578,kmcgaugh,kmcgaugh@calpoly.edu,W
+1007,"McMillen, Brooke",Brooke,McMillen,{'EDUC 438'},002-0120,8057562126,balvord,balvord@calpoly.edu,W
+1008,"McMunn, Virginia",Virginia,McMunn,{None},002-0106,8057565090,vmcmunn,vmcmunn@calpoly.edu,W
+1009,"McNabb, Candace",Candace,McNabb,{None},180-0206A,8057562694,cdmcnabb,cdmcnabb@calpoly.edu,W
+1010,"Mcguire, Joseph",Joseph,Mcguire,{None},038-0209,8057565685,jmcgui05,jmcgui05@calpoly.edu,W
+1015,"Medina, Elsa",Elsa,Medina,"{'MATH 462', 'MATH 142', 'MATH 330', 'MATH 461'}",025-0303,8057562244,emedina,emedina@calpoly.edu,W
+1019,"Mendes, Anthony",Anthony,Mendes,"{'MATH 462', 'MATH 344', 'MATH 461'}",025-0202,8057561699,aamendes,aamendes@calpoly.edu,W
+1021,"Merlo, Beth",Beth,Merlo,"{'KINE 131', 'KINE 129'}",043A-0457,8057562545,bmmerlo,bmmerlo@calpoly.edu,W
+1022,"Merriam, John",John,Merriam,{None},033-0000,8057567531,jmmerria,jmmerria@calpoly.edu,W
+1023,"Messina, Stephanie",Stephanie,Messina,{None},,9734590528,smessina,smessina@calpoly.edu,W
+1024,"Metz, Kate",Kate,Metz,{None},,2092691307,kmmetz,kmmetz@calpoly.edu,W
+1032,"Mewes, Matthew",Matthew,Mewes,"{'PHYS 321', 'PHYS 400', 'PHYS 123', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0510,8057562881,mmewes,mmewes@calpoly.edu,W
+1036,"Meyer, William Max",William Max,Meyer,{'KINE 181'},043A-0457,8057562545,wmeyer,wmeyer@calpoly.edu,W
+1045,"Miller, Chad",Chad,Miller,"{'PHYS 141', 'PHYS 125', 'PHYS 400', 'PHYS 122', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0111,8057562029,cmill138,cmill138@calpoly.edu,W
+1046,"Miller, Jessie",Jessie,Miller,{None},002-0122B,8057561503,jmill115,jmill115@calpoly.edu,W
+1047,"Miller, Michael",Michael,Miller,{None},026M-0108,8057565527,mmill192,mmill192@calpoly.edu,W
+1048,"Millington, Mary Ann",Mary Ann,Millington,{None},043A-0454,8057562243,mmilling,mmilling@calpoly.edu,W
+1053,"Mitchell, David",David,Mitchell,"{'ASTR 101', 'PHYS 462', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0614,8057565290,dsmitche,dsmitche@calpoly.edu,W
+1061,"Moelter, Matt",Matt,Moelter,"{'PHYS 141', 'PHYS 400', 'PHYS 206', 'PHYS 462', 'PHYS 200', 'PHYS 133', 'PHYS 461'}",180-0605,8057562656,mmoelter,mmoelter@calpoly.edu,W
+1065,"Moran, Bradley",Bradley,Moran,"{'CHEM 124', 'CHEM 125'}",052-E043,8057562261,bmoran06,bmoran06@calpoly.edu,W
+1071,"Morey, Nisa",Nisa,Morey,"{'CHEM 127', 'CHEM 312'}",052-E042,8057562621,nsatumti,nsatumti@calpoly.edu,W
+1072,"Moylan, Thomas",Thomas,Moylan,{None},025-0216,8057560225,tmoylan,tmoylan@calpoly.edu,W
+1073,"Muguira, Traice",Traice,Muguira,{None},002-0120B,8057565003,tmuguira,tmuguira@calpoly.edu,W
+1074,"Mulroy, Michael",Michael,Mulroy,{None},,8057559363,mmulroy,mmulroy@calpoly.edu,W
+1075,"Murphy, Molly",Molly,Murphy,{None},,7169574683,mmurph72,mmurph72@calpoly.edu,W
+1090,Name,,,{'Course'},Office,nan,Alias,Alias@calpoly.edu,W
+1091,"Nash, Andrea",Andrea,Nash,{None},033-0273,8057565242,anash,anash@calpoly.edu,W
+1096,"Nation, Jasmine",Jasmine,Nation,"{'LS 400', 'BIO 211'}",025-0131,8057562990,jmnation,jmnation@calpoly.edu,W
+1097,"Navarro, Oscar",Oscar,Navarro,{None},,8057566553,osnavarr,osnavarr@calpoly.edu,W
+1098,"Neal, Emily",Emily,Neal,{None},033-0281,8057562788,erusch,erusch@calpoly.edu,W
+1099,"Needles, Lisa",Lisa,Needles,{'BIO 227'},025-0302,8057561637,lneedles,lneedles@calpoly.edu,W
+1103,"Neff, Grace",Grace,Neff,"{'CHEM 201', 'CHEM 401', 'CHEM 124'}",025-0203,8057561687,gneff,gneff@calpoly.edu,W
+1104,"Neldner, Heather",Heather,Neldner,{None},,3106126806,hneldner,hneldner@calpoly.edu,W
+1105,"Nelson, Christine",Christine,Nelson,{None},043A-0355,8057565367,cinelson,cinelson@calpoly.edu,W
+1107,"Neumann, Natasha",Natasha,Neumann,"{'EDUC 518', 'EDUC 500'}",002-0112,8057566082,naneuman,naneuman@calpoly.edu,W
+1111,"Newel, Charley",Charley,Newel,"{'KINE 131', 'KINE 152', 'KINE 129'}",,nan,cnewel,cnewel@calpoly.edu,W
+1112,"Newsome-Slade, Vanessa",Vanessa,Newsome-Slade,{None},038-0213,8057565688,vnewsome,vnewsome@calpoly.edu,W
+1116,"Nouh, Mohamed",Mohamed,Nouh,"{'MATH 241', 'MATH 244'}",025-0338,8057562421,mnouh,mnouh@calpoly.edu,W
+1118,"O'Bryant, Camille",Camille,O'Bryant,"{'KINE 400', 'KINE 460'}",025-0232,8057561787,cobryant,cobryant@calpoly.edu,W
+1129,"O'Hara, Christie",Christie,O'Hara,"{'KINE 110', 'KINE 462', 'KINE 145', 'KINE 319', 'KINE 400', 'KINE 403', 'KINE 307'}",043A-0457,8057562545,crohara,crohara@calpoly.edu,W
+1130,"O'connor, Megan",Megan,O'connor,{None},,9162968242,moconn14,moconn14@calpoly.edu,W
+1131,"OLeary, Jennifer",Jennifer,OLeary,{None},053-0220,8057565389,jkoleary,jkoleary@calpoly.edu,W
+1134,"Oksanish, James",James,Oksanish,{'STAT 251'},025-0107D,8057562709,joksanis,joksanis@calpoly.edu,W
+1135,"Olivarria, Juan",Juan,Olivarria,{'EDUC 454'},002-0120,8057562126,jjolivar,jjolivar@calpoly.edu,W
+1137,"Ontiveros, Margaret",Margaret,Ontiveros,"{'EDUC 454', 'EDUC 438'}",002-0120,8057562126,mmontive,mmontive@calpoly.edu,W
+1138,"Ornelas, Nohemy",Nohemy,Ornelas,{None},002-0120,8057562126,nestrada,nestrada@calpoly.edu,W
+1139,"Ottesen, Rebecca",Rebecca,Ottesen,{'STAT 440'},025-0107D,8057562709,rottesen,rottesen@calpoly.edu,W
+1141,"Oza, Javin",Javin,Oza,"{'CHEM 201', 'CHEM 401'}",180-0410,8057562265,joza,joza@calpoly.edu,W
+1145,"Packard, Juleen",Juleen,Packard,{'LS 211'},025-0125B2,8057566533,jpackard,jpackard@calpoly.edu,W
+1150,"Palandoken, Hasan",Hasan,Palandoken,"{'CHEM 221', 'CHEM 217', 'CHEM 201', 'CHEM 401'}",180-0406,8057561591,hpalando,hpalando@calpoly.edu,W
+1155,"Paquin, Dana",Dana,Paquin,"{'MATH 462', 'MATH 142', 'MATH 461', 'MATH 599'}",025-0327,8057562679,dpaquin,dpaquin@calpoly.edu,W
+1156,"Parsons, Benjamin",Benjamin,Parsons,{None},,5157717746,beparson,beparson@calpoly.edu,W
+1163,"Pasulka, Alexis",Alexis,Pasulka,"{'BIO 400', 'BIO 300', 'MCRO 221', 'BIO 200', 'BIO 462', 'BIO 500', 'MCRO 224'}",033-0265,8057565399,apasulka,apasulka@calpoly.edu,W
+1171,"Patton, Linda",Linda,Patton,"{'MATH 462', 'MATH 599', 'MATH 461', 'MATH 143', 'HNRS 143', 'MATH 409'}",025-0323,8057561680,lpatton,lpatton@calpoly.edu,W
+1178,"Paulding, Katie",Katie,Paulding,"{'EDUC 300', 'EDUC 427', 'EDUC 469'}",002-0120,8057562126,kpauldin,kpauldin@calpoly.edu,W
+1185,"Pearse, Erin",Erin,Pearse,"{'MATH 462', 'MATH 242', 'MATH 461', 'MATH 244', 'MATH 500', 'MATH 599'}",025-0341,8057565558,epearse,epearse@calpoly.edu,W
+1186,"Pearson, Katelin",Katelin,Pearson,{None},,nan,kdpearso,kdpearso@calpoly.edu,W
+1194,"Perrine, John",John,Perrine,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 321'}",033-0275,8057562368,jperrine,jperrine@calpoly.edu,W
+1196,"Peters, Gary",Gary,Peters,{'EDUC 469'},002-0120,8057562126,gpeter05,gpeter05@calpoly.edu,W
+1205,"Phelan, Suzanne",Suzanne,Phelan,"{'KINE 462', 'KINE 460', 'HLTH 440', 'HLTH 400', 'HLTH 460', 'KINE 400', 'HLTH 462', 'HLTH 281', 'HLTH 201'}",043A-0374,8057562087,sphelan,sphelan@calpoly.edu,W
+1208,"Proll, William",William,Proll,"{'KINE 132', 'KINE 134'}",043A-0457,8057562545,wproll,wproll@calpoly.edu,W
+1210,"Quirk, Robert",Robert,Quirk,{'EDUC 469'},,nan,rquirk,rquirk@calpoly.edu,W
+1211,"Rachman, Kyle",Kyle,Rachman,{None},038-0213,8057565688,krachman,krachman@calpoly.edu,W
+1218,"Rajakaruna, Nishi",Nishi,Rajakaruna,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 591', 'BIO 415', 'BIO 500'}",033-0367,8057562836,nrajakar,nrajakar@calpoly.edu,W
+1222,"Ramrakhiani, Sonia",Sonia,Ramrakhiani,"{'EDUC 573', 'EDUC 564', 'EDUC 500'}",002-0138,8057561574,sramrakh,sramrakh@calpoly.edu,W
+1223,"Reeves, Kristin",Kristin,Reeves,{None},033-0281,8057562788,kreeve01,kreeve01@calpoly.edu,W
+1225,"Rein, Steven",Steven,Rein,{'STAT 218'},025-0234,8057562941,srein,srein@calpoly.edu,W
+1226,"Resner, Emily",Emily,Resner,{None},033-0281,8057562788,eresner,eresner@calpoly.edu,W
+1231,"Retsek, Dylan",Dylan,Retsek,"{'MATH 143', 'MATH 413', 'MATH 462', 'MATH 461'}",025-0314,8057562072,dretsek,dretsek@calpoly.edu,W
+1235,"Retsek, Jennifer",Jennifer,Retsek,"{'CHEM 128', 'CHEM 124'}",052-E039,8057562566,jretsek,jretsek@calpoly.edu,W
+1236,"Reynolds, Suzy",Suzy,Reynolds,{'EDUC 454'},002-0120,8057562126,sureynol,sureynol@calpoly.edu,W
+1237,"Rice, Margaret",Margaret,Rice,{None},180-0206,8057562693,msrice,msrice@calpoly.edu,W
+1250,"Richert, Benjamin",Benjamin,Richert,"{'MATH 485', 'MATH 462', 'MATH 316', 'MATH 258', 'MATH 495', 'MATH 491', 'MATH 400', 'MATH 422', 'MATH 461', 'MATH 500', 'MATH 599'}",025-0208DC,8057561681,brichert,brichert@calpoly.edu,W
+1251,"Richmond, Shawn",Shawn,Richmond,{None},,7147020774,smmccrea,smmccrea@calpoly.edu,W
+1253,"Riley, Kate",Kate,Riley,"{'MATH 462', 'MATH 461'}",025-0304,8057565070,kriley,kriley@calpoly.edu,W
+1259,"Ritter, Matt",Matt,Ritter,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 114'}",033-0373,8057562775,mritter,mritter@calpoly.edu,W
+1262,"Robbins, Marian",Marian,Robbins,"{'MATH 143', 'MATH 462', 'MATH 461'}",025-0330,8057562263,mrobbins,mrobbins@calpoly.edu,W
+1266,"Roberts, Joni",Joni,Roberts,"{'HLTH 201', 'HLTH 462', 'HLTH 410', 'HLTH 400'}",043A-0354,8057565637,jrober81,jrober81@calpoly.edu,W
+1270,"Robertson, Mike",Mike,Robertson,"{'MATH 244', 'MATH 142'}",025-0331,8057562522,jroberts,jroberts@calpoly.edu,W
+1271,"Ronan, Briana",Briana,Ronan,{None},002-0111,8057565056,bronan,bronan@calpoly.edu,W
+1274,"Ross, Kevin",Kevin,Ross,"{'STAT 415', 'STAT 350'}",025-0237,8057565739,kjross,kjross@calpoly.edu,W
+1277,"Rossman, Allan",Allan,Rossman,"{'STAT 130', 'STAT 251'}",025-0221,8057561344,arossman,arossman@calpoly.edu,W
+1278,"Rousseau, Zackary",Zackary,Rousseau,{None},,8582133356,zroussea,zroussea@calpoly.edu,W
+1283,"Roy, Soma",Soma,Roy,"{'STAT 418', 'STAT 323', 'STAT 523'}",025-0104,8057565250,soroy,soroy@calpoly.edu,W
+1284,"Ruef, Mike",Mike,Ruef,{None},002-0120,8057562126,mruef,mruef@calpoly.edu,W
+1285,"Ruttenberg, Ben",Ben,Ruttenberg,{None},033-0361,8057562498,bruttenb,bruttenb@calpoly.edu,W
+1287,"Ryan, Sean",Sean,Ryan,{'BOT 121'},033-0281,8057562788,spryan,spryan@calpoly.edu,W
+1295,"Rydberg, Nels",Nels,Rydberg,"{'KINE 151', 'KINE 152'}",,nan,ncrydber,ncrydber@calpoly.edu,W
+1301,"Ríos, Laura",Laura,Ríos,"{'PHYS 400', 'PHYS 462', 'PHYS 341', 'PHYS 200', 'PHYS 461'}",180-0610,8057562458,lrios02,lrios02@calpoly.edu,W
+1304,"Sabbag, Anelise",Anelise,Sabbag,"{'STAT 301', 'STAT 410'}",025-0222,8057565562,asabbag,asabbag@calpoly.edu,W
+1305,"Saenger, Katie",Katie,Saenger,{None},,9253017414,esaenger,esaenger@calpoly.edu,W
+1306,"Salucci, Susan",Susan,Salucci,{None},002-0120,8057562126,ssalucci,ssalucci@calpoly.edu,W
+1315,"Sanchez, Alfredo",Alfredo,Sanchez,"{'SCM 230', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 133', 'PHYS 461'}",180-0111B,8057561610,asanc178,asanc178@calpoly.edu,W
+1316,"Saniee, Kiana",Kiana,Saniee,{None},033-0281,8057562788,ksaniee,ksaniee@calpoly.edu,W
+1325,"Sapper, Erik",Erik,Sapper,"{'CHEM 448 (1)', 'CHEM 201', 'CHEM 445 (1)', 'CHEM 127', 'CHEM 545 (1)', 'CHEM 449', 'CHEM 548 (1)', 'CHEM 401'}",180-0304E,8057561663,esapper,esapper@calpoly.edu,W
+1329,"Saunders, Karl",Karl,Saunders,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0204B,8057562447,ksaunder,ksaunder@calpoly.edu,W
+1331,"Schaffner, Andrew",Andrew,Schaffner,"{'STAT 200', 'STAT 400'}",025-0107C,8057561545,aschaffn,aschaffn@calpoly.edu,W
+1336,"Schinck-Mikel, Amelie",Amelie,Schinck-Mikel,"{'MATH 328', 'MATH 425', 'MATH 462', 'MATH 461'}",025-0324,8057562352,aschinck,aschinck@calpoly.edu,W
+1337,"Schroeter, Robert",Robert,Schroeter,{None},,nan,rschroet,rschroet@calpoly.edu,W
+1341,"Schroth-Glanz, Maddie",Maddie,Schroth-Glanz,{'STAT 218'},025-0223,8057566310,mschroth,mschroth@calpoly.edu,W
+1343,"Schuster, Sonja",Sonja,Schuster,{'STAT 251'},025-0107D,8057562709,sschuste,sschuste@calpoly.edu,W
+1349,"Schwartz, Peter",Peter,Schwartz,"{'PHYS 141', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0608,8057561220,pschwart,pschwart@calpoly.edu,W
+1353,"Scott, Gregory",Gregory,Scott,"{'CHEM 201', 'CHEM 354', 'CHEM 401'}",180-0306E,8057562617,gscott02,gscott02@calpoly.edu,W
+1354,"Semmens, Caroline",Caroline,Semmens,{None},038-0209,8057565685,csemmens,csemmens@calpoly.edu,W
+1355,"Severance, Jenee",Jenee,Severance,{'EDUC 438'},,nan,jmsevera,jmsevera@calpoly.edu,W
+1360,"Shalhoub, Samuel",Samuel,Shalhoub,"{'LS 370', 'MU 120', 'LS 412'}",025-0125E,8057566529,sshalhou,sshalhou@calpoly.edu,W
+1365,"Shapiro, Jonathan",Jonathan,Shapiro,"{'MATH 206', 'MATH 462', 'MATH 142', 'MATH 461'}",025-0308,8057561675,jshapiro,jshapiro@calpoly.edu,W
+1369,"Sharpe, John",John,Sharpe,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0621,8057562069,jsharpe,jsharpe@calpoly.edu,W
+1374,"Sherman, Morgan",Morgan,Sherman,"{'MATH 241', 'MATH 248', 'MATH 462', 'MATH 461'}",025-0329,8057561676,sherman1,sherman1@calpoly.edu,W
+1375,"Shires, Paul",Paul,Shires,{None},180-0460,8057566231,pshires,pshires@calpoly.edu,W
+1385,"Shlaer, Benjamin",Benjamin,Shlaer,"{'PHYS 400', 'PHYS 122', 'PHYS 462', 'PHYS 200', 'PHYS 132', 'PHYS 461'}",180-0111,8057561614,bshlaer,bshlaer@calpoly.edu,W
+1387,"Sims, Donna",Donna,Sims,"{'EDUC 454', 'EDUC 438'}",002-0120,8057562126,dksims,dksims@calpoly.edu,W
+1388,"Skelton, Tom",Tom,Skelton,{None},002-0120A,8057567190,tskelton,tskelton@calpoly.edu,W
+1392,"Sklar, Jeffrey",Jeffrey,Sklar,"{'STAT 252', 'STAT 417'}",025-0110,8057566353,jsklar,jsklar@calpoly.edu,W
+1393,"Smidt, Robert",Robert,Smidt,{None},025-0107D,8057562709,rsmidt,rsmidt@calpoly.edu,W
+1395,"Smith, Heather",Heather,Smith,{'STAT 252'},025-0112,8057566128,hsmith,hsmith@calpoly.edu,W
+1396,"Smith, Makell",Makell,Smith,{None},180-0206A,8057562694,maksmith,maksmith@calpoly.edu,W
+1397,"Smith, Stacey",Stacey,Smith,{None},180-0206,8057562693,ssmit226,ssmit226@calpoly.edu,W
+1398,"Soderberg, Steve",Steve,Soderberg,{None},180-0640A,8057566250,ssoderbe,ssoderbe@calpoly.edu,W
+1406,"Somal, Harsimran",Harsimran,Somal,"{'STAT 312', 'STAT 542'}",025-0107D,8057562709,hsomal,hsomal@calpoly.edu,W
+1410,"Somoza-Norton, Andrea",Andrea,Somoza-Norton,"{'EDUC 589', 'EDUC 518', 'EDUC 500'}",002-0110,8057565373,asomozan,asomozan@calpoly.edu,W
+1415,"Sorensen, Ena",Ena,Sorensen,"{'KINE 459', 'KINE 129'}",043A-0457,8057562545,sorensen,sorensen@calpoly.edu,W
+1421,"Stankus, Mark",Mark,Stankus,"{'MATH 462', 'MATH 351', 'MATH 142', 'MATH 461', 'MATH 248'}",025-0311,8057561716,mstankus,mstankus@calpoly.edu,W
+1423,"Starnes, Heather",Heather,Starnes,{'HLTH 255'},043A-0355,8057565367,hstarnes,hstarnes@calpoly.edu,W
+1424,"Staub, Susan",Susan,Staub,{None},043A-0455,8057560673,svstaub,svstaub@calpoly.edu,W
+1431,"Stauch, Nancy",Nancy,Stauch,"{'PSC 425', 'EDUC 469', 'PSC 102'}",025-0126,8057566587,nstauch,nstauch@calpoly.edu,W
+1432,"Stevenson, Cassie",Cassie,Stevenson,{None},025-0229D,8057567303,csteve03,csteve03@calpoly.edu,W
+1441,"Strand, Christy",Christy,Strand,"{'BIO 400', 'BIO 300', 'BIO 590', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 408'}",033-0266,8057562207,cstrand,cstrand@calpoly.edu,W
+1448,"Streder, KT",KT,Streder,"{'KINE 462', 'KINE 312', 'KINE 131', 'KINE 349'}",043A-0457,8057562545,kstreder,kstreder@calpoly.edu,W
+1466,"Sun, Dennis",Dennis,Sun,"{'CSC 597', 'CSC 500', 'STAT 400', 'CSC 400', 'CSC 498', 'CSC 599', 'CSC 596', 'STAT 312', 'CSC 492', 'CSC 497', 'STAT 542', 'CSC 491'}",025-0109,8057565877,dsun09,dsun09@calpoly.edu,W
+1467,"Sunata, Melissa",Melissa,Sunata,{None},025-0208DB,8057561228,msunata,msunata@calpoly.edu,W
+1474,"Sungar, Nilgun",Nilgun,Sungar,"{'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461', 'PHYS 132'}",180-0618,8057562851,nsungar,nsungar@calpoly.edu,W
+1476,"Swanagon, Russell",Russell,Swanagon,{'LS 310'},,8057561328,rswanago,rswanago@calpoly.edu,W
+1482,"Sze, Lawrence",Lawrence,Sze,"{'MATH 143', 'MATH 462', 'MATH 336', 'MATH 461'}",025-0307,8057566606,lsze,lsze@calpoly.edu,W
+1489,"Taylor, Emily",Emily,Taylor,"{'BIO 400', 'BIO 300', 'BIO 200', 'HNRS 299', 'BIO 462', 'BIO 500', 'BIO 232'}",033-0270,8057562616,etaylor,etaylor@calpoly.edu,W
+1490,"Terry, Raymond",Raymond,Terry,{None},025-0209,8057561660,rterry,rterry@calpoly.edu,W
+1496,"Theobold, Allison",Allison,Theobold,"{'STAT 531', 'STAT 331'}",025-0105,8057565529,atheobol,atheobol@calpoly.edu,W
+1497,"Thom, Neele",Neele,Thom,{None},,2065818228,nthom,nthom@calpoly.edu,W
+1507,"Thomas, Jafra",Jafra,Thomas,"{'KINE 460', 'HLTH 461', 'KINE 400', 'KINE 323', 'KINE 278', 'HLTH 460', 'KINE 201', 'KINE 324'}",043A-0376,8057565636,jthoma84,jthoma84@calpoly.edu,W
+1509,"Thomas-Hicks, Lori",Lori,Thomas-Hicks,{'EDUC 550'},002-0120,8057562126,lthomash,lthomash@calpoly.edu,W
+1510,"Thompson, Kevin",Kevin,Thompson,{None},180-0271A,8057566251,kthomp11,kthomp11@calpoly.edu,W
+1520,"Tomanek, Lars",Lars,Tomanek,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 561', 'BIO 462', 'BIO 500', 'BIO 361'}",033-0372,8057562437,ltomanek,ltomanek@calpoly.edu,W
+1525,"Tomasini, Alice",Alice,Tomasini,"{'EDUC 207', 'EDUC 469'}",002-0120,8057562126,atomasin,atomasin@calpoly.edu,W
+1526,"Toner, Pamela",Pamela,Toner,{'EDUC 469'},002-0120,8057562126,toner,toner@calpoly.edu,W
+1527,"Trunzo, Juliana",Juliana,Trunzo,{'BIO 363'},033-0281,8057562788,jtrunzo,jtrunzo@calpoly.edu,W
+1534,"Tseng, Marilyn",Marilyn,Tseng,"{'KINE 462', 'KINE 460', 'HLTH 400', 'HLTH 298', 'HLTH 462', 'HLTH 201'}",043A-0351,8057562196,mtseng,mtseng@calpoly.edu,W
+1540,"Tully-Doyle, Ryan",Ryan,Tully-Doyle,"{'MATH 462', 'MATH 461', 'MATH 143', 'MATH 500', 'MATH 599'}",025-0310,8057565189,rtullydo,rtullydo@calpoly.edu,W
+1541,"Turretto, Tony",Tony,Turretto,{None},025-0224,8057561579,aturrett,aturrett@calpoly.edu,W
+1542,"Uyeoka, Alycia",Alycia,Uyeoka,{None},033-0281,8057562788,auyeoka,auyeoka@calpoly.edu,W
+1543,"VanAlstine, Christy",Christy,VanAlstine,{'EDUC 447'},,nan,cvanalst,cvanalst@calpoly.edu,W
+1548,"Ventura, Alison",Alison,Ventura,"{'HLTH 460', 'HLTH 462', 'HLTH 453', 'HLTH 400'}",043A-0371,8057565693,akventur,akventur@calpoly.edu,W
+1553,"Villablanca, Francis",Francis,Villablanca,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0268,8057562200,fvillabl,fvillabl@calpoly.edu,W
+1557,"Villarroya Alvarez, Francisco",Francisco,Villarroya Alvarez,"{'MATH 141', 'MATH 142'}",025-0315,8057562287,frvillar,frvillar@calpoly.edu,W
+1563,"Vokos, Stamatis",Stamatis,Vokos,"{'PHYS 141', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",025-0127,8057562306,svokos,svokos@calpoly.edu,W
+1570,"Vredevoe, Larisa",Larisa,Vredevoe,"{'BIO 400', 'BIO 300', 'MCRO 221', 'BIO 200', 'BIO 462', 'MCRO 320', 'BIO 500'}",033-0277,8057567165,lvredevo,lvredevo@calpoly.edu,W
+1571,"Wakeman, Kaylene",Kaylene,Wakeman,{None},025-0128,8057562403,kwakeman,kwakeman@calpoly.edu,W
+1574,"Walker, John",John,Walker,"{'STAT 334', 'STAT 217'}",025-0226,8057567128,jwalker,jwalker@calpoly.edu,W
+1575,"Walker, Michelle",Michelle,Walker,{None},002-0122A,8057567189,mtwalker,mtwalker@calpoly.edu,W
+1582,"Walker, Randon",Randon,Walker,{'CHEM 312'},052-E039,8057562566,rwalke08,rwalke08@calpoly.edu,W
+1586,"Walter, Ryan",Ryan,Walter,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0509,8057561357,rkwalter,rkwalter@calpoly.edu,W
+1590,"Wang, Xiaofeng",Xiaofeng,Wang,"{'PHYS 141', 'PHYS 132'}",180-0111,8057562071,xwang07,xwang07@calpoly.edu,W
+1591,"Wang, Yi-Hui",Yi-Hui,Wang,{None},025-0107D,8057562709,ywang85,ywang85@calpoly.edu,W
+1597,"Ward, Sandra",Sandra,Ward,"{'CHEM 201', 'CHEM 220', 'CHEM 217', 'CHEM 401'}",180-0304B,8057562240,sward07,sward07@calpoly.edu,W
+1598,"Wardrop, Michelle",Michelle,Wardrop,{None},180-0204,8057562448,mwardrop,mwardrop@calpoly.edu,W
+1599,"Watkins, Warren",Warren,Watkins,{None},002-0113B,8057562083,wawatkin,wawatkin@calpoly.edu,W
+1603,"Watson, Sean",Sean,Watson,"{'MATH 182', 'MATH 141'}",025-0334,8057562451,swatso01,swatso01@calpoly.edu,W
+1607,"Watts, Katharine",Katharine,Watts,"{'CHEM 201', 'CHEM 125', 'CHEM 401'}",180-0414,8057562530,krwatts,krwatts@calpoly.edu,W
+1608,"Weaver, Savannah",Savannah,Weaver,{None},052-D027C,8057562328,saweaver,saweaver@calpoly.edu,W
+1609,"Weddige, Kristi",Kristi,Weddige,{None},053-0211B,8057562192,kweddige,kweddige@calpoly.edu,W
+1610,"Wendt, Dean",Dean,Wendt,{None},025-0229,8057562226,dwendt,dwendt@calpoly.edu,W
+1611,"West, Samantha",Samantha,West,{None},,7167718767,swest01,swest01@calpoly.edu,W
+1616,"White, Crow",Crow,White,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0378,8057562954,cwhite31,cwhite31@calpoly.edu,W
+1621,"White, Matthew",Matthew,White,"{'MATH 143', 'MATH 462', 'MATH 304', 'MATH 461'}",025-0301,8057561673,mewhite,mewhite@calpoly.edu,W
+1622,"Wiedenkeller, Sidonie",Sidonie,Wiedenkeller,{None},002-0131,8057566417,swiedenk,swiedenk@calpoly.edu,W
+1629,"Wilkinson, Steven",Steven,Wilkinson,"{'CHEM 474', 'CHEM 201', 'CHEM 371', 'CHEM 401'}",180-0417,8057561624,spwilkin,spwilkin@calpoly.edu,W
+1630,"Willems, Joshua",Joshua,Willems,{None},,5302270389,jwillems,jwillems@calpoly.edu,W
+1631,"Willey, Gage",Gage,Willey,{None},,5306324615,gwilley,gwilley@calpoly.edu,W
+1634,"Williams, Immanuel",Immanuel,Williams,{'STAT 252'},025-0107D,8057562709,imwillia,imwillia@calpoly.edu,W
+1635,"Wilson, Ashley",Ashley,Wilson,{None},,5203399852,awilso76,awilso76@calpoly.edu,W
+1636,"Wilson, Laura",Laura,Wilson,{None},053-0210E,8057562846,lwilso14,lwilso14@calpoly.edu,W
+1646,"Winstead, Candace",Candace,Winstead,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 301', 'BIO 500', 'BIO 428'}",033-0263,8057562899,cwinstea,cwinstea@calpoly.edu,W
+1647,"Wissel, Stephanie",Stephanie,Wissel,{None},180-0204,8057562448,swissel,swissel@calpoly.edu,W
+1648,"Wong, Kristina",Kristina,Wong,{None},002-0122B,8057561503,kwong04,kwong04@calpoly.edu,W
+1653,"Wood, Leah",Leah,Wood,"{'EDUC 532', 'SPED 547', 'SPED 545'}",002-0108,8057562079,awood17,awood17@calpoly.edu,W
+1654,"Worthen, Liz",Liz,Worthen,{'EDUC 469'},,8054588349,lworthen,lworthen@calpoly.edu,W
+1655,"Wrenn, Rosemary",Rosemary,Wrenn,{'LS 255'},025-0125B2,8057566533,rwrenn,rwrenn@calpoly.edu,W
+1658,"Wright, Donita",Donita,Wright,"{'EDUC 447', 'EDUC 454', 'EDUC 438'}",002-0120,8057562126,dlwright,dlwright@calpoly.edu,W
+1659,"Wyzlic, Miranda",Miranda,Wyzlic,{None},025-0229A,8057561619,mwyzlic,mwyzlic@calpoly.edu,W
+1662,"Yang, Fan",Fan,Yang,"{'MATH 182', 'MATH 112'}",025-0333,8057565552,fayang,fayang@calpoly.edu,W
+1663,"Yassa, Laura",Laura,Yassa,{'HLTH 297'},043A-0457,8057562545,lyassa,lyassa@calpoly.edu,W
+1664,"Ye, Jingtian",Jingtian,Ye,{None},038-0212,8057561683,jye07,jye07@calpoly.edu,W
+1665,"Yep-Rodriguez, Alejandra",Alejandra,Yep-Rodriguez,{None},033-0366,8057565355,yep,yep@calpoly.edu,W
+1673,"Yeung, Marie",Marie,Yeung,"{'BIO 400', 'BIO 300', 'MCRO 342', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0362,8057565199,pmyeung,pmyeung@calpoly.edu,W
+1674,"Yoshinobu, Stan",Stan,Yoshinobu,{None},025-0315,8057562287,styoshin,styoshin@calpoly.edu,W
+1679,"Yost, Jenn",Jenn,Yost,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0363,8057565869,jyost,jyost@calpoly.edu,W
+1680,"Youngquist, Emi",Emi,Youngquist,{None},025-0229C,8057561667,eyoungqu,eyoungqu@calpoly.edu,W
+1681,"Zell, Annie",Annie,Zell,{None},,6505809639,azell,azell@calpoly.edu,W
+1686,"Zhang, Shanju",Shanju,Zhang,"{'CHEM 128', 'CHEM 201', 'CHEM 590', 'CHEM 401'}",180-0420,8057562591,szhang05,szhang05@calpoly.edu,W
+1687,"Zieber, Karl",Karl,Zieber,{None},038-0207,8057565684,krzieber,krzieber@calpoly.edu,W
+1693,"Zigler, David",David,Zigler,"{'CHEM 201', 'CHEM 401', 'CHEM 124'}",180-0306A,8057562661,dzigler,dzigler@calpoly.edu,W
+1698,"Zoerb, Matthew",Matthew,Zoerb,"{'CHEM 201', 'CHEM 331', 'CHEM 401'}",180-0304A,8057562578,mzoerb,mzoerb@calpoly.edu,W
+1699,"Zoff, Michele",Michele,Zoff,{None},180-0333A,8057562422,mzoff,mzoff@calpoly.edu,W
+5,"Adams, Nikki",Nikki,Adams,"{'BIO 400', 'BIO 300', 'MSCI 401', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0371,8057562943,nadams,nadams@calpoly.edu,S
+6,"Adams, Susie",Susie,Adams,{'EDUC 456'},002-0120,8057562126,sjadams,sjadams@calpoly.edu,S
+13,"Alber, Julia",Julia,Alber,"{'KINE 462', 'KINE 460', 'HLTH 400', 'KINE 400', 'HLTH 450', 'HLTH 462', 'HLTH 201'}",043A-0367,8057561779,jmalber,jmalber@calpoly.edu,S
+14,"Aleksandrov, Tsvetan",Tsvetan,Aleksandrov,{None},052-E041,8057561554,taleksan,taleksan@calpoly.edu,S
+18,"Almeida, Daniel",Daniel,Almeida,"{'EDUC 573', 'EDUC 566', 'EDUC 500'}",002-0137,8057561502,dalmeida,dalmeida@calpoly.edu,S
+19,"Althaus, Kieran",Kieran,Althaus,{None},,3108391530,kalthaus,kalthaus@calpoly.edu,S
+20,"Anderson, Kyra",Kyra,Anderson,{None},,7146559943,kande145,kande145@calpoly.edu,S
+21,"Arnold, Sharon",Sharon,Arnold,{None},025-0229D,8057567303,sarnold,sarnold@calpoly.edu,S
+31,"Avrit, Darren",Darren,Avrit,"{'KINE 460', 'HLTH 443', 'KINE 400', 'KINE 122', 'KINE 307', 'KINE 310'}",043A-0363,8057561482,davrit,davrit@calpoly.edu,S
+34,"Babu, Praveen",Praveen,Babu,"{'BIO 303', 'BIO 213'}",053-0218,8057565376,pbabu,pbabu@calpoly.edu,S
+35,"Bailey, Phil",Phil,Bailey,{None},025-0120,8057565712,pbailey,pbailey@calpoly.edu,S
+36,"Balderas, Elijah",Elijah,Balderas,{None},,8057985026,ebaldera,ebaldera@calpoly.edu,S
+38,"Barclay, Ken",Ken,Barclay,{'LS 461'},025-0125E,8057566529,kbarclay,kbarclay@calpoly.edu,S
+39,"Barton, Kimberly",Kimberly,Barton,{None},025-0107D,8057562709,kabarton,kabarton@calpoly.edu,S
+40,"Basa, Sean",Sean,Basa,{None},038-0207,8057565684,sbasa,sbasa@calpoly.edu,S
+43,"Bauer, Julee",Julee,Bauer,"{'EDUC 457', 'EDUC 431'}",002-0134,8057565638,jbauer,jbauer@calpoly.edu,S
+48,"Bean, Tim",Tim,Bean,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0276,8057562662,wtbean,wtbean@calpoly.edu,S
+49,"Bedard, Robin",Robin,Bedard,{None},,7604170801,rbedard,rbedard@calpoly.edu,S
+53,"Beekman, Matt",Matt,Beekman,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",180-0511,8057567129,mbeekman,mbeekman@calpoly.edu,S
+57,"Bennert, Vardha N.",Vardha N.,Bennert,"{'PHYS 462', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0622,8057567317,vbennert,vbennert@calpoly.edu,S
+61,"Bensky, Thomas",Thomas,Bensky,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",180-0616,8057567655,tbensky,tbensky@calpoly.edu,S
+62,"Benson, Eric",Eric,Benson,{None},043A-0458C,8057567525,ecbenson,ecbenson@calpoly.edu,S
+64,"Berber-Jimenez, Lola",Lola,Berber-Jimenez,"{'LS 400', 'LS 301'}",025-0125C,8057560292,lberberj,lberberj@calpoly.edu,S
+66,"Bercovici, Daniel",Daniel,Bercovici,"{'CHEM 201', 'CHEM 401'}",052-E038,8057562369,dbercovi,dbercovi@calpoly.edu,S
+67,"Bergman, Anya",Anya,Bergman,{None},053-0210F,8057561662,abergman,abergman@calpoly.edu,S
+68,"Bergquist, Jason",Jason,Bergquist,{None},025-0208D,8057562206,jebergqu,jebergqu@calpoly.edu,S
+69,"Bersin, Theresa",Theresa,Bersin,{None},,9169964600,tbersin,tbersin@calpoly.edu,S
+72,"Best, Megan",Megan,Best,"{'EDUC 440', 'EDUC 449'}",002-0112,8057566082,mhirzel,mhirzel@calpoly.edu,S
+73,"Bills, Marissa",Marissa,Bills,{None},,9515530973,mbills,mbills@calpoly.edu,S
+74,"Bishop, Rebecca",Rebecca,Bishop,{'EDUC 479'},025-0325,8057562278,rbisho01,rbisho01@calpoly.edu,S
+83,"Black, Michael",Michael,Black,"{'BIO 400', 'BIO 300', 'BIO 161', 'BIO 200', 'BIO 462', 'BMED 583', 'BIO 500', 'BIO 452', 'BIO 583'}",033-0380,8057562894,mblack,mblack@calpoly.edu,S
+92,"Blank, Jason",Jason,Blank,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 361'}",033-0377,8057565629,jmblank,jmblank@calpoly.edu,S
+93,"Blanke, Barbara",Barbara,Blanke,{'EDUC 454'},002-0120,8057562126,bblanke,bblanke@calpoly.edu,S
+94,"Blunk, Brittany",Brittany,Blunk,{None},002-0122A,8057567189,bblunk,bblunk@calpoly.edu,S
+96,"Bockmon, Emily",Emily,Bockmon,"{'CHEM 201', 'CHEM 401'}",180-0412,8057561636,ebockmon,ebockmon@calpoly.edu,S
+98,"Bodwin, Kelly",Kelly,Bodwin,"{'STAT 431', 'STAT 434'}",025-0106,8057562450,kbodwin,kbodwin@calpoly.edu,S
+99,"Boldman, Gina",Gina,Boldman,{'LS 255'},025-0125B,8057562935,gboldman,gboldman@calpoly.edu,S
+104,"Bonini, Vincent",Vincent,Bonini,"{'MATH 241', 'MATH 406', 'MATH 462', 'MATH 461'}",025-0305,8057561657,vbonini,vbonini@calpoly.edu,S
+105,"Borgard, Christopher",Christopher,Borgard,{None},043A-0457,8057562545,cborgard,cborgard@calpoly.edu,S
+106,"Bow, Hannah",Hannah,Bow,{None},,9169697970,hbow,hbow@calpoly.edu,S
+107,"Brar, Ruzena",Ruzena,Brar,{None},025-0228,8057566534,rkbrar,rkbrar@calpoly.edu,S
+108,"Brauer, Ellie",Ellie,Brauer,{None},,9494223422,ebrauer,ebrauer@calpoly.edu,S
+109,"Breit, Emma",Emma,Breit,{None},,7206847980,ebreit,ebreit@calpoly.edu,S
+111,"Brescia, James",James,Brescia,{'EDUC 510'},002-0120,8057562126,jbrescia,jbrescia@calpoly.edu,S
+112,"Brewster, Doug",Doug,Brewster,{None},052-D024,8057562701,dbrewste,dbrewste@calpoly.edu,S
+113,"Brewster, Rob",Rob,Brewster,{None},052-D024,8057562701,rabrewst,rabrewst@calpoly.edu,S
+117,"Bridgeford, Kristin",Kristin,Bridgeford,"{'EDUC 456', 'EDUC 454', 'SCM 220', 'EDUC 479'}",002-0120,8057562126,kbridgef,kbridgef@calpoly.edu,S
+118,"Brookwell, August",August,Brookwell,{None},,3103864374,abrookwe,abrookwe@calpoly.edu,S
+123,"Brussel, Eric",Eric,Brussel,"{'HNRS 244', 'MATH 244', 'MATH 462', 'MATH 461'}",025-0300,8057562381,ebrussel,ebrussel@calpoly.edu,S
+124,"Buck-Moyer, David",David,Buck-Moyer,{'EDUC 479'},025-0126,8057566587,dbuckmoy,dbuckmoy@calpoly.edu,S
+125,"Buffa, Anthony",Anthony,Buffa,{None},180-0521,8057561650,abuffa,abuffa@calpoly.edu,S
+128,"Bunting, Jamie",Jamie,Bunting,"{'BIO 111', 'BIO 263'}",033-0383,8057562557,bunting,bunting@calpoly.edu,S
+129,"Bush, Jenny",Jenny,Bush,{'SCM 302'},025-0125B,8057562935,jybush,jybush@calpoly.edu,S
+144,"Bush, Seth",Seth,Bush,"{'CHEM 598', 'CHEM 201', 'CHEM 495', 'SCM 302', 'CHEM 200', 'CHEM 465', 'CHEM 485', 'CHEM 463', 'CHEM 403', 'CHEM 449', 'CHEM 461', 'CHEM 401', 'CHEM 599'}",180-0205A,8057562746,sbush,sbush@calpoly.edu,S
+149,"Byrne, Andrew",Andrew,Byrne,"{'EDUC 500', 'EDUC 568'}",002-0136,8057565095,anbyrne,anbyrne@calpoly.edu,S
+150,CSM-Advancement,,,{'CSM-Advancement'},CSM-Advancement,nan,CSM-Advancement,CSM-Advancement@calpoly.edu,S
+151,CSM-Advising Center,,,{'CSM-Advising Center'},CSM-Advising Center,nan,CSM-Advising Center,CSM-Advising Center@calpoly.edu,S
+152,CSM-Biological Sciences,,,{'CSM-Biological Sciences'},CSM-Biological Sciences,nan,CSM-Biological Sciences,CSM-Biological Sciences@calpoly.edu,S
+153,CSM-Center for Coastal Marine Sciences,,,{'CSM-Center for Coastal Marine'},CSM-Center for Coastal Marine Sciences,nan,CSM-Center for Coastal Marine Sciences,CSM-Center for Coastal Marine Sciences@calpoly.edu,S
+154,CSM-Center for Excellence in Science and Mathematics,,,{'CSM-Center for Excellence in Science and'},CSM-Center for Excellence in Science and Mathematics,nan,CSM-Center for Excellence in Science and Mathematics,CSM-Center for Excellence in Science and Mathematics@calpoly.edu,S
+155,CSM-Chemistry & Biochemistry,,,{'CSM-Chemistry &'},CSM-Chemistry & Biochemistry,nan,CSM-Chemistry & Biochemistry,CSM-Chemistry & Biochemistry@calpoly.edu,S
+156,CSM-College of Science and Mathematics,,,{'CSM-College of Science and'},CSM-College of Science and Mathematics,nan,CSM-College of Science and Mathematics,CSM-College of Science and Mathematics@calpoly.edu,S
+157,CSM-Deans Office,,,{'CSM-Deans Office'},CSM-Deans Office,nan,CSM-Deans Office,CSM-Deans Office@calpoly.edu,S
+158,CSM-Design & Fabrication Facility,,,{'CSM-Design & Fabrication'},CSM-Design & Fabrication Facility,nan,CSM-Design & Fabrication Facility,CSM-Design & Fabrication Facility@calpoly.edu,S
+159,CSM-Kinesiology and Public Health,,,{'CSM-Kinesiology and Public'},CSM-Kinesiology and Public Health,nan,CSM-Kinesiology and Public Health,CSM-Kinesiology and Public Health@calpoly.edu,S
+160,CSM-Mathematics,,,{'CSM-Mathematics'},CSM-Mathematics,nan,CSM-Mathematics,CSM-Mathematics@calpoly.edu,S
+161,CSM-Physics,,,{'CSM-Physics'},CSM-Physics,nan,CSM-Physics,CSM-Physics@calpoly.edu,S
+162,CSM-SOE-Office of Education,,,{'CSM-SOE-Office of'},CSM-SOE-Office of Education,nan,CSM-SOE-Office of Education,CSM-SOE-Office of Education@calpoly.edu,S
+163,CSM-STEM Teacher and Researcher Program (STAR),,,{'CSM-STEM Teacher and Researcher Program'},CSM-STEM Teacher and Researcher Program (STAR),nan,CSM-STEM Teacher and Researcher Program (STAR),CSM-STEM Teacher and Researcher Program (STAR)@calpoly.edu,S
+164,CSM-Statistics,,,{'CSM-Statistics'},CSM-Statistics,nan,CSM-Statistics,CSM-Statistics@calpoly.edu,S
+165,"Calcagno, Ellen",Ellen,Calcagno,{None},033-0272,8057565241,ecalcagn,ecalcagn@calpoly.edu,S
+166,"Calloway, Stephanie",Stephanie,Calloway,{None},,5593213191,smcallow,smcallow@calpoly.edu,S
+171,"Camp, Charles",Charles,Camp,"{'MATH 143', 'MATH 521', 'MATH 462', 'MATH 461'}",025-0309,8057561661,camp,camp@calpoly.edu,S
+173,"Campbell, Tammy",Tammy,Campbell,"{'CHEM 201', 'CHEM 401'}",180-0421,8057562443,tcampb06,tcampb06@calpoly.edu,S
+174,"Carlon, Mariana",Mariana,Carlon,{None},,8057206981,mramir37,mramir37@calpoly.edu,S
+177,"Carlton, Matt",Matt,Carlton,"{'STAT 405', 'STAT 427'}",025-0101,8057567076,mcarlton,mcarlton@calpoly.edu,S
+178,"Carney, Sarah",Sarah,Carney,{None},043A-0457,8057562545,sacarney,sacarney@calpoly.edu,S
+179,"Carrillo, Coreen",Coreen,Carrillo,{'EDUC 449'},002-0120,8057562126,ccarri24,ccarri24@calpoly.edu,S
+182,"Carroll, Jennifer",Jennifer,Carroll,"{'CHEM 201', 'CHEM 302', 'CHEM 401'}",025-0211,8057561654,jacarrol,jacarrol@calpoly.edu,S
+183,"Castillo, Crystal",Crystal,Castillo,{None},,7148515464,ccasti10,ccasti10@calpoly.edu,S
+189,"Champney, Danielle",Danielle,Champney,"{'MATH 328', 'MATH 462', 'MATH 443', 'MATH 461'}",025-0336,8057565579,dchampne,dchampne@calpoly.edu,S
+193,"Chance, Beth",Beth,Chance,{'STAT 217'},025-0235,8057562961,bchance,bchance@calpoly.edu,S
+199,"Charalampidis, Stathis",Stathis,Charalampidis,"{'MATH 453', 'MATH 462', 'MATH 461', 'MATH 452', 'MATH 241'}",025-0319,8057562465,echarala,echarala@calpoly.edu,S
+202,"Cheuk, Tina",Tina,Cheuk,"{'EDUC 532', 'EDUC 470', 'EDUC 400'}",002-0131,8057566775,tcheuk,tcheuk@calpoly.edu,S
+203,"Chi, Haoyan",Haoyan,Chi,{None},025-0316,8057562632,hachi,hachi@calpoly.edu,S
+208,"Choboter, Paul",Paul,Choboter,"{'MATH 141', 'MATH 462', 'MATH 242', 'MATH 461'}",025-0313,8057565902,pchobote,pchobote@calpoly.edu,S
+212,"Christiansen, Jodi",Jodi,Christiansen,"{'PHYS 462', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0617,8057562778,jlchrist,jlchrist@calpoly.edu,S
+213,"Ciccone, Bronwyn",Bronwyn,Ciccone,{None},025-0125B,8057562935,bciccone,bciccone@calpoly.edu,S
+219,"Clark, Robert",Robert,Clark,"{'KINE 110', 'KINE 462', 'KINE 400', 'KINE 403', 'KINE 301', 'KINE 406'}",043A-0364,8057560285,rdclark,rdclark@calpoly.edu,S
+220,"Cleere, Deborah",Deborah,Cleere,{None},002-0120,8057562126,dcleere,dcleere@calpoly.edu,S
+226,"Clegg, Don",Don,Clegg,"{'HLTH 250', 'KINE 460', 'KINE 408', 'KINE 449'}",043A-0373,8057562182,dclegg,dclegg@calpoly.edu,S
+239,"Clement, Sandi",Sandi,Clement,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'CHEM 476', 'BIO 500', 'BIO 476', 'BIO 351'}",033-0269,8057562154,slclemen,slclemen@calpoly.edu,S
+240,"Clendenen, Dave",Dave,Clendenen,{None},053-0310,8057562712,dclenden,dclenden@calpoly.edu,S
+242,"Collins, Kirt",Kirt,Collins,"{'EDUC 456', 'EDUC 454'}",002-0120,8057562126,kcolli18,kcolli18@calpoly.edu,S
+243,"Contu, Francesco",Francesco,Contu,{None},052-E037,8057562678,fcontu,fcontu@calpoly.edu,S
+246,"Coryell, Julia",Julia,Coryell,"{'HLTH 260', 'KINE 129'}",043A-0457,8057562545,jgcoryel,jgcoryel@calpoly.edu,S
+251,"Costanzo, Philip",Philip,Costanzo,"{'CHEM 349', 'CHEM 201', 'CHEM 312', 'CHEM 401'}",025-0214,8057562692,pcostanz,pcostanz@calpoly.edu,S
+252,"Coulombe, Kevin",Kevin,Coulombe,{None},180-0231,8057562449,kcoulomb,kcoulomb@calpoly.edu,S
+253,"Craig, Clayton",Clayton,Craig,{None},025-0210,8057562194,ccraig07,ccraig07@calpoly.edu,S
+256,"Crutchfield, Stephen",Stephen,Crutchfield,"{'EDUC 500', 'EDUC 451'}",002-0107,8057567558,sacrutch,sacrutch@calpoly.edu,S
+257,"Cruz, Jenny",Jenny,Cruz,{None},025-0123,8057562859,jmcruz,jmcruz@calpoly.edu,S
+261,"Culbreath, Christopher",Christopher,Culbreath,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",180-0111,8057561613,cculbrea,cculbrea@calpoly.edu,S
+262,"Curto, Michael",Michael,Curto,{None},053-0310,8057562714,mcurto,mcurto@calpoly.edu,S
+263,"Dabkowski, Montserrat",Montserrat,Dabkowski,{None},038-0207,8057565684,mdabkows,mdabkows@calpoly.edu,S
+264,"Dakhlia, Lukas",Lukas,Dakhlia,{None},038-0209,8057565685,ldakhlia,ldakhlia@calpoly.edu,S
+265,"Daniels, Benjamin",Benjamin,Daniels,{None},,7158341757,bndaniel,bndaniel@calpoly.edu,S
+272,"Davidson, Jean",Jean,Davidson,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 593', 'BIO 302'}",033-0267,8057567421,jdavid06,jdavid06@calpoly.edu,S
+280,"Davis, Steve",Steve,Davis,"{'KINE 462', 'KINE 460', 'KINE 400', 'KINE 125', 'KINE 446', 'KINE 304'}",043A-0353,8057562754,sdavis,sdavis@calpoly.edu,S
+285,"DeBruhl, Heather",Heather,DeBruhl,"{'BIO 405', 'BIO 308', 'BIO 405 (1)', 'CHEM 308'}",033-0257A,8057562877,hdebruhl,hdebruhl@calpoly.edu,S
+291,"Dekhtyar, Olga",Olga,Dekhtyar,{'STAT 252'},025-0225,8057566354,odekhtya,odekhtya@calpoly.edu,S
+295,"Delbridge, Annie",Annie,Delbridge,{'EDUC 428'},002-0120,8057562126,adelbrid,adelbrid@calpoly.edu,S
+299,"Demsetz, Lizza",Lizza,Demsetz,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",026M-0107,8057567334,edemsetz,edemsetz@calpoly.edu,S
+300,"DiBernardo, Celine",Celine,DiBernardo,{None},180-0430,8057561505,cdiberna,cdiberna@calpoly.edu,S
+301,"Dilworth, Kathryn",Kathryn,Dilworth,{None},025-0238,8057561040,kdilwort,kdilwort@calpoly.edu,S
+306,"Dimitrova, Elena",Elena,Dimitrova,"{'MATH 462', 'MATH 476', 'MATH 560', 'MATH 461', 'MATH 483'}",025-0342,8057561689,edimitro,edimitro@calpoly.edu,S
+307,"Doctor, Katie",Katie,Doctor,{None},033-0272,8057565241,kdoctor,kdoctor@calpoly.edu,S
+308,"Dodgen, Rose",Rose,Dodgen,{None},052-D027C,8057562328,rdodgen,rdodgen@calpoly.edu,S
+313,"Doi, Jimmy",Jimmy,Doi,"{'STAT 312', 'STAT 419', 'STAT 542'}",025-0108,8057562901,jdoi,jdoi@calpoly.edu,S
+315,"Dorman, Richard",Richard,Dorman,{'EDUC 479'},002-0120,8057562126,rcdorman,rcdorman@calpoly.edu,S
+316,"Dotterweich, Megan",Megan,Dotterweich,{None},052-D027C,8057562328,mdotterw,mdotterw@calpoly.edu,S
+317,"Drasco, Steve",Steve,Drasco,{None},180-0204A,8057562458,sdrasco,sdrasco@calpoly.edu,S
+318,"Dunham, Kevin",Kevin,Dunham,{None},052-D024,8057562701,kedunham,kedunham@calpoly.edu,S
+319,"Eachus, Chris",Chris,Eachus,{None},038-0207,8057565684,creachus,creachus@calpoly.edu,S
+322,"Eagon, Scott",Scott,Eagon,"{'CHEM 201', 'CHEM 377', 'CHEM 401'}",180-0409,8057562558,seagon,seagon@calpoly.edu,S
+327,"Easton, Robert",Robert,Easton,"{'MATH 143', 'MATH 462', 'MATH 482', 'MATH 461'}",025-0320,8057561679,rweaston,rweaston@calpoly.edu,S
+331,"Echols, Robert",Robert,Echols,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0606,8057567649,rechols,rechols@calpoly.edu,S
+335,"Echols, Sean",Sean,Echols,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",025-0200,8057561692,sechols,sechols@calpoly.edu,S
+336,"Edds, Holly",Holly,Edds,{None},002-0120,8057562126,hcarter,hcarter@calpoly.edu,S
+340,"Edwards, Louise",Louise,Edwards,"{'PHYS 462', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0619,8057567674,ledwar04,ledwar04@calpoly.edu,S
+341,"Elangovan, Samy",Samy,Elangovan,{None},,nan,aelangov,aelangov@calpoly.edu,S
+342,"Elvin, Julie",Julie,Elvin,{'ENGL 425'},047-0032E,8057562596,jelvin,jelvin@calpoly.edu,S
+343,"Elwood, Jason",Jason,Elwood,{None},025-0210,8057562194,jelwood,jelwood@calpoly.edu,S
+344,"Emrich, AnnaLouise",AnnaLouise,Emrich,{'EDUC 454'},002-0120,8057562126,aemrich,aemrich@calpoly.edu,S
+345,"Erker, Jay",Jay,Erker,{None},052-E040,8057562628,erker,erker@calpoly.edu,S
+348,"Escobedo, Krysti",Krysti,Escobedo,"{'HLTH 310', 'HLTH 255', 'HLTH 265'}",043A-0457,8057562545,krescobe,krescobe@calpoly.edu,S
+349,"Esperon, Donna",Donna,Esperon,{'EDUC 449'},002-0120,8057562126,dlespero,dlespero@calpoly.edu,S
+350,"Excoffier, Paul",Paul,Excoffier,{None},052-D027C,8057562328,pexcoffi,pexcoffi@calpoly.edu,S
+351,"Fabela, Frank",Frank,Fabela,{None},,6194151586,rfabela,rfabela@calpoly.edu,S
+353,"Fairbank, Mark",Mark,Fairbank,{'EDUC 479'},,nan,msfairba,msfairba@calpoly.edu,S
+354,"Farrier-Nolan, Meghan",Meghan,Farrier-Nolan,{None},053-0210G,8057562840,mfarrier,mfarrier@calpoly.edu,S
+355,"Featherstone, Tom",Tom,Featherstone,{None},180-0363,8057561324,tfeather,tfeather@calpoly.edu,S
+356,"Felton, Jason",Jason,Felton,{None},025-0216,8057566058,jfelton,jfelton@calpoly.edu,S
+363,"Fernando, Ray",Ray,Fernando,"{'CHEM 201', 'CHEM 451', 'CHEM 450', 'CHEM 500', 'CHEM 401', 'CHEM 550', 'CHEM 551'}",180-0422,8057562395,rhfernan,rhfernan@calpoly.edu,S
+367,"Fernsler, Jonathan",Jonathan,Fernsler,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0522,8057562438,jfernsle,jfernsle@calpoly.edu,S
+376,"Fidopiastis, Pat",Pat,Fidopiastis,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 472', 'BIO 462', 'BIO 500', 'MCRO 301'}",033-0374,8057562883,pfidopia,pfidopia@calpoly.edu,S
+378,"Fiore, Dana",Dana,Fiore,"{'EDUC 456', 'EDUC 454'}",002-0120,8057562126,dfiore,dfiore@calpoly.edu,S
+379,"Fisher, Ashley",Ashley,Fisher,{None},,8055288310,afishe08,afishe08@calpoly.edu,S
+380,"Flushman, Tanya",Tanya,Flushman,{None},002-0133,8057565537,tflushma,tflushma@calpoly.edu,S
+382,"Fogle, Emily",Emily,Fogle,"{'CHEM 201', 'CHEM 401'}",180-0416,8057567540,efogle,efogle@calpoly.edu,S
+383,"Fox, Brittany",Brittany,Fox,{'EDUC 449'},,nan,bfox05,bfox05@calpoly.edu,S
+389,"Frame, Samuel",Samuel,Frame,"{'STAT 312', 'STAT 531', 'STAT 331', 'STAT 542'}",025-0121,8057565802,sframe,sframe@calpoly.edu,S
+397,"Francis, Clinton",Clinton,Francis,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 591', 'BIO 323'}",033-0369,8057565358,cdfranci,cdfranci@calpoly.edu,S
+399,"Frantz, Derik",Derik,Frantz,"{'CHEM 201', 'CHEM 401'}",180-0411,8057562552,dfrantz,dfrantz@calpoly.edu,S
+403,"Fraser, Scott",Scott,Fraser,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",025-0206,8057562800,scfraser,scfraser@calpoly.edu,S
+404,"Fredrickson, Cameron",Cameron,Fredrickson,{None},038-0212,8057561683,chfredri,chfredri@calpoly.edu,S
+405,"Friend, Noël",Noël,Friend,{'EDUC 479'},002-0120,8057562126,ncfriend,ncfriend@calpoly.edu,S
+408,"Frye, Amanda",Amanda,Frye,"{'LS 214', 'LS 461', 'LS 400'}",025-0130,8057566509,drfrye,drfrye@calpoly.edu,S
+409,"Fryer, Emma",Emma,Fryer,{None},052-D027C,8057562328,erfryer,erfryer@calpoly.edu,S
+410,"Gama, Alma",Alma,Gama,{None},002-0122A,8057567104,agama01,agama01@calpoly.edu,S
+419,"Garcia, Antonio",Antonio,Garcia,"{'GEOL 201', 'SS 400', 'GEOL 330', 'PHYS 462', 'GEOL 400', 'PHYS 461', 'GEOL 200'}",180-0607,8057562430,afgarcia,afgarcia@calpoly.edu,S
+420,"Gentilucci, James",James,Gentilucci,{None},002-0215,8057567569,jgentilu,jgentilu@calpoly.edu,S
+421,"Gervasi, Jeffrey",Jeffrey,Gervasi,{None},025-0209,8057561660,jgervasi,jgervasi@calpoly.edu,S
+425,"Gillen, Glen",Glen,Gillen,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0612,8057562364,ggillen,ggillen@calpoly.edu,S
+430,"Gillen, Katharina",Katharina,Gillen,"{'PHYS 400', 'PHYS 404', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0615,8057562199,kgillen,kgillen@calpoly.edu,S
+435,"Glanz, Hunter",Hunter,Glanz,"{'DATA 452', 'STAT 466'}",025-0111,8057562792,hglanz,hglanz@calpoly.edu,S
+443,"Goodman, Anya",Anya,Goodman,"{'CHEM 201', 'BIO 441', 'CHEM 474', 'CHEM 441', 'CHEM 401'}",180-0419,8057561666,agoodman,agoodman@calpoly.edu,S
+444,"Gopalan, Giri",Giri,Gopalan,{'STAT 334'},025-0103,8057562715,ggopalan,ggopalan@calpoly.edu,S
+445,"Goschke, Grace",Grace,Goschke,{None},033-0278,8057562454,ggoschke,ggoschke@calpoly.edu,S
+447,"Goughnour, Alisa",Alisa,Goughnour,{'KINE 129'},043A-0457,8057562545,agoughno,agoughno@calpoly.edu,S
+448,"Gragson, Derek",Derek,Gragson,{None},025-0227,8057567154,dgragson,dgragson@calpoly.edu,S
+449,"Granger, Brian",Brian,Granger,{None},180-0610,8057562424,bgranger,bgranger@calpoly.edu,S
+452,"Grant, Billie-Jo",Billie-Jo,Grant,"{'STAT 218', 'STAT 217'}",025-0107D,8057562709,bgrant02,bgrant02@calpoly.edu,S
+461,"Greever, Cory",Cory,Greever,"{'KINE 462', 'KINE 460', 'KINE 400', 'KINE 303', 'KINE 451', 'KINE 201'}",043A-0369,8057562103,greever,greever@calpoly.edu,S
+462,"Grishchenko, Lana",Lana,Grishchenko,{None},025-0338,8057562421,sgrishch,sgrishch@calpoly.edu,S
+471,"Grossenbacher, Dena",Dena,Grossenbacher,"{'BIO 400', 'BIO 300', 'BOT 326', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 114'}",033-0376,8057562135,dgrossen,dgrossen@calpoly.edu,S
+472,"Groves, Adam",Adam,Groves,{None},052-E038,8057562369,groves,groves@calpoly.edu,S
+473,"Grumbles, Amy",Amy,Grumbles,{None},002-0120,8057562126,agrumble,agrumble@calpoly.edu,S
+476,"Grundmeier, Todd",Todd,Grundmeier,"{'MATH 423', 'MATH 462', 'MATH 461'}",025-0205,8057561658,tgrundme,tgrundme@calpoly.edu,S
+481,"Gu, Caixing",Caixing,Gu,"{'MATH 244', 'MATH 462', 'MATH 344', 'MATH 461'}",025-0328,8057561656,cgu,cgu@calpoly.edu,S
+485,"Guise, Megan",Megan,Guise,"{'ENGL 361', 'EDUC 532', 'EDUC 479'}",002-0109,8057562134,meguise,meguise@calpoly.edu,S
+486,"Gutierrez, Melanie",Melanie,Gutierrez,{None},,nan,malejand,malejand@calpoly.edu,S
+490,"Gutierrez, Thomas",Thomas,Gutierrez,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",180-0611,8057562455,tdgutier,tdgutier@calpoly.edu,S
+501,"Hackman, Christine",Christine,Hackman,"{'KINE 462', 'KINE 460', 'HLTH 334', 'HLTH 434', 'HLTH 400', 'KINE 400', 'HLTH 435', 'HLTH 462', 'HLTH 201'}",043A-0372,8057561363,chackman,chackman@calpoly.edu,S
+503,"Hagen, John",John,Hagen,"{'CHEM 201', 'CHEM 401'}",180-0306D,8057561651,jhagen,jhagen@calpoly.edu,S
+509,"Hagobian, Nicole",Nicole,Hagobian,"{'KINE 308', 'KINE 323', 'KINE 463', 'HLTH 463', 'KINE 324'}",043A-0355,8057565367,nhagobia,nhagobia@calpoly.edu,S
+512,"Hagobian, Todd",Todd,Hagobian,"{'KINE 400', 'KINE 462', 'KINE 460'}",043A-0357,8057567511,thagobia,thagobia@calpoly.edu,S
+513,"Hahlbeck, Clint",Clint,Hahlbeck,{None},025-0208F,8057561244,chahlbec,chahlbec@calpoly.edu,S
+514,"Hahlbeck, Kara",Kara,Hahlbeck,{None},025-0208E,8057561203,khahlbec,khahlbec@calpoly.edu,S
+515,"Hajnik, Suzanne",Suzanne,Hajnik,{None},002-0120,8057562126,shajnik,shajnik@calpoly.edu,S
+522,"Hall, Greg",Greg,Hall,"{'KINE 181', 'KINE 121', 'KINE 125'}",043A-0457,8057562545,ghall,ghall@calpoly.edu,S
+523,"Hall, Kellie",Kellie,Hall,{None},025-0231,8057561776,kghall,kghall@calpoly.edu,S
+525,"Hamachi, Leslie",Leslie,Hamachi,"{'CHEM 201', 'CHEM 401'}",180-0404,8057561672,hamachi,hamachi@calpoly.edu,S
+529,"Hamilton, Emily",Emily,Hamilton,"{'MATH 241', 'MATH 413', 'MATH 462', 'MATH 461'}",025-0337,8057565557,mhamil09,mhamil09@calpoly.edu,S
+530,"Hamrick, Alice",Alice,Hamrick,{None},053-0310,8057562164,ahamrick,ahamrick@calpoly.edu,S
+531,"Hansen, Emily",Emily,Hansen,{None},052-D027C,8057562328,ehanse03,ehanse03@calpoly.edu,S
+532,"Hapuhinna, Nelum",Nelum,Hapuhinna,{None},,nan,nhapuhin,nhapuhin@calpoly.edu,S
+533,"Hardcastle, Alexandra",Alexandra,Hardcastle,{None},,5599057666,aehardca,aehardca@calpoly.edu,S
+540,"Hardy, Kristin",Kristin,Hardy,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 409', 'BIO 462', 'BIO 500'}",033-0264,8057562806,kmhardy,kmhardy@calpoly.edu,S
+541,"Harvey, Devin",Devin,Harvey,{None},038-0213,8057565688,djharvey,djharvey@calpoly.edu,S
+543,"Haynes, M.",M.,Haynes,"{'CHEM 201', 'CHEM 401'}",180-0407,8057561394,mthaynes,mthaynes@calpoly.edu,S
+544,"Hendricks, Steven",Steven,Hendricks,{None},,nan,srhendri,srhendri@calpoly.edu,S
+545,"Henry, Rachel",Rachel,Henry,{None},025-0233,8057567236,rrhenry,rrhenry@calpoly.edu,S
+546,"Hesselgrave, William",William,Hesselgrave,{None},025-0335,8057566539,whesselg,whesselg@calpoly.edu,S
+550,"Heston, Nathan",Nathan,Heston,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",025-0204,8057567658,nheston,nheston@calpoly.edu,S
+552,"Heying, Michael",Michael,Heying,"{'CHEM 201', 'CHEM 401'}",180-0306B,8057562245,mdheying,mdheying@calpoly.edu,S
+560,"Hillers, Kenneth",Kenneth,Hillers,"{'BIO 400', 'BIO 599', 'BIO 300', 'BIO 200', 'BIO 450', 'BIO 462', 'BIO 500', 'BIO 463'}",033-0274,8057561481,khillers,khillers@calpoly.edu,S
+567,"Himelblau, Edward",Edward,Himelblau,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 351'}",033-0365,8057562826,ehimelbl,ehimelbl@calpoly.edu,S
+568,"Ho, Andy",Andy,Ho,{None},,nan,aho65,aho65@calpoly.edu,S
+572,"Hoellwarth, Chance",Chance,Hoellwarth,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",025-0124,8057561665,choellwa,choellwa@calpoly.edu,S
+573,"Holladay, Bret",Bret,Holladay,{'STAT 334'},025-0122,8057565571,bahollad,bahollad@calpoly.edu,S
+575,"Holland, Kurt",Kurt,Holland,{'EDUC 479'},002-0120,8057562126,kuhollan,kuhollan@calpoly.edu,S
+579,"Holtzapple, Robert",Robert,Holtzapple,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0512,8057562602,rholtzap,rholtzap@calpoly.edu,S
+580,"Hoogstra, Leah",Leah,Hoogstra,{None},038-0212,8057561683,lhoogstr,lhoogstr@calpoly.edu,S
+581,"Horst, William",William,Horst,{None},026M-0109,8057567650,whorst,whorst@calpoly.edu,S
+582,"Housh, Maddie",Maddie,Housh,{None},052-D027C,8057562328,mhoush,mhoush@calpoly.edu,S
+583,"Howes, Amy",Amy,Howes,{None},053-0218,8057565376,alhowes,alhowes@calpoly.edu,S
+584,"Huggins, Michael",Michael,Huggins,{None},,8057562788,mthuggin,mthuggin@calpoly.edu,S
+585,"Hupp, Megan",Megan,Hupp,{None},043A-0458,8057562545,mhupp,mhupp@calpoly.edu,S
+586,"Hushing-Kline, Mikele",Mikele,Hushing-Kline,{None},180-0204A,8057561752,mhushing,mhushing@calpoly.edu,S
+588,"Immoos, Chad",Chad,Immoos,"{'CHEM 201', 'CHEM 401'}",180-0304C,8057566635,cimmoos,cimmoos@calpoly.edu,S
+589,"Iniguez, Jose",Jose,Iniguez,{'EDUC 456'},,nan,joinigue,joinigue@calpoly.edu,S
+593,"Jacks, Hilary",Hilary,Jacks,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0111,8057561604,hjacks,hjacks@calpoly.edu,S
+594,"Jacobson, Craig",Craig,Jacobson,{None},033-0458,8057567520,cjacobso,cjacobso@calpoly.edu,S
+598,"Jankovitz, Kris",Kris,Jankovitz,"{'HLTH 201', 'KINE 462', 'HLTH 462', 'HLTH 400'}",043A-0457,8057562545,kjankovi,kjankovi@calpoly.edu,S
+599,"Jaquinod, Jeremy",Jeremy,Jaquinod,{None},,5309020150,jaquinod,jaquinod@calpoly.edu,S
+610,"Jasbinsek, John",John,Jasbinsek,"{'GEOL 305', 'PHYS 462', 'GEOL 400', 'GEOL 102', 'PHYS 461', 'GEOL 200'}",180-0520,8057562013,jjasbins,jjasbins@calpoly.edu,S
+616,"Jeffery, Elizabeth",Elizabeth,Jeffery,"{'PHYS 400', 'PHYS 462', 'PHYS 200', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0604,8057562019,ejjeffer,ejjeffer@calpoly.edu,S
+617,"Jenkin, Bryce",Bryce,Jenkin,{None},025-0332,8057562289,bjenkin,bjenkin@calpoly.edu,S
+620,"Jensen, Jessica",Jessica,Jensen,"{'EDUC 532', 'EDUC 450', 'EDUC 522'}",002-0132,8057566420,jjense11,jjense11@calpoly.edu,S
+621,"Jew, Kara",Kara,Jew,{'MCRO 224'},,8057562836,kjew,kjew@calpoly.edu,S
+627,"Johnson, Carra",Carra,Johnson,"{'KINE 462', 'KINE 460', 'KINE 400', 'KINE 323', 'KINE 324'}",043A-0457,8057562545,cjohn210,cjohn210@calpoly.edu,S
+628,"Johnston, Erin",Erin,Johnston,{None},,7149444617,ejohn122,ejohn122@calpoly.edu,S
+629,"Johnston, Peggy",Peggy,Johnston,{None},025-0229,8057562226,pejohnst,pejohnst@calpoly.edu,S
+637,"Johnston, Scott",Scott,Johnston,"{'GEOL 201', 'GEOL 206', 'GEOL 402', 'PHYS 462', 'GEOL 400', 'PHYS 461', 'GEOL 200', 'GEOL 241'}",180-0521,8057561650,scjohnst,scjohnst@calpoly.edu,S
+639,"Jones, Eric",Eric,Jones,"{'CHEM 201', 'CHEM 401'}",180-0418,8057562425,ejones21,ejones21@calpoly.edu,S
+640,"Jones, Julia",Julia,Jones,{None},043A-0458D,8057562546,jjone104,jjone104@calpoly.edu,S
+643,"Jones, Michael",Michael,Jones,"{'BIO 232', 'BIO 231'}",,nan,mjones99,mjones99@calpoly.edu,S
+644,"Kahn, Elias",Elias,Kahn,{None},,4153126744,elkahn,elkahn@calpoly.edu,S
+645,"Kalan, Parker",Parker,Kalan,{None},052-D027C,8057562328,pkalan,pkalan@calpoly.edu,S
+649,"Kane, Steven",Steven,Kane,"{'EDUC 573', 'EDUC 557', 'EDUC 500'}",002-0130,8057561572,skane,skane@calpoly.edu,S
+651,"Kantorowski, Eric",Eric,Kantorowski,"{'CHEM 201', 'CHEM 401'}",180-0405,8057562796,ekantoro,ekantoro@calpoly.edu,S
+652,"Kasper, Julia",Julia,Kasper,{None},,8057104415,jckasper,jckasper@calpoly.edu,S
+654,"Kato, Goro",Goro,Kato,"{'MATH 462', 'MATH 461'}",025-0326,8057561682,gkato,gkato@calpoly.edu,S
+660,"Kaul, Anton",Anton,Kaul,"{'MATH 462', 'MATH 541', 'MATH 441', 'MATH 142', 'MATH 461'}",025-0312,8057561678,akaul,akaul@calpoly.edu,S
+669,"Keadle, Sarah",Sarah,Keadle,"{'KINE 462', 'KINE 460', 'HLTH 400', 'HLTH 461', 'KINE 400', 'KINE 412', 'HLTH 462', 'HLTH 201', 'KINE 201'}",043A-0370,8057561785,skeadle,skeadle@calpoly.edu,S
+676,"Keeling, Elena",Elena,Keeling,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BMED 583', 'BIO 583'}",033-0271,8057562175,ekeeling,ekeeling@calpoly.edu,S
+677,"Keim, Nathan",Nathan,Keim,{None},180-0618,8057562467,nkeim,nkeim@calpoly.edu,S
+678,"Keller, John",John,Keller,{None},180-0204,8057562448,jmkeller,jmkeller@calpoly.edu,S
+680,"Kelly, Catherine",Catherine,Kelly,"{'EDUC 456', 'EDUC 454'}",002-0120,8057562126,ckelly17,ckelly17@calpoly.edu,S
+681,"Kelly, Emily",Emily,Kelly,{None},043A-0458B,8057562243,ekelly08,ekelly08@calpoly.edu,S
+682,"Kerbs, Lucas",Lucas,Kerbs,{None},038-0213,8057565688,kerbs,kerbs@calpoly.edu,S
+684,"Kingsbury, Kevin",Kevin,Kingsbury,"{'CHEM 201', 'CHEM 401'}",180-0408,8057561652,kkingsbu,kkingsbu@calpoly.edu,S
+686,"Kirk, Colleen",Colleen,Kirk,"{'MATH 462', 'MATH 461'}",025-0316,8057562632,ckirk,ckirk@calpoly.edu,S
+689,"Kiste, Alan",Alan,Kiste,"{'CHEM 201', 'CHEM 466', 'CHEM 401'}",180-0304D,8057561690,akiste,akiste@calpoly.edu,S
+690,"Kitts, Chris",Chris,Kitts,{None},038-0155,8057561508,ckitts,ckitts@calpoly.edu,S
+694,"Klay, Jennifer",Jennifer,Klay,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0620,8057561250,jklay,jklay@calpoly.edu,S
+695,"Klig, Cameron",Cameron,Klig,{None},038-0213,8057565688,cklig,cklig@calpoly.edu,S
+705,"Knight, Charles",Charles,Knight,"{'BIO 400', 'BIO 300', 'BIO 446', 'BIO 200', 'BIO 461', 'BIO 462', 'UNIV 350', 'BIO 500', 'BIO 435'}",033-0364,8057562989,knight,knight@calpoly.edu,S
+709,"Kogan, Oleg",Oleg,Kogan,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0274D,8057562473,okogan,okogan@calpoly.edu,S
+710,"Kolluru, Gita",Gita,Kolluru,{None},033-0368,8057562819,gkolluru,gkolluru@calpoly.edu,S
+713,"Korengel, Felicia",Felicia,Korengel,{'STAT 217'},025-0107D,8057562709,fkorenge,fkorenge@calpoly.edu,S
+714,"Kreider, Brandy",Brandy,Kreider,{None},026M-0108,8057565664,bkreider,bkreider@calpoly.edu,S
+718,"Kuriabova, Tatiana",Tatiana,Kuriabova,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0519,8057561664,tkuriabo,tkuriabo@calpoly.edu,S
+719,"Lafferty, Nathan",Nathan,Lafferty,{None},038-0209,8057565685,nlaffert,nlaffert@calpoly.edu,S
+720,"Laird, Joanna",Joanna,Laird,{None},052-E042,8057562621,jolaird,jolaird@calpoly.edu,S
+721,"Larson, Chase",Chase,Larson,{None},,2093037026,clarso12,clarso12@calpoly.edu,S
+722,"Lau, Ryan",Ryan,Lau,{None},053-0211A,8057566576,rmlau,rmlau@calpoly.edu,S
+723,"Laubscher, Andrea",Andrea,Laubscher,{None},180-0466C,8057562483,alaubsch,alaubsch@calpoly.edu,S
+724,"Le, Brandon",Brandon,Le,{None},038-0213,8057565688,ble11,ble11@calpoly.edu,S
+726,"Lehr, Corinne",Corinne,Lehr,"{'CHEM 201', 'CHEM 401'}",180-0306C,8057561274,clehr,clehr@calpoly.edu,S
+732,"Lema, Sean",Sean,Lema,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 407'}",033-0370,8057562802,slema,slema@calpoly.edu,S
+740,"Lent, Adrienne",Adrienne,Lent,"{'HLTH 320', 'HLTH 318', 'HLTH 453'}",043A-0356,8057567725,ablent,ablent@calpoly.edu,S
+741,"Lewis, Scott",Scott,Lewis,{'EDUC 479'},002-0120,8057562126,slewis18,slewis18@calpoly.edu,S
+742,"Leyton, Michael",Michael,Leyton,{None},180-0111,8057561635,mleyton,mleyton@calpoly.edu,S
+747,"Liese, Jeffrey",Jeffrey,Liese,"{'MATH 206', 'MATH 462', 'MATH 142', 'MATH 461'}",025-0306,8057562474,jliese,jliese@calpoly.edu,S
+750,"Lin, Joyce",Joyce,Lin,"{'MATH 244', 'MATH 462', 'MATH 461'}",025-0339,8057565554,jlin46,jlin46@calpoly.edu,S
+751,"Liou, Charlie",Charlie,Liou,{None},038-0212,8057561683,cbliou,cbliou@calpoly.edu,S
+753,"Littlefield-Halfman, Carol",Carol,Littlefield-Halfman,"{'LS 230', 'LS 250'}",025-0125B2,8057566533,clittlef,clittlef@calpoly.edu,S
+754,"Liu, Y.",Y.,Liu,{None},180-0372,8057561326,yliu01,yliu01@calpoly.edu,S
+755,"Liwanag, Heather",Heather,Liwanag,{None},033-0375,8057565202,hliwanag,hliwanag@calpoly.edu,S
+756,"Lombard, Amanda",Amanda,Lombard,{'EDUC 479'},002-0120,8057562126,lombard,lombard@calpoly.edu,S
+757,"Long, Jannea",Jannea,Long,{'EDUC 479'},,nan,jlong31,jlong31@calpoly.edu,S
+758,"Lowrey, Kelsey",Kelsey,Lowrey,{None},038-0207,8057565684,klowrey,klowrey@calpoly.edu,S
+762,"Lu, Lei",Lei,Lu,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0111B,8057561612,lelu,lelu@calpoly.edu,S
+766,"Lund, Ulric",Ulric,Lund,"{'STAT 531', 'STAT 331', 'STAT 350'}",025-0236,8057566122,ulund,ulund@calpoly.edu,S
+767,"Magdaleno, Ashley",Ashley,Magdaleno,{None},025-0229A,8057561619,admagdal,admagdal@calpoly.edu,S
+773,"Maj, Magdalena",Magdalena,Maj,"{'BIO 202', 'BIO 470', 'CHEM 202', 'BIO 461'}",053-0220,8057565389,mmaj,mmaj@calpoly.edu,S
+774,"Mapes, Hayley",Hayley,Mapes,{None},,8315664305,hmapes,hmapes@calpoly.edu,S
+775,"Marlier, John",John,Marlier,{None},025-0201,8057561327,jmarlier,jmarlier@calpoly.edu,S
+779,"Marlow, Colleen",Colleen,Marlow,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",180-0508,8057562065,camarlow,camarlow@calpoly.edu,S
+780,"Marshall, Morgen",Morgen,Marshall,{None},117-0116,8057567320,mnmarsha,mnmarsha@calpoly.edu,S
+782,"Martinez, Andres",Andres,Martinez,"{'CHEM 201', 'CHEM 401'}",025-0212,8057562744,awmartin,awmartin@calpoly.edu,S
+783,"Martinez, Nathaniel",Nathaniel,Martinez,{None},033-0379,8057562185,nmarti32,nmarti32@calpoly.edu,S
+787,"Mastoridis, Themis",Themis,Mastoridis,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",180-0609,8057562197,tmastori,tmastori@calpoly.edu,S
+788,"Mathews, Diane",Diane,Mathews,{'EDUC 449'},,nan,dkmathew,dkmathew@calpoly.edu,S
+791,"Mattson, Renae",Renae,Mattson,"{'EDUC 456', 'EDUC 454', 'EDUC 455'}",002-0120,8057562126,rsmattso,rsmattso@calpoly.edu,S
+798,"Maurice, Stefanee",Stefanee,Maurice,"{'KINE 462', 'KINE 460', 'KINE 400', 'KINE 366', 'KINE 401', 'KINE 266', 'KINE 201'}",043A-0365,8057562541,somauric,somauric@calpoly.edu,S
+799,"May, Melissa",Melissa,May,{None},,nan,mmay13,mmay13@calpoly.edu,S
+800,"McConnico, Laurie",Laurie,McConnico,{None},,nan,lmcconni,lmcconni@calpoly.edu,S
+803,"McDonald, Ashley",Ashley,McDonald,"{'CHEM 353', 'CHEM 201', 'CHEM 401'}",025-0213,8057567536,armcdona,armcdona@calpoly.edu,S
+806,"McGaughey, Karen",Karen,McGaughey,"{'STAT 423', 'STAT 313'}",025-0102,8057566578,kmcgaugh,kmcgaugh@calpoly.edu,S
+807,"McMillen, Brooke",Brooke,McMillen,{'EDUC 456'},002-0120,8057562126,balvord,balvord@calpoly.edu,S
+808,"McMunn, Virginia",Virginia,McMunn,{None},002-0106,8057565090,vmcmunn,vmcmunn@calpoly.edu,S
+809,"McNabb, Candace",Candace,McNabb,{None},180-0206A,8057562694,cdmcnabb,cdmcnabb@calpoly.edu,S
+810,"Mcguire, Joseph",Joseph,Mcguire,{None},038-0209,8057565685,jmcgui05,jmcgui05@calpoly.edu,S
+814,"Medina, Elsa",Elsa,Medina,"{'MATH 248', 'MATH 462', 'MATH 461'}",025-0303,8057562244,emedina,emedina@calpoly.edu,S
+819,"Mendes, Anthony",Anthony,Mendes,"{'MATH 143', 'MATH 462', 'MATH 461', 'MATH 202'}",025-0202,8057561699,aamendes,aamendes@calpoly.edu,S
+823,"Merlo, Beth",Beth,Merlo,{'KINE 129'},043A-0457,8057562545,bmmerlo,bmmerlo@calpoly.edu,S
+824,"Merriam, John",John,Merriam,{None},033-0000,8057567531,jmmerria,jmmerria@calpoly.edu,S
+825,"Messina, Stephanie",Stephanie,Messina,{None},,9734590528,smessina,smessina@calpoly.edu,S
+826,"Metz, Kate",Kate,Metz,{None},,2092691307,kmmetz,kmmetz@calpoly.edu,S
+830,"Mewes, Matthew",Matthew,Mewes,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0510,8057562881,mmewes,mmewes@calpoly.edu,S
+834,"Meyer, William Max",William Max,Meyer,{'KINE 181'},043A-0457,8057562545,wmeyer,wmeyer@calpoly.edu,S
+838,"Miller, Chad",Chad,Miller,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0111,8057562029,cmill138,cmill138@calpoly.edu,S
+839,"Miller, Jessie",Jessie,Miller,{None},002-0122B,8057561503,jmill115,jmill115@calpoly.edu,S
+840,"Miller, Michael",Michael,Miller,{None},026M-0108,8057565527,mmill192,mmill192@calpoly.edu,S
+841,"Millington, Mary Ann",Mary Ann,Millington,{None},043A-0454,8057562243,mmilling,mmilling@calpoly.edu,S
+845,"Mitchell, David",David,Mitchell,"{'PHYS 462', 'ASTR 400', 'PHYS 461', 'ASTR 200'}",180-0614,8057565290,dsmitche,dsmitche@calpoly.edu,S
+849,"Moelter, Matt",Matt,Moelter,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",180-0605,8057562656,mmoelter,mmoelter@calpoly.edu,S
+850,"Moran, Bradley",Bradley,Moran,{None},052-E043,8057562261,bmoran06,bmoran06@calpoly.edu,S
+851,"Morey, Nisa",Nisa,Morey,{None},052-E042,8057562621,nsatumti,nsatumti@calpoly.edu,S
+852,"Moylan, Thomas",Thomas,Moylan,{None},025-0216,8057560225,tmoylan,tmoylan@calpoly.edu,S
+853,"Muguira, Traice",Traice,Muguira,{None},002-0120B,8057565003,tmuguira,tmuguira@calpoly.edu,S
+854,"Mulroy, Michael",Michael,Mulroy,{None},,8057559363,mmulroy,mmulroy@calpoly.edu,S
+855,"Murphy, Molly",Molly,Murphy,{None},,7169574683,mmurph72,mmurph72@calpoly.edu,S
+870,Name,,,{'Course'},Office,nan,Alias,Alias@calpoly.edu,S
+871,"Nash, Andrea",Andrea,Nash,{None},033-0273,8057565242,anash,anash@calpoly.edu,S
+876,"Nation, Jasmine",Jasmine,Nation,"{'LS 400', 'BIO 211'}",025-0131,8057562990,jmnation,jmnation@calpoly.edu,S
+877,"Navarro, Oscar",Oscar,Navarro,{None},,8057566553,osnavarr,osnavarr@calpoly.edu,S
+878,"Neal, Emily",Emily,Neal,{'BIO 161'},033-0281,8057562788,erusch,erusch@calpoly.edu,S
+880,"Needles, Lisa",Lisa,Needles,{'MSCI 300'},025-0302,8057561637,lneedles,lneedles@calpoly.edu,S
+882,"Neff, Grace",Grace,Neff,"{'CHEM 201', 'CHEM 401'}",025-0203,8057561687,gneff,gneff@calpoly.edu,S
+883,"Neldner, Heather",Heather,Neldner,{None},,3106126806,hneldner,hneldner@calpoly.edu,S
+884,"Nelson, Christine",Christine,Nelson,{'HLTH 434'},043A-0355,8057565367,cinelson,cinelson@calpoly.edu,S
+889,"Neumann, Natasha",Natasha,Neumann,"{'EDUC 519', 'EDUC 542', 'EDUC 500', 'EDUC 518'}",002-0112,8057566082,naneuman,naneuman@calpoly.edu,S
+890,"Newel, Charley",Charley,Newel,{None},,nan,cnewel,cnewel@calpoly.edu,S
+891,"Newsome-Slade, Vanessa",Vanessa,Newsome-Slade,{None},038-0213,8057565688,vnewsome,vnewsome@calpoly.edu,S
+892,"Nouh, Mohamed",Mohamed,Nouh,{None},025-0338,8057562421,mnouh,mnouh@calpoly.edu,S
+894,"O'Bryant, Camille",Camille,O'Bryant,"{'KINE 400', 'KINE 460'}",025-0232,8057561787,cobryant,cobryant@calpoly.edu,S
+901,"O'Hara, Christie",Christie,O'Hara,"{'KINE 110', 'KINE 462', 'ME 409 (2)', 'BMED 409 (2)', 'KINE 409 (2)', 'KINE 403', 'KINE 307'}",043A-0457,8057562545,crohara,crohara@calpoly.edu,S
+902,"O'connor, Megan",Megan,O'connor,{None},,9162968242,moconn14,moconn14@calpoly.edu,S
+903,"OLeary, Jennifer",Jennifer,OLeary,{None},053-0220,8057565389,jkoleary,jkoleary@calpoly.edu,S
+907,"Oksanish, James",James,Oksanish,"{'STAT 312', 'STAT 542'}",025-0107D,8057562709,joksanis,joksanis@calpoly.edu,S
+908,"Olivarria, Juan",Juan,Olivarria,{'EDUC 456'},002-0120,8057562126,jjolivar,jjolivar@calpoly.edu,S
+909,"Ontiveros, Margaret",Margaret,Ontiveros,{'EDUC 456'},002-0120,8057562126,mmontive,mmontive@calpoly.edu,S
+910,"Ornelas, Nohemy",Nohemy,Ornelas,{None},002-0120,8057562126,nestrada,nestrada@calpoly.edu,S
+911,"Ottesen, Rebecca",Rebecca,Ottesen,{'STAT 441'},025-0107D,8057562709,rottesen,rottesen@calpoly.edu,S
+913,"Oza, Javin",Javin,Oza,"{'CHEM 201', 'CHEM 401'}",180-0410,8057562265,joza,joza@calpoly.edu,S
+917,"Packard, Juleen",Juleen,Packard,{'LS 211'},025-0125B2,8057566533,jpackard,jpackard@calpoly.edu,S
+922,"Palandoken, Hasan",Hasan,Palandoken,"{'CHEM 220', 'CHEM 201', 'CHEM 420', 'CHEM 401'}",180-0406,8057561591,hpalando,hpalando@calpoly.edu,S
+924,"Paquin, Dana",Dana,Paquin,"{'MATH 459', 'MATH 142'}",025-0327,8057562679,dpaquin,dpaquin@calpoly.edu,S
+925,"Parsons, Benjamin",Benjamin,Parsons,{None},,5157717746,beparson,beparson@calpoly.edu,S
+933,"Pasulka, Alexis",Alexis,Pasulka,"{'BIO 400', 'BIO 300', 'BIO 200', 'MCRO 436', 'BIO 462', 'BIO 500', 'MCRO 224'}",033-0265,8057565399,apasulka,apasulka@calpoly.edu,S
+937,"Patton, Linda",Linda,Patton,"{'MATH 241', 'MATH 248', 'MATH 462', 'MATH 461'}",025-0323,8057561680,lpatton,lpatton@calpoly.edu,S
+947,"Paulding, Katie",Katie,Paulding,"{'EDUC 456', 'EDUC 454', 'EDUC 479', 'EDUC 300', 'EDUC 427', 'EDUC 532'}",002-0120,8057562126,kpauldin,kpauldin@calpoly.edu,S
+952,"Pearse, Erin",Erin,Pearse,"{'MATH 244', 'MATH 462', 'MATH 461', 'MATH 418'}",025-0341,8057565558,epearse,epearse@calpoly.edu,S
+953,"Pearson, Katelin",Katelin,Pearson,{None},,nan,kdpearso,kdpearso@calpoly.edu,S
+962,"Perrine, John",John,Perrine,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 363', 'BIO 462', 'BIO 500', 'BIO 427'}",033-0275,8057562368,jperrine,jperrine@calpoly.edu,S
+964,"Peters, Gary",Gary,Peters,{'EDUC 479'},002-0120,8057562126,gpeter05,gpeter05@calpoly.edu,S
+972,"Phelan, Suzanne",Suzanne,Phelan,"{'KINE 462', 'KINE 460', 'HLTH 440', 'HLTH 400', 'KINE 400', 'HLTH 462', 'HLTH 281', 'HLTH 201'}",043A-0374,8057562087,sphelan,sphelan@calpoly.edu,S
+973,"Proll, William",William,Proll,{None},043A-0457,8057562545,wproll,wproll@calpoly.edu,S
+975,"Quirk, Robert",Robert,Quirk,{'EDUC 479'},,nan,rquirk,rquirk@calpoly.edu,S
+976,"Rachman, Kyle",Kyle,Rachman,{None},038-0213,8057565688,krachman,krachman@calpoly.edu,S
+982,"Rajakaruna, Nishi",Nishi,Rajakaruna,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BOT 121'}",033-0367,8057562836,nrajakar,nrajakar@calpoly.edu,S
+986,"Ramrakhiani, Sonia",Sonia,Ramrakhiani,"{'EDUC 589', 'EDUC 573', 'EDUC 500'}",002-0138,8057561574,sramrakh,sramrakh@calpoly.edu,S
+987,"Reeves, Kristin",Kristin,Reeves,{None},033-0281,8057562788,kreeve01,kreeve01@calpoly.edu,S
+990,"Rein, Steven",Steven,Rein,"{'STAT 218', 'STAT 513'}",025-0234,8057562941,srein,srein@calpoly.edu,S
+991,"Resner, Emily",Emily,Resner,{None},033-0281,8057562788,eresner,eresner@calpoly.edu,S
+998,"Retsek, Dylan",Dylan,Retsek,"{'MATH 462', 'MATH 461', 'MATH 414', 'HNRS 241', 'MATH 241'}",025-0314,8057562072,dretsek,dretsek@calpoly.edu,S
+999,"Retsek, Jennifer",Jennifer,Retsek,{'CHEM 129'},052-E039,8057562566,jretsek,jretsek@calpoly.edu,S
+1001,"Reynolds, Suzy",Suzy,Reynolds,"{'EDUC 456', 'EDUC 454'}",002-0120,8057562126,sureynol,sureynol@calpoly.edu,S
+1002,"Rice, Margaret",Margaret,Rice,{None},180-0206,8057562693,msrice,msrice@calpoly.edu,S
+1015,"Richert, Benjamin",Benjamin,Richert,"{'MATH 485', 'MATH 462', 'MATH 258', 'MATH 316', 'MATH 495', 'MATH 491', 'MATH 400', 'MATH 341', 'MATH 461', 'MATH 500', 'MATH 599'}",025-0208DC,8057561681,brichert,brichert@calpoly.edu,S
+1016,"Richmond, Shawn",Shawn,Richmond,{None},,7147020774,smmccrea,smmccrea@calpoly.edu,S
+1018,"Riley, Kate",Kate,Riley,"{'MATH 462', 'MATH 461'}",025-0304,8057565070,kriley,kriley@calpoly.edu,S
+1025,"Ritter, Matt",Matt,Ritter,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 114', 'BOT 433'}",033-0373,8057562775,mritter,mritter@calpoly.edu,S
+1028,"Robbins, Marian",Marian,Robbins,"{'MATH 244', 'MATH 462', 'MATH 461'}",025-0330,8057562263,mrobbins,mrobbins@calpoly.edu,S
+1034,"Roberts, Joni",Joni,Roberts,"{'KINE 462', 'KINE 460', 'HLTH 400', 'HLTH 462', 'HLTH 201', 'HLTH 410'}",043A-0354,8057565637,jrober81,jrober81@calpoly.edu,S
+1035,"Robertson, Mike",Mike,Robertson,{None},025-0331,8057562522,jroberts,jroberts@calpoly.edu,S
+1036,"Ronan, Briana",Briana,Ronan,{None},002-0111,8057565056,bronan,bronan@calpoly.edu,S
+1037,"Ross, Kevin",Kevin,Ross,{None},025-0237,8057565739,kjross,kjross@calpoly.edu,S
+1041,"Rossman, Allan",Allan,Rossman,"{'STAT 365', 'STAT 130'}",025-0221,8057561344,arossman,arossman@calpoly.edu,S
+1042,"Rousseau, Zackary",Zackary,Rousseau,{None},,8582133356,zroussea,zroussea@calpoly.edu,S
+1046,"Roy, Soma",Soma,Roy,"{'STAT 323', 'STAT 251', 'STAT 523'}",025-0104,8057565250,soroy,soroy@calpoly.edu,S
+1047,"Ruef, Mike",Mike,Ruef,{None},002-0120,8057562126,mruef,mruef@calpoly.edu,S
+1048,"Ruttenberg, Ben",Ben,Ruttenberg,{None},033-0361,8057562498,bruttenb,bruttenb@calpoly.edu,S
+1049,"Ryan, Sean",Sean,Ryan,{'BOT 121'},033-0281,8057562788,spryan,spryan@calpoly.edu,S
+1050,"Rydberg, Nels",Nels,Rydberg,{None},,nan,ncrydber,ncrydber@calpoly.edu,S
+1054,"Ríos, Laura",Laura,Ríos,"{'PHYS 200', 'PHYS 462', 'PHYS 461', 'PHYS 400'}",180-0610,8057562458,lrios02,lrios02@calpoly.edu,S
+1057,"Sabbag, Anelise",Anelise,Sabbag,{'STAT 302'},025-0222,8057565562,asabbag,asabbag@calpoly.edu,S
+1058,"Saenger, Katie",Katie,Saenger,{None},,9253017414,esaenger,esaenger@calpoly.edu,S
+1059,"Salucci, Susan",Susan,Salucci,{None},002-0120,8057562126,ssalucci,ssalucci@calpoly.edu,S
+1064,"Sanchez, Alfredo",Alfredo,Sanchez,"{'SCM 230', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0111B,8057561610,asanc178,asanc178@calpoly.edu,S
+1065,"Saniee, Kiana",Kiana,Saniee,{None},033-0281,8057562788,ksaniee,ksaniee@calpoly.edu,S
+1070,"Sapper, Erik",Erik,Sapper,"{'CHEM 201', 'CHEM 446', 'MATE 446', 'CHEM 590', 'CHEM 401'}",180-0304E,8057561663,esapper,esapper@calpoly.edu,S
+1074,"Saunders, Karl",Karl,Saunders,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",180-0204B,8057562447,ksaunder,ksaunder@calpoly.edu,S
+1075,"Schaffner, Andrew",Andrew,Schaffner,{'STAT 200'},025-0107C,8057561545,aschaffn,aschaffn@calpoly.edu,S
+1080,"Schinck-Mikel, Amelie",Amelie,Schinck-Mikel,"{'MATH 425', 'MATH 462', 'MATH 461', 'MATH 329'}",025-0324,8057562352,aschinck,aschinck@calpoly.edu,S
+1081,"Schroeter, Robert",Robert,Schroeter,{None},,nan,rschroet,rschroet@calpoly.edu,S
+1084,"Schroth-Glanz, Maddie",Maddie,Schroth-Glanz,{'STAT 218'},025-0223,8057566310,mschroth,mschroth@calpoly.edu,S
+1086,"Schuster, Sonja",Sonja,Schuster,{'STAT 251'},025-0107D,8057562709,sschuste,sschuste@calpoly.edu,S
+1105,"Schwartz, Peter",Peter,Schwartz,"{'PHYS 400', 'PHYS 200', 'PSC 392', 'PHYS 462', 'PSC 492', 'HNRS 392', 'PHYS 461', 'UNIV 492', 'UNIV 392'}",180-0608,8057561220,pschwart,pschwart@calpoly.edu,S
+1107,"Scott, Gregory",Gregory,Scott,"{'CHEM 201', 'CHEM 401'}",180-0306E,8057562617,gscott02,gscott02@calpoly.edu,S
+1108,"Semmens, Caroline",Caroline,Semmens,{None},038-0209,8057565685,csemmens,csemmens@calpoly.edu,S
+1109,"Severance, Jenee",Jenee,Severance,{None},,nan,jmsevera,jmsevera@calpoly.edu,S
+1112,"Shalhoub, Samuel",Samuel,Shalhoub,"{'LS 370', 'LS 412'}",025-0125E,8057566529,sshalhou,sshalhou@calpoly.edu,S
+1117,"Shapiro, Jonathan",Jonathan,Shapiro,"{'MATH 462', 'MATH 142', 'MATH 461'}",025-0308,8057561675,jshapiro,jshapiro@calpoly.edu,S
+1121,"Sharpe, John",John,Sharpe,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0621,8057562069,jsharpe,jsharpe@calpoly.edu,S
+1125,"Sherman, Morgan",Morgan,Sherman,"{'MATH 143', 'MATH 462', 'MATH 461'}",025-0329,8057561676,sherman1,sherman1@calpoly.edu,S
+1126,"Shires, Paul",Paul,Shires,{None},180-0460,8057566231,pshires,pshires@calpoly.edu,S
+1130,"Shlaer, Benjamin",Benjamin,Shlaer,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0111,8057561614,bshlaer,bshlaer@calpoly.edu,S
+1131,"Sims, Donna",Donna,Sims,{'EDUC 456'},002-0120,8057562126,dksims,dksims@calpoly.edu,S
+1132,"Skelton, Tom",Tom,Skelton,{None},002-0120A,8057567190,tskelton,tskelton@calpoly.edu,S
+1136,"Sklar, Jeffrey",Jeffrey,Sklar,"{'STAT 324', 'STAT 524'}",025-0110,8057566353,jsklar,jsklar@calpoly.edu,S
+1137,"Smidt, Robert",Robert,Smidt,{None},025-0107D,8057562709,rsmidt,rsmidt@calpoly.edu,S
+1138,"Smith, Heather",Heather,Smith,{None},025-0112,8057566128,hsmith,hsmith@calpoly.edu,S
+1139,"Smith, Makell",Makell,Smith,{None},180-0206A,8057562694,maksmith,maksmith@calpoly.edu,S
+1140,"Smith, Stacey",Stacey,Smith,{None},180-0206,8057562693,ssmit226,ssmit226@calpoly.edu,S
+1141,"Soderberg, Steve",Steve,Soderberg,{None},180-0640A,8057566250,ssoderbe,ssoderbe@calpoly.edu,S
+1149,"Somal, Harsimran",Harsimran,Somal,"{'STAT 312', 'STAT 542'}",025-0107D,8057562709,hsomal,hsomal@calpoly.edu,S
+1152,"Somoza-Norton, Andrea",Andrea,Somoza-Norton,"{'EDUC 518', 'EDUC 517', 'EDUC 500'}",002-0110,8057565373,asomozan,asomozan@calpoly.edu,S
+1155,"Sorensen, Ena",Ena,Sorensen,{'KINE 459'},043A-0457,8057562545,sorensen,sorensen@calpoly.edu,S
+1160,"Stankus, Mark",Mark,Stankus,"{'MATH 350', 'MATH 143', 'MATH 462', 'MATH 461'}",025-0311,8057561716,mstankus,mstankus@calpoly.edu,S
+1163,"Starnes, Heather",Heather,Starnes,"{'HLTH 250', 'HLTH 255', 'HLTH 461'}",043A-0355,8057565367,hstarnes,hstarnes@calpoly.edu,S
+1164,"Staub, Susan",Susan,Staub,{None},043A-0455,8057560673,svstaub,svstaub@calpoly.edu,S
+1170,"Stauch, Nancy",Nancy,Stauch,"{'SCM 300', 'PSC 425', 'EDUC 479'}",025-0126,8057566587,nstauch,nstauch@calpoly.edu,S
+1171,"Stevenson, Cassie",Cassie,Stevenson,{None},025-0229D,8057567303,csteve03,csteve03@calpoly.edu,S
+1180,"Strand, Christy",Christy,Strand,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 231', 'BIO 462', 'BIO 410', 'BIO 500'}",033-0266,8057562207,cstrand,cstrand@calpoly.edu,S
+1186,"Streder, KT",KT,Streder,"{'KINE 462', 'KINE 349', 'KINE 403'}",043A-0457,8057562545,kstreder,kstreder@calpoly.edu,S
+1195,"Sun, Dennis",Dennis,Sun,"{'CSC 597', 'CSC 500', 'CSC 400', 'CSC 498', 'CSC 599', 'CSC 596', 'CSC 492', 'CSC 497', 'CSC 491'}",025-0109,8057565877,dsun09,dsun09@calpoly.edu,S
+1196,"Sunata, Melissa",Melissa,Sunata,{None},025-0208DB,8057561228,msunata,msunata@calpoly.edu,S
+1200,"Sungar, Nilgun",Nilgun,Sungar,"{'PHYS 200', 'PHYS 461', 'PHYS 400', 'PHYS 462'}",180-0618,8057562851,nsungar,nsungar@calpoly.edu,S
+1201,"Swanagon, Russell",Russell,Swanagon,{'LS 310'},,8057561328,rswanago,rswanago@calpoly.edu,S
+1206,"Sze, Lawrence",Lawrence,Sze,"{'MATH 241', 'MATH 462', 'MATH 461', 'MATH 437'}",025-0307,8057566606,lsze,lsze@calpoly.edu,S
+1214,"Taylor, Emily",Emily,Taylor,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 324', 'BIO 462', 'BIO 500', 'BIO 162'}",033-0270,8057562616,etaylor,etaylor@calpoly.edu,S
+1215,"Terry, Raymond",Raymond,Terry,{None},025-0209,8057561660,rterry,rterry@calpoly.edu,S
+1219,"Theobold, Allison",Allison,Theobold,{'STAT 218'},025-0105,8057565529,atheobol,atheobol@calpoly.edu,S
+1220,"Thom, Neele",Neele,Thom,{None},,2065818228,nthom,nthom@calpoly.edu,S
+1228,"Thomas, Jafra",Jafra,Thomas,"{'KINE 462', 'KINE 460', 'KINE 400', 'KINE 323', 'KINE 201', 'KINE 324'}",043A-0376,8057565636,jthoma84,jthoma84@calpoly.edu,S
+1230,"Thomas-Hicks, Lori",Lori,Thomas-Hicks,{'EDUC 552'},002-0120,8057562126,lthomash,lthomash@calpoly.edu,S
+1231,"Thompson, Kevin",Kevin,Thompson,{None},180-0271A,8057566251,kthomp11,kthomp11@calpoly.edu,S
+1237,"Tomanek, Lars",Lars,Tomanek,"{'BIO 400', 'BIO 300', 'BIO 590', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0372,8057562437,ltomanek,ltomanek@calpoly.edu,S
+1242,"Tomasini, Alice",Alice,Tomasini,"{'EDUC 207', 'EDUC 479'}",002-0120,8057562126,atomasin,atomasin@calpoly.edu,S
+1244,"Toner, Pamela",Pamela,Toner,{'EDUC 479'},002-0120,8057562126,toner,toner@calpoly.edu,S
+1245,"Trunzo, Juliana",Juliana,Trunzo,{None},033-0281,8057562788,jtrunzo,jtrunzo@calpoly.edu,S
+1255,"Tseng, Marilyn",Marilyn,Tseng,"{'KINE 462', 'HLTH 405', 'KINE 460', 'HLTH 400', 'KINE 400', 'HLTH 337', 'HLTH 462', 'HLTH 201'}",043A-0351,8057562196,mtseng,mtseng@calpoly.edu,S
+1257,"Tully-Doyle, Ryan",Ryan,Tully-Doyle,"{'MATH 304', 'MATH 306'}",025-0310,8057565189,rtullydo,rtullydo@calpoly.edu,S
+1258,"Turretto, Tony",Tony,Turretto,{None},025-0224,8057561579,aturrett,aturrett@calpoly.edu,S
+1259,"Uyeoka, Alycia",Alycia,Uyeoka,{None},033-0281,8057562788,auyeoka,auyeoka@calpoly.edu,S
+1260,"VanAlstine, Christy",Christy,VanAlstine,{'EDUC 449'},,nan,cvanalst,cvanalst@calpoly.edu,S
+1261,"Ventura, Alison",Alison,Ventura,{None},043A-0371,8057565693,akventur,akventur@calpoly.edu,S
+1268,"Villablanca, Francis",Francis,Villablanca,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 414'}",033-0268,8057562200,fvillabl,fvillabl@calpoly.edu,S
+1269,"Villarroya Alvarez, Francisco",Francisco,Villarroya Alvarez,{None},025-0315,8057562287,frvillar,frvillar@calpoly.edu,S
+1273,"Vokos, Stamatis",Stamatis,Vokos,"{'PHYS 462', 'PHYS 461', 'PHYS 400', 'PHYS 200'}",025-0127,8057562306,svokos,svokos@calpoly.edu,S
+1281,"Vredevoe, Larisa",Larisa,Vredevoe,"{'BIO 400', 'BIO 300', 'BIO 200', 'MCRO 225', 'BIO 462', 'BIO 500'}",033-0277,8057567165,lvredevo,lvredevo@calpoly.edu,S
+1282,"Wakeman, Kaylene",Kaylene,Wakeman,{None},025-0128,8057562403,kwakeman,kwakeman@calpoly.edu,S
+1284,"Walker, John",John,Walker,{'STAT 251'},025-0226,8057567128,jwalker,jwalker@calpoly.edu,S
+1285,"Walker, Michelle",Michelle,Walker,{None},002-0122A,8057567189,mtwalker,mtwalker@calpoly.edu,S
+1286,"Walker, Randon",Randon,Walker,{None},052-E039,8057562566,rwalke08,rwalke08@calpoly.edu,S
+1291,"Walter, Ryan",Ryan,Walter,"{'PHYS 314', 'PHYS 400', 'PHYS 462', 'PHYS 200', 'PHYS 461'}",180-0509,8057561357,rkwalter,rkwalter@calpoly.edu,S
+1292,"Wang, Xiaofeng",Xiaofeng,Wang,{None},180-0111,8057562071,xwang07,xwang07@calpoly.edu,S
+1293,"Wang, Yi-Hui",Yi-Hui,Wang,{None},025-0107D,8057562709,ywang85,ywang85@calpoly.edu,S
+1298,"Ward, Sandra",Sandra,Ward,"{'CHEM 201', 'CHEM 223', 'CHEM 401'}",180-0304B,8057562240,sward07,sward07@calpoly.edu,S
+1299,"Wardrop, Michelle",Michelle,Wardrop,{None},180-0204,8057562448,mwardrop,mwardrop@calpoly.edu,S
+1300,"Watkins, Warren",Warren,Watkins,{None},002-0113B,8057562083,wawatkin,wawatkin@calpoly.edu,S
+1301,"Watson, Sean",Sean,Watson,{None},025-0334,8057562451,swatso01,swatso01@calpoly.edu,S
+1304,"Watts, Katharine",Katharine,Watts,"{'CHEM 201', 'CHEM 373', 'CHEM 401'}",180-0414,8057562530,krwatts,krwatts@calpoly.edu,S
+1305,"Weaver, Savannah",Savannah,Weaver,{None},052-D027C,8057562328,saweaver,saweaver@calpoly.edu,S
+1306,"Weddige, Kristi",Kristi,Weddige,{'BIO 253'},053-0211B,8057562192,kweddige,kweddige@calpoly.edu,S
+1307,"Wendt, Dean",Dean,Wendt,{None},025-0229,8057562226,dwendt,dwendt@calpoly.edu,S
+1308,"West, Samantha",Samantha,West,{None},,7167718767,swest01,swest01@calpoly.edu,S
+1315,"White, Crow",Crow,White,"{'BIO 400', 'BIO 300', 'MSCI 439', 'BIO 200', 'BIO 462', 'BIO 500'}",033-0378,8057562954,cwhite31,cwhite31@calpoly.edu,S
+1317,"White, Matthew",Matthew,White,"{'MATH 462', 'MATH 461'}",025-0301,8057561673,mewhite,mewhite@calpoly.edu,S
+1318,"Wiedenkeller, Sidonie",Sidonie,Wiedenkeller,{None},002-0131,8057566417,swiedenk,swiedenk@calpoly.edu,S
+1320,"Wilkinson, Steven",Steven,Wilkinson,"{'CHEM 201', 'CHEM 401'}",180-0417,8057561624,spwilkin,spwilkin@calpoly.edu,S
+1321,"Willems, Joshua",Joshua,Willems,{None},,5302270389,jwillems,jwillems@calpoly.edu,S
+1322,"Willey, Gage",Gage,Willey,{None},,5306324615,gwilley,gwilley@calpoly.edu,S
+1325,"Williams, Immanuel",Immanuel,Williams,{'STAT 252'},025-0107D,8057562709,imwillia,imwillia@calpoly.edu,S
+1326,"Wilson, Ashley",Ashley,Wilson,{None},,5203399852,awilso76,awilso76@calpoly.edu,S
+1327,"Wilson, Laura",Laura,Wilson,{None},053-0210E,8057562846,lwilso14,lwilso14@calpoly.edu,S
+1335,"Winstead, Candace",Candace,Winstead,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 462', 'BIO 500', 'BIO 426'}",033-0263,8057562899,cwinstea,cwinstea@calpoly.edu,S
+1336,"Wissel, Stephanie",Stephanie,Wissel,{None},180-0204,8057562448,swissel,swissel@calpoly.edu,S
+1337,"Wong, Kristina",Kristina,Wong,{None},002-0122B,8057561503,kwong04,kwong04@calpoly.edu,S
+1342,"Wood, Leah",Leah,Wood,"{'EDUC 554', 'EDUC 590', 'EDUC 500'}",002-0108,8057562079,awood17,awood17@calpoly.edu,S
+1343,"Worthen, Liz",Liz,Worthen,{'EDUC 479'},,8054588349,lworthen,lworthen@calpoly.edu,S
+1345,"Wrenn, Rosemary",Rosemary,Wrenn,"{'EDUC 454', 'LS 255'}",025-0125B2,8057566533,rwrenn,rwrenn@calpoly.edu,S
+1346,"Wright, Donita",Donita,Wright,{'EDUC 449'},002-0120,8057562126,dlwright,dlwright@calpoly.edu,S
+1347,"Wyzlic, Miranda",Miranda,Wyzlic,{None},025-0229A,8057561619,mwyzlic,mwyzlic@calpoly.edu,S
+1348,"Yang, Fan",Fan,Yang,{None},025-0333,8057565552,fayang,fayang@calpoly.edu,S
+1349,"Yassa, Laura",Laura,Yassa,{'HLTH 297'},043A-0457,8057562545,lyassa,lyassa@calpoly.edu,S
+1350,"Ye, Jingtian",Jingtian,Ye,{None},038-0212,8057561683,jye07,jye07@calpoly.edu,S
+1351,"Yep-Rodriguez, Alejandra",Alejandra,Yep-Rodriguez,{None},033-0366,8057565355,yep,yep@calpoly.edu,S
+1360,"Yeung, Marie",Marie,Yeung,"{'BIO 400', 'BIO 300', 'MCRO 224', 'BIO 200', 'BIO 462', 'BIO 500', 'MCRO 421'}",033-0362,8057565199,pmyeung,pmyeung@calpoly.edu,S
+1362,"Yoshinobu, Stan",Stan,Yoshinobu,"{'MATH 462', 'MATH 461'}",025-0315,8057562287,styoshin,styoshin@calpoly.edu,S
+1370,"Yost, Jenn",Jenn,Yost,"{'BIO 400', 'BIO 300', 'BIO 200', 'BIO 472', 'BIO 462', 'BIO 500', 'BOT 433'}",033-0363,8057565869,jyost,jyost@calpoly.edu,S
+1371,"Youngquist, Emi",Emi,Youngquist,{None},025-0229C,8057561667,eyoungqu,eyoungqu@calpoly.edu,S
+1372,"Zell, Annie",Annie,Zell,{None},,6505809639,azell,azell@calpoly.edu,S
+1375,"Zhang, Shanju",Shanju,Zhang,"{'CHEM 454', 'CHEM 201', 'CHEM 401'}",180-0420,8057562591,szhang05,szhang05@calpoly.edu,S
+1376,"Zieber, Karl",Karl,Zieber,{None},038-0207,8057565684,krzieber,krzieber@calpoly.edu,S
+1379,"Zigler, David",David,Zigler,"{'CHEM 201', 'CHEM 126', 'CHEM 401'}",180-0306A,8057562661,dzigler,dzigler@calpoly.edu,S
+1381,"Zoerb, Matthew",Matthew,Zoerb,"{'CHEM 201', 'CHEM 401'}",180-0304A,8057562578,mzoerb,mzoerb@calpoly.edu,S
+1382,"Zoff, Michele",Michele,Zoff,{None},180-0333A,8057562422,mzoff,mzoff@calpoly.edu,S
