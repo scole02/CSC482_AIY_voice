@@ -1,29 +1,30 @@
-When is CPE 357 offered next quarter
-Who teaches CSC 471 winter quarter
-How many sections are offered of CPE 101
-Which courses do Dr. Khosmood teach next quarter
-Is Professor Wood teaching next quarter
-Who teaches Computer Science 307 in the fall
-Is Professor Khosmood teaching CSC 482 next quarter
-What format is CPE 101 offered in
-How many sections of CPE 357 are being taught in the Spring
-Are there any sections of AERO 121 this quarter
-Which professors teach BIO 161 in the Spring
-Does Professor Mammen teach in the Spring
-What is the enrollment capacity for CPE 202
-Who is teaching AEPS 101
-How many sections of CPE 101 is Dr. Siu teaching
-How many seats are there in CPE 101
-How many courses is Professor Jones teaching
-Which courses is Dr. Smith teaching
-Which classes are offered in the Fall
-Is Professor Khosmood teaching CSC 482 in the Spring
-Is Professor Haungs teaching Game Design virtually in the winter
-What format is CSC 378 going to be in the Winter
-How many seats are left in PHIL 315
-What is the class description for CPE 101
-What room is CPE 442 taught in
-Which professors teach CSC 225
-Is CPE 315 taught by Professor Seng
-Which Professor teaches CPE 453 in the Spring
-Which Professor teaches CPE 101 in Spring
+When is cpe 357 offered next quarter
+Who teaches csc 471 winter quarter
+How many sections are offered of cpe 101
+Which courses does dr. khosmood teach next quarter
+Is professor wood teaching next quarter
+Who teaches computer science 307 in the fall
+Is professor khosmood teaching csc 482 next quarter
+What format is cpe 442 in
+What format is cpe 101 offered in
+How many sections of cpe 357 are being taught in the spring
+Are there any sections of aero 121 this quarter
+Which professors teach bio 161 in the spring
+Does professor mammen teach in the spring
+What is the enrollment capacity for cpe 202
+Who is teaching aeps 101
+How many sections of cpe 101 is dr. siu teaching
+How many seats are there in cpe 101
+How many courses is professor jones teaching
+which courses is dr. smith teaching
+which classes are offered in the fall
+Is professor khosmood teaching csc 482 in the spring
+Is professor haungs teaching game design virtually in the winter
+What format is csc 378 going to be in the winter
+How many seats are left in phil 315
+What is the class description for cpe 101
+What room is cpe 442 taught in
+Which professors teach csc 225
+Is cpe 315 taught by professor seng
+Which professor teaches cpe 453 in the spring
+Which professor teaches cpe 101 in spring
