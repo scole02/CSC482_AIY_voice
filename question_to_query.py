@@ -5,13 +5,8 @@ from nltk.tokenize import word_tokenize
 
 # TODO
 
-# Appostraphe?
-
 # Can't do Description yet. 
 # PRONUNCIATION SIDE
-
-# Easter Egg
-# Happy Holidays: "Ho Ho Ho! Merry Christmas!"
 
 prof_invocations = ["Doctor", "Professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
 
@@ -104,7 +99,10 @@ replacements = {
     "Instruction":"Format",
 
     # Prof Query
-    "courses":"Course",
+    "courses":"Courses",
+    "classes":"Courses",
+    "teach":"Courses",
+    "teaches":"Courses",
 
     "office":"Office",
     "phone":"Phone",
