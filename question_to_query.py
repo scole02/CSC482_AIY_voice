@@ -4,33 +4,21 @@ nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 
 # TODO
-# Time -> Time, Days Query 
-# AND OTHER Multidimensional queries.
+
+# How to detect professors names in class queries, where Instructor may be
+# before a professor's name or may be before a random word.
+
+# Seats -- Should be an enrl_cap - enrl_x query. Ask Emily.
 
 # Problems: 
 # Can't do Description yet. 
+# PRONUNCIATION SIDE
 
 # "Is Professor Khosmood teaching CSC 482 next quarter?"
 # should be a professor query. Still Broken.
 
-# Convert common misunderstandings of Acronyms.
-
-# In Person or Virtual queries.
-
-# Named Entity Recognition
-# "Is Eckhardt teaching next quarter?"
-# "How many Sections of Game Design are offered in the Fall?"
-
-# Enrollment
-
 # Easter Egg
 # Happy Holidays: "Ho Ho Ho! Merry Christmas!"
-# Open the Pod Bay Doors.
-
-#---------------------------------------------------------------------
-# NOTES
-
-# If no other query details are specified, read out existence.
 
 prof_invocations = ["Doctor", "Professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
 
@@ -74,6 +62,7 @@ replacements = {
     "teaching":"Instructor",
     "who":"Instructor",
     "dr.":"Instructor",
+    "professors":"Instructor",
 
     "Time":"Time",
     "time":"Time",
@@ -88,10 +77,10 @@ replacements = {
     "tell":"Description",
 
     "sections":"Sect",
-    "many":"Sect",
     "number":"Sect",
 
     "enrolled":"Enrl_x",
+    "seats":"Enrl_x",
 
     "enrollment":"ECap_x",
     "enrolled":"ECap_x",
@@ -109,6 +98,12 @@ replacements = {
 
     "Format":"Format",
     "format":"Format",
+    "virtual":"Format",
+    "virtually":"Format",
+    "asynchronous":"Format",
+    "asynchronously":"Format",
+    "person":"Format",
+    "online":"Format",
     "mode":"Format",
     "Mode":"Format",
     "Instruction":"Format",
@@ -162,6 +157,8 @@ def lower(tokens):
 
 def detect_invocation(tokens):
   for token in tokens:
+    if token == "christmas":
+      return "christmas", "santa claus"
     if token.split()[0] in class_invocations:
       return "df_sched", token
   for token in tokens:
@@ -185,7 +182,6 @@ def detect_quarter(tokens):
   for token in tokens:
     if token in quarters:
       return token
-
 
 def detect_professor(tokens):
   for i in range(len(tokens)-1):
@@ -231,7 +227,7 @@ def skill(input):
   terms = {}
   returns = []
 
-  tokens = re.findall(r'\bProfessor [A-Z][a-z]+\b|\bDr. [A-Z][a-z]+\b|\b[a-z]+ [0-9]+\b|\w+', input)
+  tokens = re.findall(r'\bProfessor [a-z]*\b|\bDr. [a-z]*\b|\b[a-z]+ [0-9]+\b|\w+', input)
   tokens[0] = tokens[0].lower()
   replaced = replace(tokens)
   print(replaced)
@@ -265,19 +261,41 @@ def skill(input):
   return query
 
 
-#  inputs = ["When is cpe 357 offered next quarter?", # Class, Time
-#     "Who teaches csc 471 winter quarter?", # Class, Professor
-#     "How many sections are offered of cpe 101?", # Class, Sections
-#     "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
-#     "Is professor wood teaching next quarter?", # Prof, Existence
-#     #"Who teaches computer science 307 in the fall?", # Class, Professor
-#     "Is professor khosmood teaching csc 482 next quarter?",
-#     "What format is cpe 442 in?"
-#  ]
+inputs = ["When is cpe 357 offered next quarter?", # Class, Time
+  "Who teaches csc 471 winter quarter?", # Class, Professor
+  "How many sections are offered of cpe 101?", # Class, Sections
+  "Which courses does dr. khosmood teach next quarter?", # Prof, Courses
+  "Is professor wood teaching next quarter?", # Prof, Existence
+  "Who teaches computer science 307 in the fall?", # Class, Professor
+  "Is professor khosmood teaching csc 482 next quarter?",
+  "What format is cpe 442 in?",
+  "What format is cpe 101 offered in?",
+  "How many sections of cpe 357 are being taught in the spring?",
+  "Are there any sections of aero 121 this quarter?",
+  "Which professors teach bio 161 in the spring?",
+  "Does professor mammen teach in the spring?",
+  "What is the enrollment capacity for cpe 202?",
+  "Who is teaching aeps 101?",
+  "How many sections of cpe 101 is dr. siu teaching?",
+  "How many seats are there in cpe 101?",
+  "How many courses is professor jones teaching?",
+  "which courses is dr. smith teaching?",
+  "which classes are offered in the fall?",
+  "Is professor khosmood teaching csc 482 in the spring?",
+  "Is professor haungs teaching game design virtually in the winter?",
+  "What format is csc 378 going to be in the winter?",
+  "How many seats are left in phil 315?",
+  "What is the class description for cpe 101?",
+  "What room is cpe 442 taught in?",
+  "Which professors teach csc 225?",
+  "Is cpe 315 taught by professor seng?",
+  "Which professor teaches cpe 453 in the spring?",
+  "Which professor teaches cpe 101 in spring?"
+]
 
-#  for i in range(len(inputs)):
-#      print("Original: < " + inputs[i] + " >")
-#      query = skill(inputs[i])
-#      print(query)
-#      #generate_response(query[0], query[1], query[2])
-#      print("----------------------------------")
+for i in range(len(inputs)):
+   print("Original: < " + inputs[i] + " >")
+   query = skill(inputs[i])
+   print(query)
+   #generate_response(query[0], query[1], query[2])
+   print("----------------------------------")
