@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-url = 'https://raw.githubusercontent.com/EmilyGavrilenko/GoogleHomeSchedules/main/'
+url = 'https://raw.githubusercontent.com/scole02/CSC482_AIY_voice/master/data/'
 
 df_profs = pd.read_csv(url + "profs.csv")
 df_sched = pd.read_csv(url + "schedule.csv")
