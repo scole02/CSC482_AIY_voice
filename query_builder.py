@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import re
 
 url = 'https://raw.githubusercontent.com/scole02/CSC482_AIY_voice/master/data/'
 
@@ -15,6 +16,7 @@ def clean_instructor(prof):
 
 df_sched['Course'] = df_sched['Course'].str.lower()
 df_sched['Description'] = df_sched['Description'].str.lower()
+df_profs['Phone'] = df_profs['Phone'].astype(str).apply(lambda x: x[:10])
 df_sched['Spots'] = df_sched.apply(lambda row: max(row.ECap - row.Enrl, 0), axis=1)
 df_sched['Instructor'] = df_sched['Instructor'].apply(clean_instructor)
 
@@ -86,7 +88,7 @@ def many_matches(course, query, df):
   elif len(quarters) == 3:
     quarter_info = " are offered throughout Fall, Winter, and Spring" 
   num_sections = len(df)
-  return str(num_sections) + " sections of " + course + quarter_info + ". Please check schedules.calpoly.edu for more info"
+  return "Too many matches to return. " + str(num_sections) + " sections of " + course + quarter_info + ". Please check schedules.calpoly.edu for more info"
 
 def get_days(input):
   if str(input) == "nan":
@@ -112,6 +114,12 @@ def get_prof(prof):
     return "an unknown professor"
   else:
     return "Professor " + prof
+
+def format_location(input):
+  input = input.split("-")
+  building = int(input[0])
+  room = int(re.sub("[^0-9]", "", input[1]))
+  return " building " + str(building) + " room " + str(room) + " "
 
 def general_course_info(course, df):
   res = course + " is taught by "
@@ -198,12 +206,12 @@ def specific_course_info(course, df):
       if str(row["Location"]) == "nan":
         res += " virtual "
       else:
-        res += " in " + row["Location"]
+        res += " in " + format_location(row["Location"])
     
     if "Format" in col:
       if res[-3:] == "is ":
         res += " taught " 
-      res += get_prof(row["Format"])
+      res += row["Format"]
     
     if "ECap" in col:
       ecap = " an enrollment capacity of " + str(int(row["ECap"])) + " "
@@ -252,7 +260,7 @@ def generate_sched_response(query, df):
   return res
 
 def no_prof_matches(prof, quarters):
-  return prof + " is not teaching in the " + quarters
+  return prof + " is not teaching in the " + quarters + ". "
 
 
 def prof_matches(prof, quarters, df):
@@ -277,6 +285,10 @@ def prof_matches(prof, quarters, df):
     if courses == ["on"]:
       return no_prof_matches(prof, quarters)
 
+    # Existence query
+    if len(col) > 7:
+      return "Yes, " + res + " teaches " + str(len(courses)) + " courses. "
+
     if len(courses) > 1:
       courses.insert(-1, "and")
 
@@ -293,7 +305,7 @@ def prof_matches(prof, quarters, df):
     if str(office) == "nan":
       res += " has no office location "
     else:
-      res += " has an office in " + row["Office"]
+      res += " has an office in " + format_location(row["Office"])
 
   if "Phone" in col:
     if came_before:
@@ -374,3 +386,4 @@ def generate_response(df_name, query, col=[]):
     return "Ho Ho Ho, Merry Christmas!"
 
 
+df_sched.query("Instructor == 'seng'")

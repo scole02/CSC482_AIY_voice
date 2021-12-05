@@ -229,7 +229,6 @@ def skill(input):
   if tokens == []:
     return None
   print(input)
->>>>>>> 2fcceb1e4ba1cb00f6c4596d609efef99474f0aa
   tokens[0] = tokens[0].lower()
   replaced = replace(tokens)
   print(replaced)

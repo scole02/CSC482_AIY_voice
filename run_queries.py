@@ -91,3 +91,14 @@ for line in lines:
 # print(query)
 # res = qb.generate_response(query[0], query[1], query[2])
 # print(res)
+
+# query = q2q.skill("when is thesis")
+# print(query)
+# res = qb.generate_response("df_sched", {"Description": "senior project i"}, [])
+# print(res)
+
+
+# query = q2q.skill("is cpe 315 taught by professor seng")
+# print(query)
+# res = qb.generate_response(query[0], {'Course': 'cpe 315', "Quarter": "F"}, query[2])
+# print(res)
