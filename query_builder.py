@@ -126,6 +126,7 @@ def general_course_info(course, df):
       res += "and "
     row = df.iloc[i]
     prof = get_prof(row["Instructor"])
+    print(row["Days"])
     days = get_days(row["Days"])
     time = get_time(row["Start"], row["End"])
     format = get_format(row["Location"], time)
@@ -150,10 +151,20 @@ def specific_course_info(course, df):
       res += " Section " + str(row["Sect"])
 
     if "Days" in col:
-      res += " on " + get_days(row["Days"])
+      days = get_days(row["Days"])
+      if days is None:
+        if "Format" not in col:
+          res += " asynchronous "
+      else:
+        res += " on " + days
     
     if "Start" in col:
-      res += get_time(row["Start"], row["End"])
+      time = get_time(row["Start"], row["End"])
+      if time is None:
+        if "Format" not in col and "Days" not in col:
+          res += " asynchronous "
+      else:
+        res += time
 
     if "Instructor" in col:
       res += " taught by " + get_prof(row["Instructor"])
