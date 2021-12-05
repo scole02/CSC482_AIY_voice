@@ -28,6 +28,14 @@ Is cpe 315 taught by professor seng
 Which professor teaches cpe 453 in the spring
 Which professor teaches cpe 101 in spring
 Where is the office of professor khosmood
+Where is professor kearns' office?
 What is professor wood's phone number
 What is the email address of professor eckhardt
 What is the alias of professor siu
+What is the enrollment capacity of cpe 101 with professor jones
+How many spots are open in professor jones cpe 101
+How many students are currently enrolled in cpe 101 winter quarter with dr. jones
+Where is dr jones teaching cpe 101 in the spring
+How many sections of cpe 101 is dr jones teaching in the spring
+Who is teaching cpe 101 in the spring
+

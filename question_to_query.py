@@ -5,6 +5,8 @@ from nltk.tokenize import word_tokenize
 
 # TODO
 
+# Appostraphe?
+
 # Can't do Description yet. 
 # PRONUNCIATION SIDE
 
@@ -215,14 +217,12 @@ def convert_returns(returns):
    return new
 
 def skill(input):
-  # The parts of a skill:
-  # [Invocation Name] [Utterance]
-  # Invocation Name - Name of the skill.
-  # Utterance - Determines what we do with the skill.
-
-  # Our Questions will follow this rough structure, with the Invocation being
-  # either class or professor, and the utterance being the arguments for the query.
-
+  """
+  Takes input as a string.
+  Returns a query list to be sent to Emily's side
+  """
+  if input == "":
+    return None
   query = []
   terms = {}
   returns = []
