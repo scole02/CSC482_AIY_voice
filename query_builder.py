@@ -256,22 +256,76 @@ def no_prof_matches(prof, quarters):
 
 
 def prof_matches(prof, quarters, df):
-  courses = []
-  for i in range(len(df)):
-    res = df.Courses.tolist()[i][2:-2].split("', '")
-    for c in res:
-      if not c in courses:
-        courses.append(c)
-  if courses == ["on"]:
-    return no_prof_matches(prof, quarters)
-  if len(courses) > 1:
-    courses.insert(-1, "and")
-  # Cap at 20 courses
-  courses = ' '.join(courses[:20])
-  if len(quarters) < 10:
-    return prof + " teaches " + courses + " in the " + quarters
-  else:
-    return prof + " teaches " + courses + " over " + quarters 
+  df = df.query("Name == '" + prof + "'")
+  # print(df.to_string())
+  col = df.columns.tolist()
+  
+  row = df.iloc[0]
+  res = row.first_name + " " + row.last_name
+  came_before = False
+
+  if "Courses" in col:
+    came_before = True
+    courses = []
+    for i in range(len(df)):
+      course_list = df.Courses.tolist()[i][2:-2].split("', '")
+      print(course_list)
+      for c in course_list:
+        if not c in courses:
+          courses.append(c)
+      
+    if courses == ["on"]:
+      return no_prof_matches(prof, quarters)
+
+    if len(courses) > 1:
+      courses.insert(-1, "and")
+
+    if len(quarters) < 10:
+      res += " teaches " + ' '.join(courses) + " in the " + quarters
+    else:
+      res += " teaches " + ' '.join(courses) + " over " + quarters 
+
+  if "Office" in col:
+    if came_before:
+      res += " and"
+    came_before = True
+    office = row["Office"]
+    if str(office) == "nan":
+      res += " has no office location "
+    else:
+      res += " has an office in " + row["Office"]
+
+  if "Phone" in col:
+    if came_before:
+      res += " and"
+    came_before = True
+    phone = row["Phone"]
+    if str(phone) == "nan":
+      res += " has no phone number "
+    else:
+      res += " has the phone number " + str(phone)
+
+  if "Email" in col:
+    if came_before:
+      res += " and"
+    came_before = True
+    email = row["Email"]
+    if str(email) == "nan":
+      res += " has no email "
+    else:
+      res += " has the email " + email
+
+  if "Alias" in col:
+    if came_before:
+      res += " and"
+    alias = row["Alias"]
+    if str(alias) == "nan":
+      res += " has no alias "
+    else:
+      res += " has the alias " + alias
+
+  res += ". "
+  return res
 
 def generate_prof_response(query, df):
   prof = "Professor " + query.get("last_name", query.get("Name", "requested professor")) 
@@ -290,7 +344,9 @@ def generate_prof_response(query, df):
 
   # Found match(s)
   else:
-    res = prof_matches(prof, quarters, df)
+    professors = df["Name"].drop_duplicates().tolist()
+    for prof in professors:
+      res += prof_matches(prof, quarters, df)
 
   return res
 
@@ -308,6 +364,9 @@ def generate_response(df_name, query, col=[]):
     if len(col) == 0:
       res = query_data(df_profs, query)
     else:
+      for info in ["Name", "first_name", "last_name"]:
+        if info not in col:
+          col.append(info)
       res = query_data_columns(df_profs, query, col)
     return generate_prof_response(query, res)
   

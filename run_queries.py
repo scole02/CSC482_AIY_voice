@@ -77,16 +77,16 @@ import question_to_query as q2q
 # res = qb.generate_response(query[0], query[1], query[2])
 # print(res)
 
-# with open('queries.txt') as f:
-#     lines = f.readlines()
+with open('queries.txt') as f:
+    lines = f.readlines()
 
-# for line in lines:
-#     query = q2q.skill(line.lower())
-#     print(query)
-#     res = qb.generate_response(query[0], query[1], query[2])
-#     print(res + "\n")
+for line in lines:
+    query = q2q.skill(line.lower())
+    print(query)
+    res = qb.generate_response(query[0], query[1], query[2])
+    print(res + "\n")
 
-query = q2q.skill("what is the enrollment capacity for cpe 202")
-print(query)
-res = qb.generate_response(query[0], query[1], query[2])
-print(res)
+# query = q2q.skill("what is the enrollment capacity for cpe 202")
+# print(query)
+# res = qb.generate_response(query[0], query[1], query[2])
+# print(res)
