@@ -241,7 +241,6 @@ def skill(input):
   if q_type == "df_sched":
     terms["Course"] = invocation[1]
     name = detect_professor(replaced)
-    print(name)
     if name is not None and name != "Instructor":
       terms["Instructor"] = name
       name = None
