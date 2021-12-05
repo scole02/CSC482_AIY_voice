@@ -17,7 +17,6 @@ How many sections of cpe 101 is dr. siu teaching
 How many seats are there in cpe 101
 How many courses is professor jones teaching
 which courses is dr. smith teaching
-which classes are offered in the fall
 Is professor khosmood teaching csc 482 in the spring
 Is professor haungs teaching game design virtually in the winter
 What format is csc 378 going to be in the winter
@@ -28,3 +27,7 @@ Which professors teach csc 225
 Is cpe 315 taught by professor seng
 Which professor teaches cpe 453 in the spring
 Which professor teaches cpe 101 in spring
+Where is the office of professor khosmood
+What is professor wood's phone number
+What is the email address of professor eckhardt
+What is the alias of professor siu

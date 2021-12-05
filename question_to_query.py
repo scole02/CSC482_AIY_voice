@@ -5,8 +5,6 @@ from nltk.tokenize import word_tokenize
 
 # TODO
 
-# Seats -- Should be an enrl_cap - enrl_x query. Ask Emily.
-
 # Can't do Description yet. 
 # PRONUNCIATION SIDE
 
@@ -37,10 +35,10 @@ class_invocations = ['AERO', 'AGB', 'AEPS', 'AGC', 'AGED', 'AG',
 for i in range(len(class_invocations)):
    class_invocations[i] = class_invocations[i].lower()
 
-prof_utterances = ["Courses"]
+prof_utterances = ["Courses", "Office", "Phone", "Alias", "Email"]
 
 class_utterances = ["Quarter", "Instructor", "Time", "Location", "Description",
-                    "Sect", "Enrl_x", "ECap_x", "Wait", "Format"]
+                    "Sect", "Enrl", "ECap", "Spots", "Wait", "Format"]
 
 quarters = ["F", "W", "S"]
 
@@ -73,11 +71,12 @@ replacements = {
     "sections":"Sect",
     "number":"Sect",
 
-    "enrolled":"Enrl_x",
-    "seats":"Enrl_x",
+    "enrolled":"Enrl",
+
+    "spots":"Spots",
+    "seats":"Spots",
 
     "enrollment":"ECap",
-    "enrolled":"ECap",
     "capacity":"ECap",
 
     "waitlist":"Wait",
@@ -104,7 +103,14 @@ replacements = {
 
     # Prof Query
     "courses":"Course",
-    "which":"Course",
+
+    "office":"Office",
+    "phone":"Phone",
+    "alias":"Alias",
+    "title":"Alias",
+    "email":"Email",
+    "mail":"Email",
+    "address":"Email"
 }
 
 subject_to_abbrev = {
