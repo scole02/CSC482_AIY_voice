@@ -230,6 +230,8 @@ def skill(input):
   tokens = re.findall(r'\bProfessor [a-z]*\b|\bDr. [a-z]*\b|\b[a-z]+ [0-9]+\b|\w+', input)
   if tokens == []:
     return None
+  print(input)
+>>>>>>> 2fcceb1e4ba1cb00f6c4596d609efef99474f0aa
   tokens[0] = tokens[0].lower()
   replaced = replace(tokens)
   print(replaced)
