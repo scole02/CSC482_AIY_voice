@@ -175,6 +175,8 @@ def lower(tokens):
 
 def detect_invocation(tokens):
   for token in tokens:
+    if token == "help":
+      return "help", "help"
     if token == "christmas":
       return "christmas", "santa claus"
     if token == "magic":
@@ -184,7 +186,7 @@ def detect_invocation(tokens):
   for token in tokens:
     if token.split()[0] in prof_invocations:
       return "df_profs", token.split()[-1]
-  return "No Invocation"
+  return ["No Invocation", "No Invocation"]
 
 def detect_utterance(tokens, q_type, terms):
   returns = []
@@ -269,6 +271,8 @@ def skill(input):
     return ["Easter Egg", 1, []]
   elif q_type == "nothing":
     return ["Easter Egg", 2, []]
+  elif q_type == "help":
+    return ["help", 1, []]
   quarter = detect_quarter(replaced)
   if quarter is None:
     quarter = "F"
