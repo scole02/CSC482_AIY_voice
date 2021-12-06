@@ -5,13 +5,14 @@ from nltk.tokenize import word_tokenize
 
 # TODO
 
-# Appostraphe?
+# Remind Emily to set up conch easter egg.
 
 # Can't do Description yet. 
 # PRONUNCIATION SIDE
 
-# Easter Egg
-# Happy Holidays: "Ho Ho Ho! Merry Christmas!"
+# Split Replacements Dictionary.
+
+# Help Message
 
 prof_invocations = ["Doctor", "Professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
 
@@ -46,7 +47,6 @@ quarters = ["F", "W", "S"]
 
 # Synonym -> Query Utterance
 replacements = {
-    # Class Query
     "instructor":"Instructor",
     "professor":"Instructor",
     "teacher":"Instructor",
@@ -101,10 +101,14 @@ replacements = {
     "online":"Format",
     "mode":"Format",
     "Mode":"Format",
-    "Instruction":"Format",
+    "Instruction":"Format"
+}
 
-    # Prof Query
-    "courses":"Course",
+prof_replacements = {
+    "courses":"Courses",
+    "classes":"Courses",
+    "teach":"Courses",
+    "teaches":"Courses",
 
     "office":"Office",
     "phone":"Phone",
@@ -139,6 +143,21 @@ subject_to_abbrev = {
     "Electrical":"EE"
 }
 
+def replace_prof(tokens):
+  replaced = []
+  for token in tokens:
+    if token in prof_replacements.keys():
+      replaced.append(prof_replacements[token])
+    elif token.split()[-1].isnumeric():
+      rest = token[:len(token)-4]
+      if rest in subject_to_abbrev.keys():
+        replaced.append(subject_to_abbrev[rest] + token[len(token)-4:])
+      else:
+        replaced.append(token)
+    else:
+      replaced.append(token)
+  return replaced
+
 def replace(tokens):
   replaced = []
   for token in tokens:
@@ -161,6 +180,8 @@ def detect_invocation(tokens):
   for token in tokens:
     if token == "christmas":
       return "christmas", "santa claus"
+    if token == "magic":
+      return "nothing", "conch"
     if token.split()[0] in class_invocations:
       return "df_sched", token
   for token in tokens:
@@ -221,13 +242,14 @@ def skill(input):
   Takes input as a string.
   Returns a query list to be sent to Emily's side
   """
-  if input == "":
-    return None
   query = []
   terms = {}
   returns = []
 
   tokens = re.findall(r'\bProfessor [a-z]*\b|\bDr. [a-z]*\b|\b[a-z]+ [0-9]+\b|\w+', input)
+  if tokens == []:
+    return None
+  print(input)
   tokens[0] = tokens[0].lower()
   replaced = replace(tokens)
   print(replaced)
@@ -241,10 +263,15 @@ def skill(input):
       terms["Instructor"] = name
       name = None
   elif q_type == "df_profs":
+    replaced = replace_prof(replaced)
     name = detect_professor(replaced)
     if name is not None and name != "Instructor" and name != "is":
       terms["last_name"] = name
       name = None
+  elif q_type == "christmas":
+    return ["Easter Egg", 1]
+  elif q_type == "nothing":
+    return ["Easter Egg", 2]
   quarter = detect_quarter(replaced)
   if quarter is None:
     quarter = "F"

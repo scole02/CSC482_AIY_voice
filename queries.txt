@@ -1,5 +1,5 @@
 When is cpe 357 offered next quarter
-Who teaches csc 471 winter quarter
+Who teaches cpe 471 winter quarter
 How many sections are offered of cpe 101
 Which courses does dr. khosmood teach next quarter
 Is professor wood teaching next quarter
@@ -38,4 +38,9 @@ How many students are currently enrolled in cpe 101 winter quarter with dr. jone
 Where is dr jones teaching cpe 101 in the spring
 How many sections of cpe 101 is dr jones teaching in the spring
 Who is teaching cpe 101 in the spring
+What format is cpe 428 taught in
+What is the enrollment capacity of cpe 101 with professor jones in the winter
+What is dr. narwhal's phone number
+where is the office of professor gavrilenko
+what is professor cumberbatch's email address
 
