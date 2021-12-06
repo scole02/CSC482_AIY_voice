@@ -107,7 +107,7 @@ for line in lines:
         print(res + "\n")
 
 
-# query = q2q.skill("Is cpe 315 taught by professor seng")
-# print(query)
-# res = qb.generate_response(query[0], query[1], query[2])
-# print(res)
+query = q2q.skill("How many sections of cpe 101 is dr siu teaching")
+print(query)
+res = qb.generate_response(query[0], query[1], query[2])
+print(res)

@@ -78,9 +78,9 @@ def get_quarters(query):
 def no_matches(course, quarter):
   quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
   if quarter:
-    return "No matching sections of " + course + " are offered " + quarter_names[quarter] 
+    return "No matching sections of " + course.upper() + " are offered " + quarter_names[quarter] 
   else:
-    return "No matching sections of " + course + " are offered"
+    return "No matching sections of " + course.upper() + " are offered"
 
 def many_matches(course, query, df):
   quarter_names = {"F": "Fall", "W": "Winter", "S": "Spring"}
