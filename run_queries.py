@@ -77,16 +77,6 @@ import question_to_query as q2q
 # res = qb.generate_response(query[0], query[1], query[2])
 # print(res)
 
-with open('queries.txt') as f:
-    lines = f.readlines()
-
-for line in lines:
-    query = q2q.skill(line.lower())
-    print(query)
-    if query != None:
-        res = qb.generate_response(query[0], query[1], query[2])
-        print(res + "\n")
-
 # query = q2q.skill("what is the enrollment capacity for cpe 202")
 # print(query)
 # res = qb.generate_response(query[0], query[1], query[2])
@@ -101,4 +91,23 @@ for line in lines:
 # query = q2q.skill("is cpe 315 taught by professor seng")
 # print(query)
 # res = qb.generate_response(query[0], {'Course': 'cpe 315', "Quarter": "F"}, query[2])
+# print(res)
+
+with open('queries.txt') as f:
+    lines = f.readlines()
+
+i = 1
+for line in lines:
+    print("question: " + str(i))
+    i += 1
+    query = q2q.skill(line.lower())
+    print(query)
+    if query != None:
+        res = qb.generate_response(query[0], query[1], query[2])
+        print(res + "\n")
+
+
+# query = q2q.skill("Is cpe 315 taught by professor seng")
+# print(query)
+# res = qb.generate_response(query[0], query[1], query[2])
 # print(res)

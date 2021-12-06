@@ -9,6 +9,7 @@ df_sched = pd.read_csv(url + "schedule.csv")
 
 def clean_instructor(prof):
   if str(prof) != "nan":
+    prof = prof.lower()
     input = prof.split(", ")
     return input[0]
   else:
@@ -242,6 +243,7 @@ def some_matches(course, df):
     return specific_course_info(course, df)
 
 def generate_sched_response(query, df):
+  print(df)
   course = query.get("Course", query.get("Description", "Requested course"))
   quarter = query.get("Quarter", None)
   res = ""
@@ -383,7 +385,10 @@ def generate_response(df_name, query, col=[]):
     return generate_prof_response(query, res)
   
   else:
-    return "Ho Ho Ho, Merry Christmas!"
+    if query == 2:
+      return "Nothing"
+    else:
+      return "Ho Ho Ho, Merry Christmas!"
 
 
-df_sched.query("Instructor == 'seng'")
+# print(df_sched[:5].to_string())
