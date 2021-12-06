@@ -18,7 +18,10 @@ def query():
     
     query = q2q.skill(query_str)
     print(query)
-    res = qb.generate_response(query[0], query[1], query[2])
+    if query is None:
+        res = "Not understood"
+    else:
+        res = qb.generate_response(query[0], query[1], query[2])
 
     #print(q2q.skill(query_str))
     print("\n" + query_str + "\n")
