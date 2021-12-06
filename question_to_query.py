@@ -14,7 +14,7 @@ from nltk.tokenize import word_tokenize
 
 # Help Message
 
-prof_invocations = ["Doctor", "Professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
+prof_invocations = ["Doctor", "doctor", "Professor", "professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
 
 class_invocations = ['aero', 'agb', 'aeps', 'agc', 'aged', 'ag',
                      'asci', 'ant', 'arce', 'arch', 'art', 
@@ -53,6 +53,7 @@ replacements = {
     "teaching":"Instructor",
     "who":"Instructor",
     "dr.":"Instructor",
+    "doctor":"Instructor",
     "professors":"Instructor",
 
     "Time":"Time",
@@ -210,20 +211,6 @@ def detect_professor(tokens):
     if tokens[i] in prof_invocations:
       return tokens[i+1]
   return None
-
-#  SCHEDULES
-#  When: Start, End, Days
-#  Who: last_name
-#  How many Sections: Sect
-#  Where: Location
-#  Existence: []
-#  Description: Description
-#  Format: Format
-#  Enrollment:
-#  Enrolled:
-#  Waitlist:
-
-#  PROFESSOR
 
 def convert_returns(returns):
    new = []
