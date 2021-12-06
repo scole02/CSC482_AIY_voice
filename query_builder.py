@@ -385,10 +385,12 @@ def generate_response(df_name, query, col=[]):
     return generate_prof_response(query, res)
   
   else:
+    if query == 1:
+      return "Ho Ho Ho, Merry Christmas!"
     if query == 2:
       return "Nothing"
     else:
-      return "Ho Ho Ho, Merry Christmas!"
+      return "Not understood"
 
 
 # print(df_sched[:5].to_string())
