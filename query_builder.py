@@ -243,8 +243,11 @@ def some_matches(course, df):
     return specific_course_info(course, df)
 
 def generate_sched_response(query, df):
-  print(df)
-  course = query.get("Course", query.get("Description", "Requested course"))
+  if len(df) > 0 :
+    all_df = query_data(df_sched, query)
+    course = all_df.iloc[0].Description
+  else:
+    course = query.get("Description", query.get("Course", "Requested course"))
   quarter = query.get("Quarter", None)
   res = ""
   # No matches to the search
