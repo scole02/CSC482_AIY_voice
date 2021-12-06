@@ -16,27 +16,24 @@ from nltk.tokenize import word_tokenize
 
 prof_invocations = ["Doctor", "Professor", "Dr.", "dr.", "dr", "Dr",  "Instructor"]
 
-class_invocations = ['AERO', 'AGB', 'AEPS', 'AGC', 'AGED', 'AG',
-                     'ASCI', 'ANT', 'ARCE', 'ARCH', 'ART', 
-                     'ASTR', 'BIO', 'BMED', 'BRAE', 'BOT',
-                     'BUS', 'CHEM', 'CD', 'CHIN', 'CRP', 'CE',
-                     'CLA', 'COMS', 'CPE', 'CSC', 'CM', 'DSCI',
-                     'DANC', 'DATA', 'ESE', 'ESM', 'ERSC',
-                     'ECON', 'EDUC', 'EE', 'ENGR', 'ENVE', 'ENGL',
-                     'EDES', 'ENVE', 'ESCI', 'ES', 'FPE', 'FSN',
-                     'FR', 'GEOG', 'GEOL', 'GER', 'GS', 'GSA', 
-                     'GSB', 'GSE', 'GSP', 'GRC', 'HLTH', 'HIST',
-                     'HNRC', 'HNRS', 'IME', 'ITP', 'ISLA', 'ITAL',
-                     'JPNS', 'JOUR', 'KINE', 'LA', 'LAES', 'LS', 
-                     'MSCI', 'MATE', 'MATH', 'ME', 'MCRO', 'MSL',
-                     'MU', 'NR', 'PHIL', 'PEM', 'PEW', 'PSC', 
-                     'PHYS', 'POLS', 'PSY', 'RPTA', 'RELS', 'SCM',
-                     'SOC', 'SS', 'SPAN', 'SPED', 'STAT', 'SIE', 
-                     'TH', 'UNIV', 'WVIT', 'WGS', 'WLC'
+class_invocations = ['aero', 'agb', 'aeps', 'agc', 'aged', 'ag',
+                     'asci', 'ant', 'arce', 'arch', 'art', 
+                     'astr', 'bio', 'bmed', 'brae', 'bot',
+                     'bus', 'chem', 'cd', 'chin', 'crp', 'ce',
+                     'cla', 'coms', 'cpe', 'csc', 'cm', 'dsci',
+                     'danc', 'data', 'ese', 'esm', 'ersc',
+                     'econ', 'educ', 'ee', 'engr', 'enve', 'engl',
+                     'edes', 'enve', 'esci', 'es', 'fpe', 'fsn',
+                     'fr', 'geog', 'geol', 'ger', 'gs', 'gsa', 
+                     'gsb', 'gse', 'gsp', 'grc', 'hlth', 'hist',
+                     'hnrc', 'hnrs', 'ime', 'itp', 'isla', 'ital',
+                     'jpns', 'jour', 'kine', 'la', 'laes', 'ls', 
+                     'msci', 'mate', 'math', 'me', 'mcro', 'msl',
+                     'mu', 'nr', 'phil', 'pem', 'pew', 'psc', 
+                     'phys', 'pols', 'psy', 'rpta', 'rels', 'scm',
+                     'soc', 'ss', 'span', 'sped', 'stat', 'sie', 
+                     'th', 'univ', 'wvit', 'wgs', 'wlc'
                      ]
-
-for i in range(len(class_invocations)):
-   class_invocations[i] = class_invocations[i].lower()
 
 prof_utterances = ["Courses", "Office", "Phone", "Alias", "Email"]
 
@@ -246,7 +243,7 @@ def skill(input):
   terms = {}
   returns = []
 
-  tokens = re.findall(r'\bProfessor [a-z]*\b|\bDr. [a-z]*\b|\b[a-z]+ [0-9]+\b|\w+', input)
+  tokens = re.findall(r'\b[a-z]+ [0-9]+\b|\w+', input)
   if tokens == []:
     return None
   print(input)
@@ -269,15 +266,13 @@ def skill(input):
       terms["last_name"] = name
       name = None
   elif q_type == "christmas":
-    return ["Easter Egg", 1]
+    return ["Easter Egg", 1, []]
   elif q_type == "nothing":
-    return ["Easter Egg", 2]
+    return ["Easter Egg", 2, []]
   quarter = detect_quarter(replaced)
   if quarter is None:
     quarter = "F"
-  terms["Quarter"] = quarter
-
-   
+  terms["Quarter"] = quarter   
 
   returns = detect_utterance(replaced, query[0], terms)
   returns = convert_returns(returns)
