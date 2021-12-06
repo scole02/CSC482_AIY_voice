@@ -48,6 +48,7 @@ def preprocess_query(text, known_phonemes):
     res = pron.replace_homophones(res, known_phonemes)
     print(res)
     res = res.replace(" _", "")
+    res = res.replace(":", "")
     return res
 
 
