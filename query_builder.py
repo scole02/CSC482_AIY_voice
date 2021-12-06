@@ -27,6 +27,11 @@ df_profs['last_name'] = df_profs['last_name'].str.lower()
 df_sched = df_sched.drop(columns=['Unnamed: 0'])
 df_sched = df_sched.drop_duplicates(keep='last')
 
+help_msg =  "Say Professor lastname " + \
+            "Ask about course name, description, section, time, instructor, location, enrollment capacity, " + \
+            "students enrolled, seats available for any quarter. " + \
+            "Ask about a professor's office, phone number, email, or alias."
+
 def complex_query_builder(input):
   """
   Create a complex pandas query from a combination of query parameters
@@ -243,8 +248,11 @@ def some_matches(course, df):
     return specific_course_info(course, df)
 
 def generate_sched_response(query, df):
-  print(df)
-  course = query.get("Course", query.get("Description", "Requested course"))
+  if len(df) > 0 :
+    all_df = query_data(df_sched, query)
+    course = all_df.iloc[0].Description
+  else:
+    course = query.get("Description", query.get("Course", "Requested course"))
   quarter = query.get("Quarter", None)
   res = ""
   # No matches to the search
@@ -389,6 +397,8 @@ def generate_response(df_name, query, col=[]):
       return "Ho Ho Ho, Merry Christmas!"
     if query == 2:
       return "Nothing"
+    if query == "help":
+      return help_msg
     else:
       return "Not understood"
 
