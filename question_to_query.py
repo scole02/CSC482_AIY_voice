@@ -272,7 +272,7 @@ def skill(input):
   elif q_type == "nothing":
     return ["Easter Egg", 2, []]
   elif q_type == "help":
-    return ["help", 1, []]
+    return ["help", "help", []]
   quarter = detect_quarter(replaced)
   if quarter is None:
     quarter = "F"
