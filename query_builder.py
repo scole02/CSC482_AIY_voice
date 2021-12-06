@@ -397,7 +397,7 @@ def generate_response(df_name, query, col=[]):
       return "Ho Ho Ho, Merry Christmas!"
     if query == 2:
       return "Nothing"
-    if query == "Help":
+    if query == "help":
       return help_msg
     else:
       return "Not understood"
