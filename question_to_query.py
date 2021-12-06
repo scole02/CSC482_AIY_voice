@@ -67,6 +67,7 @@ replacements = {
     "Description":"Description",
     "description":"Description",
     "tell":"Description",
+    "about":"Description",
 
     "sections":"Sect",
     "number":"Sect",
